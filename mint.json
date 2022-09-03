@@ -1,0 +1,26 @@
+{
+  "name": "fujikawa-hp-frontend",
+  "application": {
+    "name": "沖丸環境調査 | 藤川浩明",
+    "head": "assets/head.html",
+    "title": "沖丸環境調査 | 藤川浩明",
+    "icon": "assets/favicon.png"
+  },
+  "external": {
+    "stylesheets": [
+      "assets/style.css"
+    ]
+  },
+  "source-directories": [
+    "source"
+  ],
+  "test-directories": [
+    "tests"
+  ],
+  "dependencies": {
+      "mint-ui": {
+          "repository": "https://github.com/mint-lang/mint-ui",
+          "constraint": "4.0.0 <= v < 5.0.2"
+      }
+  }
+}
