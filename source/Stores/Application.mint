@@ -2,7 +2,6 @@ enum Page {
   Home
   About
   Works
-  Gears
   Hobby
   Papers
   Specimens

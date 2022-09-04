@@ -12,7 +12,7 @@ component Layout {
 
   style header {
     color: black;
-    padding: 10px;
+    padding-bottom: 60px;
     border-bottom: solid 1px black;
   }
 
@@ -33,7 +33,12 @@ component Layout {
             <Ui.Header
               brand={
                 <Ui.Brand
-                  size={Ui.Size::Em(2.0)}
+                  size={Ui.Size::Em(5.0)}
+                  icon={
+                    <div>
+                      @svg(../../images/okimaru-circle.svg)
+                    </div>
+                  }
                   name="沖丸環境調査"/>
               }
               items=[
@@ -55,12 +60,6 @@ component Layout {
                   iconAfter = <{  }>,
                   target = "",
                   href = "/works"),
-                Ui.NavItem::Link(
-                  iconBefore = Ui.Icons:TOOLS,
-                  label = "保有機材",
-                  iconAfter = <{  }>,
-                  target = "",
-                  href = "/gears"),
                 Ui.NavItem::Link(
                   iconBefore = Ui.Icons:BOOK,
                   label = "報文・短報",
@@ -117,12 +116,6 @@ component Layout {
                       iconAfter = <></>,
                       href = "/works",
                       label = "業務内容",
-                      target = ""),
-                    Ui.NavItem::Link(
-                      iconBefore = Ui.Icons:TOOLS,
-                      iconAfter = <></>,
-                      href = "/gears",
-                      label = "保有機材",
                       target = ""),
                     Ui.NavItem::Link(
                       iconBefore = Ui.Icons:BOOK,

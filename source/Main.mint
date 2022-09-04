@@ -18,11 +18,6 @@ component Main {
           <Pages.Works/>
         </Layout>
 
-      Page::Gears =>
-        <Layout>
-          <Pages.Gears/>
-        </Layout>
-
       Page::Hobby =>
         <Layout>
           <Pages.Hobby/>

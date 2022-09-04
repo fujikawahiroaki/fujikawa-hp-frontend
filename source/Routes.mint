@@ -23,12 +23,6 @@ routes {
     }
   }
 
-  /gears {
-    parallel {
-      Application.initializeWithPage(Page::Gears)
-    }
-  }
-
   /hobby {
     parallel {
       Application.initializeWithPage(Page::Hobby)
