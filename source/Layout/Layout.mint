@@ -12,7 +12,7 @@ component Layout {
 
   style header {
     color: black;
-    padding-bottom: 60px;
+    padding-bottom: 40px;
     border-bottom: solid 1px black;
   }
 
@@ -33,7 +33,7 @@ component Layout {
             <Ui.Header
               brand={
                 <Ui.Brand
-                  size={Ui.Size::Em(5.0)}
+                  size={Ui.Size::Em(4.0)}
                   icon={
                     <div>
                       @svg(../../images/okimaru-circle.svg)
