@@ -62,6 +62,18 @@ component Layout {
                   target = "",
                   href = "/gears"),
                 Ui.NavItem::Link(
+                  iconBefore = Ui.Icons:BOOK,
+                  label = "報文・短報",
+                  iconAfter = <{  }>,
+                  target = "",
+                  href = "/papers"),
+                Ui.NavItem::Link(
+                  iconBefore = Ui.Icons:BUG,
+                  label = "所蔵標本",
+                  iconAfter = <{  }>,
+                  target = "",
+                  href = "/specimens"),
+                Ui.NavItem::Link(
                   iconBefore = Ui.Icons:SMILEY,
                   label = "趣味",
                   iconAfter = <{  }>,
@@ -111,6 +123,18 @@ component Layout {
                       iconAfter = <></>,
                       href = "/gears",
                       label = "保有機材",
+                      target = ""),
+                    Ui.NavItem::Link(
+                      iconBefore = Ui.Icons:BOOK,
+                      iconAfter = <></>,
+                      href = "/papers",
+                      label = "報文・短報",
+                      target = ""),
+                    Ui.NavItem::Link(
+                      iconBefore = Ui.Icons:BUG,
+                      iconAfter = <></>,
+                      href = "/specimens",
+                      label = "所蔵標本",
                       target = ""),
                     Ui.NavItem::Link(
                       iconBefore = Ui.Icons:SMILEY,

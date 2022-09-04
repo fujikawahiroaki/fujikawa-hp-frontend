@@ -4,6 +4,8 @@ enum Page {
   Works
   Gears
   Hobby
+  Papers
+  Specimens
   NotFound
 }
 

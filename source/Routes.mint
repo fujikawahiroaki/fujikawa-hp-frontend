@@ -35,6 +35,18 @@ routes {
     }
   }
 
+  /papers {
+    parallel {
+      Application.initializeWithPage(Page::Papers)
+    }
+  }
+
+  /specimens {
+    parallel {
+      Application.initializeWithPage(Page::Specimens)
+    }
+  }
+
   * {
     Application.initializeWithPage(Page::NotFound)
   }

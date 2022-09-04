@@ -28,6 +28,16 @@ component Main {
           <Pages.Hobby/>
         </Layout>
 
+      Page::Papers =>
+        <Layout>
+          <Pages.Papers/>
+        </Layout>
+
+      Page::Specimens =>
+        <Layout>
+          <Pages.Specimens/>
+        </Layout>
+
       Page::NotFound =>
         <Layout>"ご指定のURLに合致するページはございません。"</Layout>
     }
