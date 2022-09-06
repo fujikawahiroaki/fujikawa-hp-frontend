@@ -22,11 +22,6 @@ component Layout {
 
   fun render : Html {
     <div>
-      <link
-        rel="icon"
-        href={@asset(../../assets/favicon.ico)}
-        id="favicon"/>
-
       <Ui.Layout.Website
         header={
           <div::header>
@@ -43,37 +38,37 @@ component Layout {
               }
               items=[
                 Ui.NavItem::Link(
-                  iconBefore = Ui.Icons:HOME,
+                  iconBefore = <{  }>,
                   iconAfter = <{  }>,
                   label = "ホーム",
                   target = "",
                   href = "/"),
                 Ui.NavItem::Link(
-                  iconBefore = Ui.Icons:PERSON,
+                  iconBefore = <{  }>,
                   label = "事業概要",
                   iconAfter = <{  }>,
                   target = "",
                   href = "/about"),
                 Ui.NavItem::Link(
-                  iconBefore = Ui.Icons:BRIEFCASE,
+                  iconBefore = <{  }>,
                   label = "業務内容",
                   iconAfter = <{  }>,
                   target = "",
                   href = "/works"),
                 Ui.NavItem::Link(
-                  iconBefore = Ui.Icons:BOOK,
+                  iconBefore = <{  }>,
                   label = "報文・短報",
                   iconAfter = <{  }>,
                   target = "",
                   href = "/papers"),
                 Ui.NavItem::Link(
-                  iconBefore = Ui.Icons:BUG,
+                  iconBefore = <{  }>,
                   label = "所蔵標本",
                   iconAfter = <{  }>,
                   target = "",
                   href = "/specimens"),
                 Ui.NavItem::Link(
-                  iconBefore = Ui.Icons:SMILEY,
+                  iconBefore = <{  }>,
                   label = "趣味",
                   iconAfter = <{  }>,
                   target = "",
@@ -98,7 +93,7 @@ component Layout {
               }
               navitems=[
                 {
-                  "サイト内リンク", [
+                  "", [
                     Ui.NavItem::Link(
                       iconBefore = Ui.Icons:HOME,
                       iconAfter = <></>,
