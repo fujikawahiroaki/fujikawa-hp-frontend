@@ -31,6 +31,7 @@ routes {
 
   /papers {
     parallel {
+      PapersStore.load()
       Application.initializeWithPage(Page::Papers)
     }
   }
