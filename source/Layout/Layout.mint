@@ -5,19 +5,18 @@ component Layout {
     flex-direction: column;
     display: flex;
     border-radius: 10px;
-    color: black;
     margin: 2%;
     padding: 10px;
   }
 
   style header {
-    color: black;
     padding-bottom: 40px;
     border-bottom: solid 1px black;
+    font-family: "Shippori Mincho B1";
   }
 
   style footer {
-    color: #505050;
+    color: #455765;
   }
 
   fun render : Html {
@@ -29,6 +28,7 @@ component Layout {
               brand={
                 <Ui.Brand
                   size={Ui.Size::Em(4.0)}
+                  href="/"
                   icon={
                     <div>
                       @svg(../../images/okimaru-circle.svg)
@@ -88,7 +88,7 @@ component Layout {
                 <div::footer>
                   <p>"© 2022 沖丸環境調査"</p>
                   <p>"front-end: Powered by Mint Programming Language"</p>
-                  <p>"back-end: Powered by Crystal Programming Language & Lucky Web Framework"</p>
+                  <p>"back-end: Powered by Crystal Programming Language & Marten Web Framework"</p>
                 </div>
               }
               navitems=[

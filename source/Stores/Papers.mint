@@ -1,8 +1,6 @@
 record Paper {
   name : String,
   summary : String,
-  id : String,
-  createdAt : String,
   publishedYear : Number,
   publishedMonth : Number,
   publishedDay : Number
@@ -27,7 +25,7 @@ store PapersStore {
       next { status = Status::Loading }
 
       response =
-        @BACKEND_API + "papers"
+        @BACKEND_API + "papers/list"
         |> Http.get()
         |> Http.send()
 
