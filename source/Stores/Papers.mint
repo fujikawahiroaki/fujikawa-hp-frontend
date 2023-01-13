@@ -1,4 +1,5 @@
 record Paper {
+  id : String,
   name : String,
   summary : String,
   publishedYear : Number,

@@ -1,9 +1,9 @@
 {
   "name": "fujikawa-hp-frontend",
   "application": {
-    "name": "沖丸環境調査 | 藤川浩明",
+    "name": "大島蝉のなく頃に | 藤川浩明",
     "head": "assets/head.html",
-    "title": "沖丸環境調査 | 藤川浩明",
+    "title": "大島蝉のなく頃に | 藤川浩明",
     "icon": "assets/favicon.png"
   },
   "external": {

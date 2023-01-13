@@ -23,9 +23,9 @@ routes {
     }
   }
 
-  /hobby {
+  /computer {
     parallel {
-      Application.initializeWithPage(Page::Hobby)
+      Application.initializeWithPage(Page::Computer)
     }
   }
 

@@ -25,6 +25,7 @@ component Layout {
         header={
           <div::header>
             <Ui.Header
+              breakpoint={1320}
               brand={
                 <Ui.Brand
                   size={Ui.Size::Em(4.0)}
@@ -34,7 +35,7 @@ component Layout {
                       @svg(../../images/okimaru-circle.svg)
                     </div>
                   }
-                  name="沖丸環境調査"/>
+                  name="大島蝉のなく頃に"/>
               }
               items=[
                 Ui.NavItem::Link(
@@ -45,13 +46,7 @@ component Layout {
                   href = "/"),
                 Ui.NavItem::Link(
                   iconBefore = <{  }>,
-                  label = "事業概要",
-                  iconAfter = <{  }>,
-                  target = "",
-                  href = "/about"),
-                Ui.NavItem::Link(
-                  iconBefore = <{  }>,
-                  label = "業務内容",
+                  label = "沖丸環境調査",
                   iconAfter = <{  }>,
                   target = "",
                   href = "/works"),
@@ -69,10 +64,16 @@ component Layout {
                   href = "/specimens"),
                 Ui.NavItem::Link(
                   iconBefore = <{  }>,
-                  label = "趣味",
+                  label = "計算機遊び",
                   iconAfter = <{  }>,
                   target = "",
-                  href = "/hobby")
+                  href = "/computer"),
+                Ui.NavItem::Link(
+                  iconBefore = <{  }>,
+                  label = "自己紹介",
+                  iconAfter = <{  }>,
+                  target = "",
+                  href = "/about")
               ]/>
           </div>
         }
@@ -86,7 +87,7 @@ component Layout {
             <Ui.Footer
               infos={
                 <div::footer>
-                  <p>"© 2022 沖丸環境調査"</p>
+                  <p>"© 2022 藤川浩明"</p>
                   <p>"front-end: Powered by Mint Programming Language"</p>
                   <p>"back-end: Powered by Crystal Programming Language & Marten Web Framework"</p>
                 </div>
@@ -101,16 +102,10 @@ component Layout {
                       target = "",
                       href = "/"),
                     Ui.NavItem::Link(
-                      iconBefore = Ui.Icons:PERSON,
-                      iconAfter = <></>,
-                      href = "/about",
-                      label = "事業概要",
-                      target = ""),
-                    Ui.NavItem::Link(
                       iconBefore = Ui.Icons:BRIEFCASE,
                       iconAfter = <></>,
                       href = "/works",
-                      label = "業務内容",
+                      label = "沖丸環境調査",
                       target = ""),
                     Ui.NavItem::Link(
                       iconBefore = Ui.Icons:BOOK,
@@ -125,10 +120,16 @@ component Layout {
                       label = "所蔵標本",
                       target = ""),
                     Ui.NavItem::Link(
-                      iconBefore = Ui.Icons:SMILEY,
+                      iconBefore = Ui.Icons:DEVICE_DESKTOP,
                       iconAfter = <></>,
-                      href = "/hobby",
-                      label = "趣味",
+                      href = "/computer",
+                      label = "計算機遊び",
+                      target = ""),
+                    Ui.NavItem::Link(
+                      iconBefore = Ui.Icons:PERSON,
+                      iconAfter = <></>,
+                      href = "/about",
+                      label = "自己紹介",
                       target = "")
                   ]
                 }

@@ -18,9 +18,9 @@ component Main {
           <Pages.Works/>
         </Layout>
 
-      Page::Hobby =>
+      Page::Computer =>
         <Layout>
-          <Pages.Hobby/>
+          <Pages.Computer/>
         </Layout>
 
       Page::Papers =>

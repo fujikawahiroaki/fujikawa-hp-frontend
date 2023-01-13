@@ -1,64 +1,61 @@
 component Pages.Papers {
-  connect PapersStore exposing { status }
-
   fun render : Html {
-    case (status) {
-      Status::Initial =>
-        <div>
-          <h2>"報文・短報など"</h2>
+    <div>
+      <h2>"報文・短報など"</h2>
 
-          <Ui.Box title=<{ "" }>>
-            <p>"※各報文の記録種リストに含まれる学名・和名は出版当時のものです。現在は変更されている可能性があることにご注意ください。"</p>
-            <p>"データを読み込み中です......"</p>
-          </Ui.Box>
-        </div>
+      <Ui.Box title=<{ "" }>>
+        <p>"※各報の説明に含まれる学名・和名は出版当時のものです。現在は変更されている可能性があることにご注意ください。"</p>
 
-      Status::Loading =>
-        <div>
-          <h2>"報文・短報など"</h2>
-
-          <Ui.Box title=<{ "" }>>
-            <p>"※各報文の記録種リストに含まれる学名・和名は出版当時のものです。現在は変更されている可能性があることにご注意ください。"</p>
-            <p>"データを読み込み中です......"</p>
-          </Ui.Box>
-        </div>
-
-      Status::Error(message) =>
-        <div>
-          <h2>"報文・短報など"</h2>
-
-          <Ui.Box title=<{ "" }>>
-            <p>"※各報文の記録種リストに含まれる学名・和名は出版当時のものです。現在は変更されている可能性があることにご注意ください。"</p>
-            <p>"データの読み込みに失敗しました。"</p>
-
-            <p>
-              <{ message }>
-            </p>
-          </Ui.Box>
-        </div>
-
-      Status::Ok(papers) =>
-        <div>
-          <h2>"報文・短報など"</h2>
-
-          <Ui.Box title=<{ "" }>>
-            <p>"※各報の説明に含まれる学名・和名は出版当時のものです。現在は変更されている可能性があることにご注意ください。"</p>
-
-            for (paper of papers.results) {
-              <Ui.DefinitionList
-                rows=[
-                  {
-                    paper.name, [
-                      Ui.Cell::String(paper.summary),
-                      Ui.Cell::String("#{paper.publishedYear}/#{paper.publishedMonth}/#{paper.publishedDay}")
-                    ]
-                  }
-                ]
-                size={Ui.Size::Inherit}
-                headers=["概要", "発行年月日", "記録種", "証拠標本", "関連リンク"]/>
+        <Ui.DefinitionList
+          rows=[
+            {
+              "藤川浩明, 2019. オキナワキモンヒメクチキムシの追加記録および発生時期について. 月刊むし(580): 54.", [
+                Ui.Cell::String("これまで"),
+                Ui.Cell::HtmlItems(
+                  items =
+                    [
+                      <div>""</div>
+                    ],
+                  breakOnMobile = false)
+              ]
+            },
+            {
+              "藤川浩明, 2018. 久米島におけるオキナワカタモンヒメクチキムシの記録. 月刊むし(574): 12.", [
+                Ui.Cell::Html(
+                  <div>
+                    "これまで模式産地である沖縄島からのみ記録されていたオキナワカタモンヒメクチキムシ "
+                    <i>"Mycetochara (Ernocharis) okinawaensis"</i>
+                    " Akita & Masumoto, 2014 の久米島初記録です。"
+                  </div>),
+                Ui.Cell::HtmlItems(
+                  items =
+                    [
+                      <div>""</div>
+                    ],
+                  breakOnMobile = false)
+              ]
+            },
+            {
+              "藤川浩明, 2016. ズバケデオネスイを西表島で採集. 月刊むし(542): 43.", [
+                Ui.Cell::Html(
+                  <div>
+                    "ズバケデオネスイ "
+                    <i>"Mimemodes caenifrons"</i>
+                    " Grouvelle, 1913 "
+                    "の西表島初記録です。"
+                  </div>),
+                Ui.Cell::HtmlItems(
+                  items =
+                    [
+                      <div>""</div>
+                    ],
+                  breakOnMobile = false)
+              ]
             }
-          </Ui.Box>
-        </div>
-    }
+          ]
+          size={Ui.Size::Inherit}
+          headers=["概要", "関連リンク"]/>
+      </Ui.Box>
+    </div>
   }
 }

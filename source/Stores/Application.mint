@@ -2,7 +2,7 @@ enum Page {
   Home
   About
   Works
-  Hobby
+  Computer
   Papers
   Specimens
   NotFound

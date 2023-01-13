@@ -944,7 +944,7 @@ var Mint = (function (exports) {
 	return exports;
 
 })({});
-const CACHE = '61fc41721109afed859a3165284baed80072723f64775ac9699d6ac7f86bce77'
+const CACHE = 'd66e90b548d46c65e5a78827cf02630052342529aac73cfee5c5e1dffeb22b20'
 const PRECACHE_URLS = [
   '/assets/fujikawa_400x400_5f5c6c3f25766e56479c94cad00695c5.jpg',
   '/assets/nunito-v16-latin-ext_latin-700_6e483e301899a8ab59b328ae7f155c29.woff',
@@ -953,6 +953,24 @@ const PRECACHE_URLS = [
   '/assets/open-sans-v18-latin-ext_latin-regular_b7b7c77b83e9d67f6756aa2716f35eba.woff',
   '/assets/open-sans-v18-latin-ext_latin-regular_be21e759f9abd15b8cef68d92cedc081.woff2',
   '/external-stylesheets.css',
+  '/icon-120x120.png',
+  '/icon-128x128.png',
+  '/icon-144x144.png',
+  '/icon-152x152.png',
+  '/icon-167x167.png',
+  '/icon-16x16.png',
+  '/icon-180x180.png',
+  '/icon-192x192.png',
+  '/icon-196x196.png',
+  '/icon-256x256.png',
+  '/icon-32x32.png',
+  '/icon-36x36.png',
+  '/icon-48x48.png',
+  '/icon-512x512.png',
+  '/icon-57x57.png',
+  '/icon-72x72.png',
+  '/icon-76x76.png',
+  '/icon-96x96.png',
   '/index.html',
   '/index.js',
   '/manifest.webmanifest'
@@ -962,7 +980,7 @@ const routes=[...[
   '/',
   '/about',
   '/works',
-  '/hobby',
+  '/computer',
   '/papers',
   '/specimens',
   '*'
