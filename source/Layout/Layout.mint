@@ -35,7 +35,7 @@ component Layout {
                       @svg(../../images/okimaru-circle.svg)
                     </div>
                   }
-                  name="大島蝉のなく頃に"/>
+                  name="かれきむし"/>
               }
               items=[
                 Ui.NavItem::Link(
@@ -87,7 +87,7 @@ component Layout {
             <Ui.Footer
               infos={
                 <div::footer>
-                  <p>"© 2022 藤川浩明"</p>
+                  <p>"© 2023 藤川浩明"</p>
                   <p>"front-end: Powered by Mint Programming Language"</p>
                   <p>"back-end: Powered by Crystal Programming Language & Marten Web Framework"</p>
                 </div>
