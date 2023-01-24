@@ -88,8 +88,7 @@ component Layout {
               infos={
                 <div::footer>
                   <p>"© 2023 藤川浩明"</p>
-                  <p>"front-end: Powered by Mint Programming Language"</p>
-                  <p>"back-end: Powered by Crystal Programming Language & Marten Web Framework"</p>
+                  <p>"Powered by Mint Programming Language"</p>
                 </div>
               }
               navitems=[
