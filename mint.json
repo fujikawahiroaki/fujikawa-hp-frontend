@@ -4,7 +4,15 @@
     "name": "かれきむし | 藤川浩明",
     "head": "assets/head.html",
     "title": "かれきむし | 藤川浩明",
-    "icon": "assets/favicon.png"
+    "icon": "assets/favicon.png",
+    "theme-color": "#FFF",
+    "display": "standalone",
+    "orientation": "portrait",
+    "meta": {
+      "viewport": "width=device-width, initial-scale=1, user-scalable=no",
+      "description": "A fully featured reliable UI component library for Mint.",
+      "charset": "utf-8"
+    }
   },
   "external": {
     "stylesheets": [
@@ -20,7 +28,7 @@
   "dependencies": {
       "mint-ui": {
           "repository": "https://github.com/mint-lang/mint-ui",
-          "constraint": "4.0.0 <= v < 5.0.2"
+          "constraint": "5.0.1 <= v < 5.0.2"
       }
   }
 }

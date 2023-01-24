@@ -22,6 +22,7 @@ component Layout {
   fun render : Html {
     <div>
       <Ui.Layout.Website
+        maxWidth="100vw"
         header={
           <div::header>
             <Ui.Header
