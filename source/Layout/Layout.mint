@@ -10,7 +10,7 @@ component Layout {
   }
 
   style header {
-    padding-bottom: 40px;
+    padding-bottom: 20px;
     border-bottom: solid 1px black;
     font-family: "Shippori Mincho B1";
   }
@@ -29,7 +29,7 @@ component Layout {
               breakpoint={1320}
               brand={
                 <Ui.Brand
-                  size={Ui.Size::Em(4.0)}
+                  size={Ui.Size::Em(2.2)}
                   href="/"
                   icon={
                     <div>
