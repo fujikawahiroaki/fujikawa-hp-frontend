@@ -1,10 +1,10 @@
 {
   "name": "かれきむし | 藤川浩明",
   "short_name": "かれきむし | 藤川浩明",
-  "background_color": "",
-  "theme_color": "",
-  "display": "",
-  "orientation": "",
+  "background_color": "#FFF",
+  "theme_color": "#FFF",
+  "display": "standalone",
+  "orientation": "portrait",
   "start_url": "/",
   "icons": [
     {
