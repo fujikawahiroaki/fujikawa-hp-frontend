@@ -31,7 +31,7 @@ component Pages.Computer {
           <p>
             "　最近は開発のみならず競技プログラミングも楽しむようになりました。正直なところ私は非常に弱く、平均的なプレイヤーよりかなり成長が遅いのですが、その高いゲーム性に魅せられて毎週のようにコンテストに参加しています。長期のヒューリスティックコンテストが特に好きです。"
             <br/>
-            "　AtCoderのアルゴは茶、ヒューリスティックは緑です。IDは"
+            "　AtCoderのアルゴは茶、ヒューリスティックは水です。IDは"
 
             <a::a href="https://atcoder.jp/users/fujikawahiroaki">
               "fujikawahiroaki"
