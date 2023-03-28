@@ -9,6 +9,42 @@ component Pages.Papers {
         <Ui.DefinitionList
           rows=[
             {
+              "吉武　啓・小松拓実・藤川浩明, 2023. 薩摩黒島で得られたクニヨシシロオビゾウムシの生態的知見. 月刊むし, (626): 51-52.", [
+                Ui.Cell::Html(
+                  <div>
+                    "クニヨシシロオビゾウムシ"
+                    <i>"Cryptoderma"</i>
+                    <i>" kuniyoshii"</i>
+                    " (Morimoto, 1978)"
+                    " がクマタケランの花を摂食している様子の観察記録です。なお記録地の薩摩黒島（鹿児島県三島村）では条例により昆虫の採集が禁止されていますが、本調査では三島村および鹿児島県の許可を頂いて証拠標本を確保しました。"
+                  </div>),
+                Ui.Cell::HtmlItems(
+                  items =
+                    [
+                      <div/>
+                    ],
+                  breakOnMobile = false)
+              ]
+            },
+            {
+              "渡部晃平・生川展行・藤川浩明, 2023. 石垣島におけるヤツモンムネビロオオキノコの採集記録. さやばねニューシリーズ, (49): 44.", [
+                Ui.Cell::Html(
+                  <div>
+                    "ヤツモンムネビロオオキノコ"
+                    <i>"Neosternus"</i>
+                    <i>" hisamatsui"</i>
+                    " (Nakane, 1982)"
+                    " の石垣島における記録です。証拠標本を伴う記録としては本報が初と思われます。"
+                  </div>),
+                Ui.Cell::HtmlItems(
+                  items =
+                    [
+                      <div/>
+                    ],
+                  breakOnMobile = false)
+              ]
+            },
+            {
               "田之岡綾花・藤川浩明, 2022. 沖縄県本部町におけるアサギマダラマーキング報告. 琉球の昆虫, (46): 78.", [
                 Ui.Cell::Html(
                   <div>
