@@ -944,7 +944,7 @@ var Mint = (function (exports) {
 	return exports;
 
 })({});
-const CACHE = '0a29e59c3006f74bf0c747f6b1c6eb22c89e5f584492cc4e77459b8171612393'
+const CACHE = '7940e1ab7d017b0cd7dd985e2b6fc15c765944b8ee00fe2b188ee605227bed50'
 const PRECACHE_URLS = [
   '/assets/fujikawa_400x400_5f5c6c3f25766e56479c94cad00695c5.jpg',
   '/assets/nunito-v16-latin-ext_latin-700_6e483e301899a8ab59b328ae7f155c29.woff',
