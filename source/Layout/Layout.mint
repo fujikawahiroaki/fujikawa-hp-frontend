@@ -65,6 +65,12 @@ component Layout {
                   href = "/specimens"),
                 Ui.NavItem::Link(
                   iconBefore = <{  }>,
+                  label = "よもやま話",
+                  iconAfter = <{  }>,
+                  target = "",
+                  href = "/articles"),
+                Ui.NavItem::Link(
+                  iconBefore = <{  }>,
                   label = "計算機遊び",
                   iconAfter = <{  }>,
                   target = "",
@@ -118,6 +124,12 @@ component Layout {
                       iconAfter = <></>,
                       href = "/specimens",
                       label = "所蔵標本",
+                      target = ""),
+                    Ui.NavItem::Link(
+                      iconBefore = Ui.Icons:BUG,
+                      iconAfter = <></>,
+                      href = "/articles",
+                      label = "よもやま話",
                       target = ""),
                     Ui.NavItem::Link(
                       iconBefore = Ui.Icons:DEVICE_DESKTOP,

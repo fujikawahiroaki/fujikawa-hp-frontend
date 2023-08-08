@@ -18,6 +18,11 @@ component Main {
           <Pages.Works/>
         </Layout>
 
+      Page::Articles =>
+        <Layout>
+          <Pages.Articles/>
+        </Layout>
+
       Page::Computer =>
         <Layout>
           <Pages.Computer/>
@@ -31,6 +36,11 @@ component Main {
       Page::Specimens =>
         <Layout>
           <Pages.Specimens/>
+        </Layout>
+
+      Page::Article20230808 =>
+        <Layout>
+          <Pages.Articles20230808/>
         </Layout>
 
       Page::NotFound =>

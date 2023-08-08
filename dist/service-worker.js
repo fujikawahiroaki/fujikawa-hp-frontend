@@ -944,9 +944,10 @@ var Mint = (function (exports) {
 	return exports;
 
 })({});
-const CACHE = '7940e1ab7d017b0cd7dd985e2b6fc15c765944b8ee00fe2b188ee605227bed50'
+const CACHE = '06e5a7ef32f7e91022cbf38d8ec78bb74ea85293e813512a891cfa85ae0e69d4'
 const PRECACHE_URLS = [
   '/assets/fujikawa_400x400_5f5c6c3f25766e56479c94cad00695c5.jpg',
+  '/assets/muneusu_12a406dd5f58a283289edcb1477a93a5.jpg',
   '/assets/nunito-v16-latin-ext_latin-700_6e483e301899a8ab59b328ae7f155c29.woff',
   '/assets/nunito-v16-latin-ext_latin-700_7ba344b9011888663eea78e71fc1af79.woff2',
   '/assets/open-sans-v18-latin-ext_latin-700_5717b08cf679657595d0383d291a04c3.woff2',
@@ -980,9 +981,11 @@ const routes=[...[
   '/',
   '/about',
   '/works',
+  '/articles',
   '/computer',
   '/papers',
   '/specimens',
+  '/articles/20230808',
   '*'
 ]]
 

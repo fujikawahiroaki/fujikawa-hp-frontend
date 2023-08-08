@@ -4,8 +4,10 @@ enum Page {
   Works
   Computer
   Papers
+  Articles
   Specimens
   NotFound
+  Article20230808
 }
 
 store Application {

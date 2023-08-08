@@ -57,7 +57,7 @@ var Mint=function(){"use strict";var t,e,n,r,o,i,a={},s=[],u=/acit|ex(?:s|g|n|p|
 
   class DoError extends Error {}
 
-  class AV extends _E{constructor(){super();this.length = 0}};class AW extends _E{constructor(_0){super();this._0 = _0;this.length = 1}};class EG extends _E{constructor(){super();this.length = 0}};class EI extends _E{constructor(){super();this.length = 0}};class EH extends _E{constructor(){super();this.length = 0}};class EF extends _E{constructor(){super();this.length = 0}};class EK extends _E{constructor(){super();this.length = 0}};class EL extends _E{constructor(){super();this.length = 0}};class EN extends _E{constructor(){super();this.length = 0}};class EM extends _E{constructor(){super();this.length = 0}};class EC extends _E{constructor(_0){super();this._0 = _0;this.length = 1}};class EB extends _E{constructor(_0){super();this._0 = _0;this.length = 1}};class EY extends _E{constructor(){super();this.length = 0}};class EV extends _E{constructor(){super();this.length = 0}};class EW extends _E{constructor(_0){super();this._0 = _0;this.length = 1}};class EX extends _E{constructor(_0){super();this._0 = _0;this.length = 1}};class BL extends _E{constructor(){super();this.length = 0}};class BN extends _E{constructor(){super();this.length = 0}};class BP extends _E{constructor(){super();this.length = 0}};class BR extends _E{constructor(){super();this.length = 0}};class BT extends _E{constructor(){super();this.length = 0}};class BV extends _E{constructor(){super();this.length = 0}};class BW extends _E{constructor(){super();this.length = 0}};class CP extends _E{constructor(){super();this.length = 0}};class CW extends _E{constructor(_0){super();this._0 = _0;this.length = 1}};class CX extends _E{constructor(_0){super();this._0 = _0;this.length = 1}};class CG extends _E{constructor(_0){super();this._0 = _0;this.length = 1}};class CQ extends _E{constructor(_0){super();this._0 = _0;this.length = 1}};class DV extends _E{constructor(_0){super();this._0 = _0;this.length = 1}};class CA extends _E{constructor(_0){super();this._0 = _0;this.length = 1}};class DU extends _E{constructor(_0){super();this._0 = _0;this.length = 1}};class DT extends _E{constructor(_0){super();this._0 = _0;this.length = 1}};class BZ extends _E{constructor(_0){super();this._0 = _0;this.length = 1}};class DB extends _E{constructor(){super();this.length = 0}};class CT extends _E{constructor(){super();this.length = 0}};class DC extends _E{constructor(){super();this.length = 0}};class DD extends _E{constructor(){super();this.length = 0}};class DE extends _E{constructor(){super();this.length = 0}};class DF extends _E{constructor(){super();this.length = 0}};class DH extends _E{constructor(){super();this.length = 0}};class DG extends _E{constructor(){super();this.length = 0}};class DI extends _E{constructor(){super();this.length = 0}};class DK extends _E{constructor(){super();this.length = 0}};class DJ extends _E{constructor(){super();this.length = 0}};class DL extends _E{constructor(){super();this.length = 0}};class FA extends _E{constructor(_0){super();this._0 = _0;this.length = 1}};class FB extends _E{constructor(_0){super();this._0 = _0;this.length = 1}};class CF extends _E{constructor(_0){super();this._0 = _0;this.length = 1}};class EU extends _E{constructor(_0){super();this._0 = _0;this.length = 1}};class CB extends _E{constructor(){super();this.length = 0}};const F = _R({hostname:["hostname",Decoder.string],protocol:["protocol",Decoder.string],origin:["origin",Decoder.string],search:["search",Decoder.string],path:["path",Decoder.string],hash:["hash",Decoder.string],host:["host",Decoder.string],port:["port",Decoder.string]});const G = _R({key:["key",Decoder.string],value:["value",Decoder.string]});const H = _R({});const I = _R({status:["status",Decoder.number],body:["body",Decoder.string]});const J = _R({});const K = _R({});const L = _R({});const M = _R({});const N = _R({});const O = _R({});const P = _R({});const Q = _R({});const R = _R({});const S = _R({});const T = _R({});const U = _R({});const V = _R({});const W = _R({});const X = _R({});const Y = _R({});const Z = _R({});const AA = _R({});const AB = _R({});const AC = _R({height:["height",Decoder.number],bottom:["bottom",Decoder.number],width:["width",Decoder.number],right:["right",Decoder.number],left:["left",Decoder.number],top:["top",Decoder.number],x:["x",Decoder.number],y:["y",Decoder.number]});const AD = _R({});const AE = _R({caseInsensitive:["caseInsensitive",Decoder.boolean],multiline:["multiline",Decoder.boolean],unicode:["unicode",Decoder.boolean],global:["global",Decoder.boolean],sticky:["sticky",Decoder.boolean]});const AF = _R({submatches:["submatches",Decoder.array(Decoder.string),Encoder.array()],match:["match",Decoder.string],index:["index",Decoder.number]});const AG = _R({});const AH = _R({});const AI = _R({id:["id",Decoder.string],name:["name",Decoder.string],summary:["summary",Decoder.string],publishedYear:["publishedYear",Decoder.number],publishedMonth:["publishedMonth",Decoder.number],publishedDay:["publishedDay",Decoder.number]});const AJ = _R({results:["results",Decoder.array(((_)=>AI.decode(_))),Encoder.array(((_)=>AI.encode(_)))]});const AK = _R({});const AL = _R({sortKey:["sortKey",Decoder.string],sortable:["sortable",Decoder.boolean],label:["label",Decoder.string],shrink:["shrink",Decoder.boolean]});const AM = _R({originalHeight:["originalHeight",Decoder.number],originalWidth:["originalWidth",Decoder.number],currentHeight:["currentHeight",Decoder.number],currentWidth:["currentWidth",Decoder.number],left:["left",Decoder.number],top:["top",Decoder.number]});const AN = _R({titleWoff2:["titleWoff2",Decoder.string],titleWoff:["titleWoff",Decoder.string],titleName:["titleName",Decoder.string],regularWoff2:["regularWoff2",Decoder.string],regularWoff:["regularWoff",Decoder.string],boldWoff2:["boldWoff2",Decoder.string],boldWoff:["boldWoff",Decoder.string],name:["name",Decoder.string]});const AO = _R({source:["source",Decoder.string],height:["height",Decoder.number],width:["width",Decoder.number],x:["x",Decoder.number],y:["y",Decoder.number]});const AP = _R({});const AQ = _R({color:["color",Decoder.string],text:["text",Decoder.string]});const AR = _R({s900:["s900",((_)=>AQ.decode(_)),((_)=>AQ.encode(_))],s800:["s800",((_)=>AQ.decode(_)),((_)=>AQ.encode(_))],s700:["s700",((_)=>AQ.decode(_)),((_)=>AQ.encode(_))],s600:["s600",((_)=>AQ.decode(_)),((_)=>AQ.encode(_))],s500:["s500",((_)=>AQ.decode(_)),((_)=>AQ.encode(_))],s400:["s400",((_)=>AQ.decode(_)),((_)=>AQ.encode(_))],s300:["s300",((_)=>AQ.decode(_)),((_)=>AQ.encode(_))],s200:["s200",((_)=>AQ.decode(_)),((_)=>AQ.encode(_))],s100:["s100",((_)=>AQ.decode(_)),((_)=>AQ.encode(_))],s50:["s50",((_)=>AQ.decode(_)),((_)=>AQ.encode(_))],saturation:["saturation",Decoder.number],lightness:["lightness",Decoder.number],hue:["hue",Decoder.number]});const AY=new(class extends _M{gp(qi){return (document.createElement(qi))}gb(qj){return ((() => {
+  class AV extends _E{constructor(){super();this.length = 0}};class AW extends _E{constructor(_0){super();this._0 = _0;this.length = 1}};class EK extends _E{constructor(){super();this.length = 0}};class EM extends _E{constructor(){super();this.length = 0}};class EL extends _E{constructor(){super();this.length = 0}};class EJ extends _E{constructor(){super();this.length = 0}};class EO extends _E{constructor(){super();this.length = 0}};class EP extends _E{constructor(){super();this.length = 0}};class ER extends _E{constructor(){super();this.length = 0}};class EQ extends _E{constructor(){super();this.length = 0}};class EG extends _E{constructor(_0){super();this._0 = _0;this.length = 1}};class EF extends _E{constructor(_0){super();this._0 = _0;this.length = 1}};class FC extends _E{constructor(){super();this.length = 0}};class EZ extends _E{constructor(){super();this.length = 0}};class FA extends _E{constructor(_0){super();this._0 = _0;this.length = 1}};class FB extends _E{constructor(_0){super();this._0 = _0;this.length = 1}};class BL extends _E{constructor(){super();this.length = 0}};class BN extends _E{constructor(){super();this.length = 0}};class BP extends _E{constructor(){super();this.length = 0}};class BT extends _E{constructor(){super();this.length = 0}};class BV extends _E{constructor(){super();this.length = 0}};class BR extends _E{constructor(){super();this.length = 0}};class BX extends _E{constructor(){super();this.length = 0}};class CA extends _E{constructor(){super();this.length = 0}};class BZ extends _E{constructor(){super();this.length = 0}};class CT extends _E{constructor(){super();this.length = 0}};class DA extends _E{constructor(_0){super();this._0 = _0;this.length = 1}};class DB extends _E{constructor(_0){super();this._0 = _0;this.length = 1}};class CK extends _E{constructor(_0){super();this._0 = _0;this.length = 1}};class CU extends _E{constructor(_0){super();this._0 = _0;this.length = 1}};class DZ extends _E{constructor(_0){super();this._0 = _0;this.length = 1}};class CE extends _E{constructor(_0){super();this._0 = _0;this.length = 1}};class DY extends _E{constructor(_0){super();this._0 = _0;this.length = 1}};class DX extends _E{constructor(_0){super();this._0 = _0;this.length = 1}};class CD extends _E{constructor(_0){super();this._0 = _0;this.length = 1}};class DF extends _E{constructor(){super();this.length = 0}};class CX extends _E{constructor(){super();this.length = 0}};class DG extends _E{constructor(){super();this.length = 0}};class DH extends _E{constructor(){super();this.length = 0}};class DI extends _E{constructor(){super();this.length = 0}};class DJ extends _E{constructor(){super();this.length = 0}};class DL extends _E{constructor(){super();this.length = 0}};class DK extends _E{constructor(){super();this.length = 0}};class DM extends _E{constructor(){super();this.length = 0}};class DO extends _E{constructor(){super();this.length = 0}};class DN extends _E{constructor(){super();this.length = 0}};class DP extends _E{constructor(){super();this.length = 0}};class FE extends _E{constructor(_0){super();this._0 = _0;this.length = 1}};class FF extends _E{constructor(_0){super();this._0 = _0;this.length = 1}};class CJ extends _E{constructor(_0){super();this._0 = _0;this.length = 1}};class EY extends _E{constructor(_0){super();this._0 = _0;this.length = 1}};class CF extends _E{constructor(){super();this.length = 0}};const F = _R({hostname:["hostname",Decoder.string],protocol:["protocol",Decoder.string],origin:["origin",Decoder.string],search:["search",Decoder.string],path:["path",Decoder.string],hash:["hash",Decoder.string],host:["host",Decoder.string],port:["port",Decoder.string]});const G = _R({key:["key",Decoder.string],value:["value",Decoder.string]});const H = _R({});const I = _R({status:["status",Decoder.number],body:["body",Decoder.string]});const J = _R({});const K = _R({});const L = _R({});const M = _R({});const N = _R({});const O = _R({});const P = _R({});const Q = _R({});const R = _R({});const S = _R({});const T = _R({});const U = _R({});const V = _R({});const W = _R({});const X = _R({});const Y = _R({});const Z = _R({});const AA = _R({});const AB = _R({});const AC = _R({height:["height",Decoder.number],bottom:["bottom",Decoder.number],width:["width",Decoder.number],right:["right",Decoder.number],left:["left",Decoder.number],top:["top",Decoder.number],x:["x",Decoder.number],y:["y",Decoder.number]});const AD = _R({});const AE = _R({caseInsensitive:["caseInsensitive",Decoder.boolean],multiline:["multiline",Decoder.boolean],unicode:["unicode",Decoder.boolean],global:["global",Decoder.boolean],sticky:["sticky",Decoder.boolean]});const AF = _R({submatches:["submatches",Decoder.array(Decoder.string),Encoder.array()],match:["match",Decoder.string],index:["index",Decoder.number]});const AG = _R({});const AH = _R({});const AI = _R({id:["id",Decoder.string],name:["name",Decoder.string],summary:["summary",Decoder.string],publishedYear:["publishedYear",Decoder.number],publishedMonth:["publishedMonth",Decoder.number],publishedDay:["publishedDay",Decoder.number]});const AJ = _R({results:["results",Decoder.array(((_)=>AI.decode(_))),Encoder.array(((_)=>AI.encode(_)))]});const AK = _R({});const AL = _R({sortKey:["sortKey",Decoder.string],sortable:["sortable",Decoder.boolean],label:["label",Decoder.string],shrink:["shrink",Decoder.boolean]});const AM = _R({originalHeight:["originalHeight",Decoder.number],originalWidth:["originalWidth",Decoder.number],currentHeight:["currentHeight",Decoder.number],currentWidth:["currentWidth",Decoder.number],left:["left",Decoder.number],top:["top",Decoder.number]});const AN = _R({titleWoff2:["titleWoff2",Decoder.string],titleWoff:["titleWoff",Decoder.string],titleName:["titleName",Decoder.string],regularWoff2:["regularWoff2",Decoder.string],regularWoff:["regularWoff",Decoder.string],boldWoff2:["boldWoff2",Decoder.string],boldWoff:["boldWoff",Decoder.string],name:["name",Decoder.string]});const AO = _R({source:["source",Decoder.string],height:["height",Decoder.number],width:["width",Decoder.number],x:["x",Decoder.number],y:["y",Decoder.number]});const AP = _R({});const AQ = _R({color:["color",Decoder.string],text:["text",Decoder.string]});const AR = _R({s900:["s900",((_)=>AQ.decode(_)),((_)=>AQ.encode(_))],s800:["s800",((_)=>AQ.decode(_)),((_)=>AQ.encode(_))],s700:["s700",((_)=>AQ.decode(_)),((_)=>AQ.encode(_))],s600:["s600",((_)=>AQ.decode(_)),((_)=>AQ.encode(_))],s500:["s500",((_)=>AQ.decode(_)),((_)=>AQ.encode(_))],s400:["s400",((_)=>AQ.decode(_)),((_)=>AQ.encode(_))],s300:["s300",((_)=>AQ.decode(_)),((_)=>AQ.encode(_))],s200:["s200",((_)=>AQ.decode(_)),((_)=>AQ.encode(_))],s100:["s100",((_)=>AQ.decode(_)),((_)=>AQ.encode(_))],s50:["s50",((_)=>AQ.decode(_)),((_)=>AQ.encode(_))],saturation:["saturation",Decoder.number],lightness:["lightness",Decoder.number],hue:["hue",Decoder.number]});const AY=new(class extends _M{gp(qi){return (document.createElement(qi))}gb(qj){return ((() => {
       const rect = qj.getBoundingClientRect()
 
       return new AC({bottom:(rect.bottom),height:(rect.height),width:(rect.width),right:(rect.right),left:(rect.left),top:(rect.top),x:(rect.x),y:(rect.y)})
@@ -137,7 +137,7 @@ var Mint=function(){"use strict";var t,e,n,r,o,i,a={},s=[],u=/acit|ex(?:s|g|n|p|
     })())}ji(qw){return AY.iu(AT.py(AY.pv(qw)))}jm(qx,qy,qz){return (qx.scrollTo({
         left: qy,
         top: qz
-      }))}});const EA=new(class extends _M{ra(rb){return ((() => {
+      }))}});const EE=new(class extends _M{ra(rb){return ((() => {
       if (!this._a) {
         this._a = document.createElement('a')
       }
@@ -145,7 +145,7 @@ var Mint=function(){"use strict";var t,e,n,r,o,i,a={},s=[],u=/acit|ex(?:s|g|n|p|
       this._a.href = rb
 
       return new F({hostname:(this._a.hostname || ""),protocol:(this._a.protocol || ""),origin:(this._a.origin || ""),path:(this._a.pathname || ""),search:(this._a.search || ""),hash:(this._a.hash || ""),host:(this._a.host || ""),port:(this._a.port || "")})
-    })())}});const AU=new(class extends _M{g(re,rc){return (()=>{let rd = rc;if(rd instanceof AW){const rf = rd._0;return new AW(re(rf))} else if(rd instanceof AV){return new AV()}})()}gd(ri,rg){return (()=>{let rh = rg;if(rh instanceof AV){return ri} else if(rh instanceof AW){const rj = rh._0;return rj}})()}rk(ro,rl){return (()=>{let rm = rl;if(rm instanceof AW){const rn = rm._0;return new EB(rn)} else if(rm instanceof AV){return new EC(ro)}})()}});const DO=new(class extends _M{is(rq,rp){return (new Promise((resolve) => {
+    })())}});const AU=new(class extends _M{g(re,rc){return (()=>{let rd = rc;if(rd instanceof AW){const rf = rd._0;return new AW(re(rf))} else if(rd instanceof AV){return new AV()}})()}gd(ri,rg){return (()=>{let rh = rg;if(rh instanceof AV){return ri} else if(rh instanceof AW){const rj = rh._0;return rj}})()}rk(ro,rl){return (()=>{let rm = rl;if(rm instanceof AW){const rn = rm._0;return new EF(rn)} else if(rm instanceof AV){return new EG(ro)}})()}});const DS=new(class extends _M{is(rq,rp){return (new Promise((resolve) => {
     	setTimeout(() => {
         resolve(rp)
       }, rq)
@@ -153,7 +153,7 @@ var Mint=function(){"use strict";var t,e,n,r,o,i,a={},s=[],u=/acit|ex(?:s|g|n|p|
     	requestAnimationFrame(() => {
         resolve(rr)
       })
-    }))}});const ED=new(class extends _M{rs(){return new H({withCredentials:false,method:`GET`,body:(null),headers:[],url:``})}rt(rv){return ((..._) => ED.ru(rv, ..._))(((..._) => ED.rw(`GET`, ..._))(ED.rs()))}rw(ry,rx){return _u(rx, {method:ry})}ru(sa,rz){return _u(rz, {url:sa})}sb(se){return ED.sc(EE.sd(), se)}sc(sf,sg){return (new Promise((resolve, reject) => {
+    }))}});const EH=new(class extends _M{rs(){return new H({withCredentials:false,method:`GET`,body:(null),headers:[],url:``})}rt(rv){return ((..._) => EH.ru(rv, ..._))(((..._) => EH.rw(`GET`, ..._))(EH.rs()))}rw(ry,rx){return _u(rx, {method:ry})}ru(sa,rz){return _u(rz, {url:sa})}sb(se){return EH.sc(EI.sd(), se)}sc(sf,sg){return (new Promise((resolve, reject) => {
       if (!this._requests) { this._requests = {} }
 
       let xhr = new XMLHttpRequest()
@@ -167,7 +167,7 @@ var Mint=function(){"use strict";var t,e,n,r,o,i,a={},s=[],u=/acit|ex(?:s|g|n|p|
       } catch (error) {
         delete this._requests[sf]
 
-        reject(new J({type:new EF(),status:(xhr.status),url:sg.url}))
+        reject(new J({type:new EJ(),status:(xhr.status),url:sg.url}))
       }
 
       sg.headers.forEach((item) => {
@@ -177,13 +177,13 @@ var Mint=function(){"use strict";var t,e,n,r,o,i,a={},s=[],u=/acit|ex(?:s|g|n|p|
       xhr.addEventListener('error', (event) => {
         delete this._requests[sf]
 
-        reject(new J({type:new EG(),status:(xhr.status),url:sg.url}))
+        reject(new J({type:new EK(),status:(xhr.status),url:sg.url}))
       })
 
       xhr.addEventListener('timeout', (event) => {
         delete this._requests[sf]
 
-        reject(new J({type:new EH(),status:(xhr.status),url:sg.url}))
+        reject(new J({type:new EL(),status:(xhr.status),url:sg.url}))
       })
 
       xhr.addEventListener('load', (event) => {
@@ -195,11 +195,11 @@ var Mint=function(){"use strict";var t,e,n,r,o,i,a={},s=[],u=/acit|ex(?:s|g|n|p|
       xhr.addEventListener('abort', (event) => {
         delete this._requests[sf]
 
-        reject(new J({type:new EI(),status:(xhr.status),url:sg.url}))
+        reject(new J({type:new EM(),status:(xhr.status),url:sg.url}))
       })
 
       xhr.send(sg.body)
-    }))}});const AS=new(class extends _M{b(){return EA.ra(AS.sh())}sh(){return (window.location.href)}si(){return (window.innerWidth)}sj(){return (window.innerHeight)}et(sl){return (()=>{let sk = AS.b();let sm = EA.ra(sl);return (_compare(sk.hostname, sm.hostname) && _compare(sk.protocol, sm.protocol) && _compare(sk.origin, sm.origin) && _compare(sk.path, sm.path) && _compare(sk.host, sm.host) && _compare(sk.port, sm.port))})()}sn(so,sp){return ((() => {
+    }))}});const AS=new(class extends _M{b(){return EE.ra(AS.sh())}sh(){return (window.location.href)}si(){return (window.innerWidth)}sj(){return (window.innerHeight)}et(sl){return (()=>{let sk = AS.b();let sm = EE.ra(sl);return (_compare(sk.hostname, sm.hostname) && _compare(sk.protocol, sm.protocol) && _compare(sk.origin, sm.origin) && _compare(sk.path, sm.path) && _compare(sk.host, sm.host) && _compare(sk.port, sm.port))})()}sn(so,sp){return ((() => {
       const query = window.matchMedia(so);
       const listener = (event) => sp(query.matches);
       query.addListener(listener)
@@ -212,7 +212,7 @@ var Mint=function(){"use strict";var t,e,n,r,o,i,a={},s=[],u=/acit|ex(?:s|g|n|p|
 
       window.addEventListener(st, listener, su);
       return () => window.removeEventListener(st, listener, su);
-    })())}});const DY=new(class extends _M{ne(){return ([])}mo(sw,sv){return ((() => {
+    })())}});const EC=new(class extends _M{ne(){return ([])}mo(sw,sv){return ((() => {
       for (let item of sv) {
         if (_compare(item, sw)) {
           return true
@@ -221,7 +221,7 @@ var Mint=function(){"use strict";var t,e,n,r,o,i,a={},s=[],u=/acit|ex(?:s|g|n|p|
 
       return false
     })())}ms(sx,sy){return ((() => {
-      if (DY.mo(sx, sy)) { return sy }
+      if (EC.mo(sx, sy)) { return sy }
 
       const newSet = Array.from(sy)
       newSet.push(sx)
@@ -236,22 +236,22 @@ var Mint=function(){"use strict";var t,e,n,r,o,i,a={},s=[],u=/acit|ex(?:s|g|n|p|
       })
 
       return newSet
-    })())}});const EJ=new(class extends _M{tb(tc,td,te){return ((() => {
+    })())}});const EN=new(class extends _M{tb(tc,td,te){return ((() => {
       try {
         tc.setItem(td, te)
-        return new EB(null)
+        return new EF(null)
       } catch (error) {
         switch(error.name) {
           case 'SecurityError':
-            return new EC(new EK())
+            return new EG(new EO())
           case 'QUOTA_EXCEEDED_ERR':
-            return new EC(new EL())
+            return new EG(new EP())
           case 'QuotaExceededError':
-            return new EC(new EL())
+            return new EG(new EP())
           case 'NS_ERROR_DOM_QUOTA_REACHED':
-            return new EC(new EL())
+            return new EG(new EP())
           default:
-            return new EC(new EM())
+            return new EG(new EQ())
         }
       }
     })())}tf(tg,th){return ((() => {
@@ -259,19 +259,19 @@ var Mint=function(){"use strict";var t,e,n,r,o,i,a={},s=[],u=/acit|ex(?:s|g|n|p|
         let value = tg.getItem(th)
 
         if (typeof value === "string") {
-          return new EB((value))
+          return new EF((value))
         } else {
-          return new EC(new EN())
+          return new EG(new ER())
         }
       } catch (error) {
         switch(error.name) {
           case 'SecurityError':
-            return new EC(new EK())
+            return new EG(new EO())
           default:
-            return new EC(new EM())
+            return new EG(new EQ())
         }
       }
-    })())}});const EO=new(class extends _M{ti(tj,tk){return EJ.tb((localStorage), tj, tk)}tl(tm){return EJ.tf((localStorage), tm)}});const AT=new(class extends _M{py(tn){return ((() => {
+    })())}});const ES=new(class extends _M{ti(tj,tk){return EN.tb((localStorage), tj, tk)}tl(tm){return EN.tf((localStorage), tm)}});const AT=new(class extends _M{py(tn){return ((() => {
       let first = tn[0]
       if (first !== undefined) {
         return new AW((first))
@@ -308,32 +308,32 @@ var Mint=function(){"use strict";var t,e,n,r,o,i,a={},s=[],u=/acit|ex(?:s|g|n|p|
       }
 
       return -1
-    })())}});const EP=new(class extends _M{us(ut){return ((() => {
+    })())}});const ET=new(class extends _M{us(ut){return ((() => {
       try {
         return new AW((JSON.parse(ut)))
       } catch (error) {
         return new AV()
       }
-    })())}});const CR=new(class extends _M{hf(uu){return _compare(uu, ``)}uv(ux){return _compare(CR.uw(ux), ``)}gz(uy){return !CR.uv(uy)}fg(va,uz){return (uz.join(va))}uw(vb){return (vb.trim())}ds(vc){return (vc
+    })())}});const CV=new(class extends _M{hf(uu){return _compare(uu, ``)}uv(ux){return _compare(CV.uw(ux), ``)}gz(uy){return !CV.uv(uy)}fg(va,uz){return (uz.join(va))}uw(vb){return (vb.trim())}ds(vc){return (vc
       .replace(/[^\p{Lu}\p{Ll}0-9\-_]+/gu, '-') // Replace non alphanumerical with dashes
       .replace(/\p{Lu}([\p{Ll}0-9]+|[\p{Lu}0-9]+)?/gu, '-$&')
       .replace(/-{2,}/g, '-')
       .replace(/^-+/i, '')
       .replace(/-+$/i, '')
-      .toLowerCase())}});const EE=new(class extends _M{sd(){return (([1e7] + -1e3 + -4e3 + -8e3 + -1e11)
+      .toLowerCase())}});const EI=new(class extends _M{sd(){return (([1e7] + -1e3 + -4e3 + -8e3 + -1e11)
       .replace(/[018]/g, c =>
         (c ^ crypto.getRandomValues(new Uint8Array(1))[0] & 15 >> c / 4)
-          .toString(16)))}});const CM=new(class extends _M{gq(){return (false)}dg(vd){return (!!vd)}mj(ve){return ((() => {
+          .toString(16)))}});const CQ=new(class extends _M{gq(){return (false)}dg(vd){return (!!vd)}mj(ve){return ((() => {
       if (ve == null || typeof ve == 'boolean') {
         return []
       } else if (Array.isArray(ve)) {
         return ve.reduce((memo, child) => {
-          return memo.concat(CM.mj((child)))
+          return memo.concat(CQ.mj((child)))
         }, [])
       } else {
         return [ve]
       }
-    })())}});const EQ=new(class extends _M{vf(){return new AC({bottom:0,height:0,width:0,right:0,left:0,top:0,x:0,y:0})}});const BD=new(class extends _M{as(vg){return (requestAnimationFrame(vg))}at(vh){return (cancelAnimationFrame(vh) || -1)}});const ER=new(class extends _M{vi(vj){return ((() => {
+    })())}});const EU=new(class extends _M{vf(){return new AC({bottom:0,height:0,width:0,right:0,left:0,top:0,x:0,y:0})}});const BD=new(class extends _M{as(vg){return (requestAnimationFrame(vg))}at(vh){return (cancelAnimationFrame(vh) || -1)}});const EV=new(class extends _M{vi(vj){return ((() => {
       if (window.DEBUG) {
         window.DEBUG.log(vj)
       } else {
@@ -341,13 +341,13 @@ var Mint=function(){"use strict";var t,e,n,r,o,i,a={},s=[],u=/acit|ex(?:s|g|n|p|
       }
 
       return vj
-    })())}});const ES=new(class extends _M{vk(vl){return (vl.toString())}});const DS=new(class extends _M{lq(vm){return (vm.toString())}});const BB=new(class extends _M{vn(vo){return new AD({bubbles:(vo.bubbles),cancelable:(vo.cancelable),currentTarget:(vo.currentTarget),defaultPrevented:(vo.defaultPrevented),dataTransfer:(vo.dataTransfer),clipboardData:(vo.clipboardData),eventPhase:(vo.eventPhase),isTrusted:(vo.isTrusted),target:(vo.target),timeStamp:(vo.timeStamp),type:(vo.type),data:(vo.data),altKey:(vo.altKey),charCode:(vo.charCode),ctrlKey:(vo.ctrlKey),key:(vo.key),keyCode:(vo.keyCode),locale:(vo.locale),location:(vo.location),metaKey:(vo.metaKey),repeat:(vo.repeat),shiftKey:(vo.shiftKey),which:(vo.which),button:(vo.button),buttons:(vo.buttons),clientX:(vo.clientX),clientY:(vo.clientY),pageX:(vo.pageX),pageY:(vo.pageY),screenX:(vo.screenX),screenY:(vo.screenY),detail:(vo.detail),deltaMode:(vo.deltaMode),deltaX:(vo.deltaX),deltaY:(vo.deltaY),deltaZ:(vo.deltaZ),animationName:(vo.animationName),pseudoElement:(vo.pseudoElement),propertyName:(vo.propertyName),elapsedTime:(vo.elapsedTime),event:vo})}af(vp){return (vp.event.stopPropagation())}ag(vq){return (vq.event.preventDefault())}constructor(){super();this._d({iq:(()=>{return 27})})}});const BF=new(class extends _M{bh(vt){return (new ResizeObserver((entries) => {
+    })())}});const EW=new(class extends _M{vk(vl){return (vl.toString())}});const DW=new(class extends _M{lq(vm){return (vm.toString())}});const BB=new(class extends _M{vn(vo){return new AD({bubbles:(vo.bubbles),cancelable:(vo.cancelable),currentTarget:(vo.currentTarget),defaultPrevented:(vo.defaultPrevented),dataTransfer:(vo.dataTransfer),clipboardData:(vo.clipboardData),eventPhase:(vo.eventPhase),isTrusted:(vo.isTrusted),target:(vo.target),timeStamp:(vo.timeStamp),type:(vo.type),data:(vo.data),altKey:(vo.altKey),charCode:(vo.charCode),ctrlKey:(vo.ctrlKey),key:(vo.key),keyCode:(vo.keyCode),locale:(vo.locale),location:(vo.location),metaKey:(vo.metaKey),repeat:(vo.repeat),shiftKey:(vo.shiftKey),which:(vo.which),button:(vo.button),buttons:(vo.buttons),clientX:(vo.clientX),clientY:(vo.clientY),pageX:(vo.pageX),pageY:(vo.pageY),screenX:(vo.screenX),screenY:(vo.screenY),detail:(vo.detail),deltaMode:(vo.deltaMode),deltaX:(vo.deltaX),deltaY:(vo.deltaY),deltaZ:(vo.deltaZ),animationName:(vo.animationName),pseudoElement:(vo.pseudoElement),propertyName:(vo.propertyName),elapsedTime:(vo.elapsedTime),event:vo})}af(vp){return (vp.event.stopPropagation())}ag(vq){return (vq.event.preventDefault())}constructor(){super();this._d({iq:(()=>{return 27})})}});const BF=new(class extends _M{bh(vt){return (new ResizeObserver((entries) => {
       const values = entries.map((item) => {
-        return (()=>{let vs = ((..._) => ET.vr(EQ.vf(), ..._))(((_)=>AC.decode(_))(((item.contentRect))));return new AG({dimensions:vs,target:(item.target)})})()
+        return (()=>{let vs = ((..._) => EX.vr(EU.vf(), ..._))(((_)=>AC.decode(_))(((item.contentRect))));return new AG({dimensions:vs,target:(item.target)})})()
       })
 
       vt((values))
-    }))}be(vv,vu){return (vu.observe(vv) || vu)}ay(vx,vw){return (vw.unobserve(vx) || vw)}});const CK=new(class extends _M{cr(){return ([])}dy(vz,wa,vy){return ((() => {
+    }))}be(vv,vu){return (vu.observe(vv) || vu)}ay(vx,vw){return (vw.unobserve(vx) || vw)}});const CO=new(class extends _M{cr(){return ([])}dy(vz,wa,vy){return ((() => {
       const result = []
       let set = false
 
@@ -373,7 +373,7 @@ var Mint=function(){"use strict";var t,e,n,r,o,i,a={},s=[],u=/acit|ex(?:s|g|n|p|
       }
 
       return new AV()
-    })())}dv(wf,we,wg){return ((..._) => AU.gd(we, ..._))(CK.wb(wf, wg))}});const ET=new(class extends _M{vr(wk,wh){return (()=>{let wi = wh;if(wi instanceof EB){const wj = wi._0;return wj} else if(wi instanceof EC){return wk}})()}});const AZ=new(class extends _M{t(){return AZ.wl(null)}hd(wm){return AZ.wl(null)}wl(wn){return (Promise.resolve(wn))}ja(){return ((() => {
+    })())}dv(wf,we,wg){return ((..._) => AU.gd(we, ..._))(CO.wb(wf, wg))}});const EX=new(class extends _M{vr(wk,wh){return (()=>{let wi = wh;if(wi instanceof EF){const wj = wi._0;return wj} else if(wi instanceof EG){return wk}})()}});const AZ=new(class extends _M{t(){return AZ.wl(null)}hd(wm){return AZ.wl(null)}wl(wn){return (Promise.resolve(wn))}ja(){return ((() => {
       let resolve, reject;
 
       const promise = new Promise((a, b) => {
@@ -386,7 +386,7 @@ var Mint=function(){"use strict";var t,e,n,r,o,i,a={},s=[],u=/acit|ex(?:s|g|n|p|
         (error) => reject(error),
         promise
       ]
-    })())}});const DM=new(class extends _M{gk(wo){return (()=>{let wp = wo;if(wp instanceof DB){return new DD()} else if(wp instanceof CT){return new DE()} else if(wp instanceof DC){return new DF()} else if(wp instanceof DD){return new DB()} else if(wp instanceof DE){return new CT()} else if(wp instanceof DF){return new DC()} else if(wp instanceof DH){return new DK()} else if(wp instanceof DG){return new DJ()} else if(wp instanceof DI){return new DL()} else if(wp instanceof DK){return new DH()} else if(wp instanceof DJ){return new DG()} else if(wp instanceof DL){return new DI()}})()}});const CL=new(class extends _M{cs(wq){return (()=>{let wr = wq;if(wr instanceof CF){const ws = wr._0;return `${ws}em`} else if(wr instanceof EU){const wt = wr._0;return `${wt}px`} else if(wr instanceof CB){return `inherit`}})()}});const CI=new(class extends _M{constructor(){super();this._d({ew:(()=>{return $s()}),cc:(()=>{return $t()}),cd:(()=>{return $u()}),ce:(()=>{return $v()}),cf:(()=>{return $w()}),cg:(()=>{return $x()}),ch:(()=>{return $y()}),mz:(()=>{return $z()})})}});const AX=new(class extends _P{constructor(){super();this.state={i:new AV()}}get i(){return this.state.i;}a(e){return (()=>{let c = AS.b();return (()=>{const _0 = [];const _1 = this._subscriptions;let _i = 0;for(let d of _1){_0.push(d.changes(c));_i++};return _0})()})()}update(){return (AT.f(this._subscriptions) ? (()=>{AU.g(((h)=>{return h()}), this.i);return new Promise(((_resolve)=>{this.setState(_u(this.state, new Record({i:new AV()})), _resolve)
+    })())}});const DQ=new(class extends _M{gk(wo){return (()=>{let wp = wo;if(wp instanceof DF){return new DH()} else if(wp instanceof CX){return new DI()} else if(wp instanceof DG){return new DJ()} else if(wp instanceof DH){return new DF()} else if(wp instanceof DI){return new CX()} else if(wp instanceof DJ){return new DG()} else if(wp instanceof DL){return new DO()} else if(wp instanceof DK){return new DN()} else if(wp instanceof DM){return new DP()} else if(wp instanceof DO){return new DL()} else if(wp instanceof DN){return new DK()} else if(wp instanceof DP){return new DM()}})()}});const CP=new(class extends _M{cs(wq){return (()=>{let wr = wq;if(wr instanceof CJ){const ws = wr._0;return `${ws}em`} else if(wr instanceof EY){const wt = wr._0;return `${wt}px`} else if(wr instanceof CF){return `inherit`}})()}});const CM=new(class extends _M{constructor(){super();this._d({ew:(()=>{return $w()}),cc:(()=>{return $x()}),cd:(()=>{return $y()}),ce:(()=>{return $z()}),cf:(()=>{return $aa()}),cg:(()=>{return $ab()}),ch:(()=>{return $ac()}),mz:(()=>{return $ad()})})}});const AX=new(class extends _P{constructor(){super();this.state={i:new AV()}}get i(){return this.state.i;}a(e){return (()=>{let c = AS.b();return (()=>{const _0 = [];const _1 = this._subscriptions;let _i = 0;for(let d of _1){_0.push(d.changes(c));_i++};return _0})()})()}update(){return (AT.f(this._subscriptions) ? (()=>{AU.g(((h)=>{return h()}), this.i);return new Promise(((_resolve)=>{this.setState(_u(this.state, new Record({i:new AV()})), _resolve)
 }))})() : (()=>{let j = this.i;if(j instanceof AV){return new Promise(((_resolve)=>{this.setState(_u(this.state, new Record({i:new AW(AS.k(`popstate`, false, this.a))})), _resolve)
 }))} else{return new Promise(((_resolve)=>{this.setState(_u(this.state, new Record({})), _resolve)
 }))}})())}});const BA=new(class extends _P{constructor(){super();this.state={v:new AV()}}get v(){return this.state.v;}l(o){return (()=>{const _0 = [];const _1 = this._subscriptions;let _i = 0;for(let r of _1){_0.push((()=>{let s = ((..._) => AT.m(((p)=>{return AY.n(o.target, p)}), ..._))(AT.q(r.elements));return (s ? AZ.t() : r.clicks())})());_i++};return _0})()}update(){return (AT.f(this._subscriptions) ? (()=>{AU.g(((u)=>{return u()}), this.v);return new Promise(((_resolve)=>{this.setState(_u(this.state, new Record({v:new AV()})), _resolve)
@@ -402,7 +402,7 @@ if (!_2) { continue };_0.push((()=>{BB.af(y);BB.ag(y);return ah.action()})());_i
 })) : new Promise(((_resolve)=>{this.setState(_u(this.state, new Record({})), _resolve)
 }))))}});const BG=new(class extends _P{constructor(){super();this.state={bb:[],ba:BF.bh(this.au)}}get bb(){return this.state.bb;}get ba(){return this.state.ba;}au(ax){return (()=>{const _0 = [];const _1 = ax;let _i = 0;for(let aw of _1){_0.push((()=>{const _0 = [];const _1 = this._subscriptions;let _i = 0;for(let av of _1){_0.push((_compare(av.element, new AW(aw.target)) ? av.changes(aw.dimensions) : new Promise(((_resolve)=>{this.setState(_u(this.state, new Record({})), _resolve)
 }))));_i++};return _0})());_i++};return _0})()}update(){return (()=>{(()=>{const _0 = [];const _1 = AT.q(this.bb);let _i = 0;for(let az of _1){_0.push(BF.ay(az, this.ba));_i++};return _0})();(()=>{const _0 = [];const _1 = this._subscriptions;let _i = 0;for(let bc of _1){_0.push((()=>{let bd = bc.element;if(bd instanceof AW){const bf = bd._0;return (()=>{BF.be(bf, this.ba);return null})()} else if(bd instanceof AV){return null}})());_i++};return _0})();return new Promise(((_resolve)=>{this.setState(_u(this.state, new Record({bb:AT.bg(((_) => _.element), this._subscriptions)})), _resolve)
-}))})()}});_program.addRoutes([{handler:((yk)=>{(async()=>{let _ = null;try{await Promise.all([(async()=>{await BI.xc(new BL())})()])}catch(_error){if(!(_error instanceof DoError)){console.warn(`Unhandled error in parallel expression:`);console.warn(_error)}};return _})()}),decoders:[Decoder.string],mapping:['page'],path:`/?page=:page`},{handler:(()=>{(async()=>{let _ = null;try{await Promise.all([(async()=>{await BI.xc(new BL())})()])}catch(_error){if(!(_error instanceof DoError)){console.warn(`Unhandled error in parallel expression:`);console.warn(_error)}};return _})()}),decoders:[],mapping:[],path:`/`},{handler:(()=>{(async()=>{let _ = null;try{await Promise.all([(async()=>{await BI.xc(new BN())})()])}catch(_error){if(!(_error instanceof DoError)){console.warn(`Unhandled error in parallel expression:`);console.warn(_error)}};return _})()}),decoders:[],mapping:[],path:`/about`},{handler:(()=>{(async()=>{let _ = null;try{await Promise.all([(async()=>{await BI.xc(new BP())})()])}catch(_error){if(!(_error instanceof DoError)){console.warn(`Unhandled error in parallel expression:`);console.warn(_error)}};return _})()}),decoders:[],mapping:[],path:`/works`},{handler:(()=>{(async()=>{let _ = null;try{await Promise.all([(async()=>{await BI.xc(new BR())})()])}catch(_error){if(!(_error instanceof DoError)){console.warn(`Unhandled error in parallel expression:`);console.warn(_error)}};return _})()}),decoders:[],mapping:[],path:`/computer`},{handler:(()=>{(async()=>{let _ = null;try{await Promise.all([(async()=>{await EZ.wu()})(),(async()=>{await BI.xc(new BT())})()])}catch(_error){if(!(_error instanceof DoError)){console.warn(`Unhandled error in parallel expression:`);console.warn(_error)}};return _})()}),decoders:[],mapping:[],path:`/papers`},{handler:(()=>{(async()=>{let _ = null;try{await Promise.all([(async()=>{await BI.xc(new BV())})()])}catch(_error){if(!(_error instanceof DoError)){console.warn(`Unhandled error in parallel expression:`);console.warn(_error)}};return _})()}),decoders:[],mapping:[],path:`/specimens`},{handler:(()=>{BI.xc(new BW())}),decoders:[],mapping:[],path:`*`}]);class BH extends _C{constructor(props){super(props);this._d({bi:["children",[]]})}render(){return (_createPortal(this.bi, document.body))}};;class E extends _C{get bj(){return BI.bl;}componentWillUnmount(){BI._unsubscribe(this)}componentDidMount(){BI._subscribe(this)}render(){return (()=>{let bk = this.bj;if(bk instanceof BL){return $a()} else if(bk instanceof BN){return $c()} else if(bk instanceof BP){return $e()} else if(bk instanceof BR){return $g()} else if(bk instanceof BT){return $i()} else if(bk instanceof BV){return $k()} else if(bk instanceof BW){return $m()}})()}};;class BK extends _C{render(){return _h("div", {}, [_h("h2", {}, [`ようこそ`]),$n(),$o()])}};;class BM extends _C{render(){return _h("div", {}, [_h("h2", {}, [`自己紹介`]),_h(BX, {bm:`藤川浩明`}, _array(_h("img", {"src":`/assets/fujikawa_400x400_5f5c6c3f25766e56479c94cad00695c5.jpg`,className:`a`}), _h("p", {}, [`生年: 1994年`]), _h("p", {}, [`出身: 山口県`]), _h("p", {}, [`居住地: 沖縄県本部町`]), _h("p", {}, [`好きな虫: ゴミムシダマシや旧ホソカタムシなどの枯れ木につく甲虫全般、旧タテヅノマルバネクワガタ`])))])}};;class BU extends _C{render(){return _h("div", {}, [_h("h2", {}, [`所蔵標本検索`]),_h("h3", {}, [`現在準備中です`])])}};;class BO extends _C{render(){return _h("div", {}, [_h("h2", {}, [`沖丸環境調査`]),$p(),$q()])}};;class BS extends _C{render(){return _h("div", {}, [_h("h2", {}, [`報文・短報など`]),_h(BX, {bm:``}, _array(_h("p", {}, [`※各報の説明に含まれる学名・和名は出版当時のものです。現在は変更されている可能性があることにご注意ください。`]), _h(BY, {bn:[[`吉武　啓・小松拓実・藤川浩明, 2023. 薩摩黒島で得られたクニヨシシロオビゾウムシの生態的知見. 月刊むし, (626): 51-52.`, [new BZ(_h("div", {}, [`クニヨシシロオビゾウムシ`,_h("i", {}, [`Cryptoderma`]),_h("i", {}, [` kuniyoshii`]),` (Morimoto, 1978)`,` がクマタケランの花を摂食している様子の観察記録です。なお記録地の薩摩黒島（鹿児島県三島村）では条例により昆虫の採集が禁止されていますが、本調査では三島村および鹿児島県の許可を頂いて証拠標本を確保しました。`])), new CA(new Record({items:[_h("div", {})],breakOnMobile:false}))]], [`渡部晃平・生川展行・藤川浩明, 2023. 石垣島におけるヤツモンムネビロオオキノコの採集記録. さやばねニューシリーズ, (49): 44.`, [new BZ(_h("div", {}, [`ヤツモンムネビロオオキノコ`,_h("i", {}, [`Neosternus`]),_h("i", {}, [` hisamatsui`]),` (Nakane, 1982)`,` の石垣島における記録です。証拠標本を伴う記録としては本報が初と思われます。`])), new CA(new Record({items:[_h("div", {})],breakOnMobile:false}))]], [`田之岡綾花・藤川浩明, 2022. 沖縄県本部町におけるアサギマダラマーキング報告. 琉球の昆虫, (46): 78.`, [new BZ(_h("div", {}, [`アサギマダラ`,_h("i", {}, [`Parantica`]),_h("i", {}, [` sita`]),` (Kollar, [1844])`,` の沖縄県本部町における2021年のマーキング調査報告です。`])), new CA(new Record({items:[_h("div", {})],breakOnMobile:false}))]], [`青井光太郎・福田悠人・藤川浩明・伊藤直哉, 2022. 南西諸島におけるハイイロテントウの分布. さやばねニューシリーズ, (45): 37-39.`, [new BZ(_h("div", {}, [`ハイイロテントウ`,_h("i", {}, [`Olla`]),_h("i", {}, [` v-nigrum`]),` (Mulsant, 1866)`,` の南西諸島における分布をまとめました。本種の奄美大島、徳之島、沖永良部島、伊平屋島、伊江島、平安座島、津堅島、藪地島、西表島における初記録は本報となります。また本種の分布や生態についての若干の考察も含まれています。`])), new CA(new Record({items:[_h("div", {}, [_h("a", {"href":`http://kochugakkai.sakura.ne.jp/publication/sayabane/SayabaneNS(45).html`}, [`日本甲虫学会HP`])]), _h("div", {}, [_h("a", {"href":`https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202202227782159723&rel=1#%7B%22category%22%3A%220%22%2C%22keyword%22%3A%22%5C%22202250000788509100%5C%22%22%7D`}, [`J-GLOBAL`])])],breakOnMobile:false}))]], [`緒方裕大・藤川浩明, 2022. 西表島および石垣島におけるフチグロチビオオキノコの記録. さやばねニューシリーズ, (45): 34.`, [new BZ(_h("div", {}, [`フチグロチビオオキノコ`,_h("i", {}, [`Tritoma `]),`(`,_h("i", {}, [`Tritoma`]),`)`,_h("i", {}, [` andoi`]),` Narukawa, 2003`,` の西表島初記録および石垣島における原記載以来の追加記録です。`])), new CA(new Record({items:[_h("div", {}, [_h("a", {"href":`http://kochugakkai.sakura.ne.jp/publication/sayabane/SayabaneNS(45).html`}, [`日本甲虫学会HP`])]), _h("div", {}, [_h("a", {"href":`https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202202289858901406&rel=1#%7B%22category%22%3A%220%22%2C%22keyword%22%3A%22%5C%22202250000788509100%5C%22%22%7D`}, [`J-GLOBAL`])])],breakOnMobile:false}))]], [`藤川浩明・吉武啓, 2022. 奄美群島におけるアカツヤツツヒラタムシおよび先島諸島におけるクロツヤツツヒラタムシの新産地. さやばねニューシリーズ, (45): 2-3.`, [new BZ(_h("div", {}, [`アカツヤツツヒラタムシ`,_h("i", {}, [`Passandra`]),_h("i", {}, [` tenuicornis`]),` (Grouvelle, 1913)`,` の徳之島における初記録、および`,`クロツヤツツヒラタムシ`,_h("i", {}, [`Passandra`]),_h("i", {}, [` okinawana`]),` Aoki, 2008`,` の伊良部島と西表島における初記録です。`,`奄美大島におけるクロツヤツツヒラタムシの記録の問題点についても言及しています。`])), new CA(new Record({items:[_h("div", {}, [_h("a", {"href":`http://kochugakkai.sakura.ne.jp/publication/sayabane/SayabaneNS(45).html`}, [`日本甲虫学会HP`])]), _h("div", {}, [_h("a", {"href":`https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202202248049142810&rel=1#%7B%22category%22%3A%220%22%2C%22keyword%22%3A%22%5C%22202250000788509100%5C%22%22%7D`}, [`J-GLOBAL`])])],breakOnMobile:false}))]], [`藤川浩明, 2022. 沖縄島および渡嘉敷島におけるアシグロアオゴミムシの記録. さやばねニューシリーズ, (45): 1-2.`, [new BZ(_h("div", {}, [`アシグロアオゴミムシ`,_h("i", {}, [`Chlaenius`]),_h("i", {}, [` leucops`]),` (Waterhouse, 1823)`,` の沖縄島および渡嘉敷島における初記録です。本種の沖縄諸島における初記録となります。`])), new CA(new Record({items:[_h("div", {}, [_h("a", {"href":`http://kochugakkai.sakura.ne.jp/publication/sayabane/SayabaneNS(45).html`}, [`日本甲虫学会HP`])]), _h("div", {}, [_h("a", {"href":`https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202202224084769737`}, [`J-GLOBAL`])])],breakOnMobile:false}))]], [`小松拓実・藤川浩明, 2021. 沖縄島にてクロツツマグソコガネを採集. さやばねニューシリーズ, (44): 20-21.`, [new BZ(_h("div", {}, [`クロツツマグソコガネ`,_h("i", {}, [`Saprosites`]),_h("i", {}, [` japonicus`]),` Waterhouse, 1875`,` の沖縄島における追加記録です。`])), new CA(new Record({items:[_h("div", {}, [_h("a", {"href":`http://kochugakkai.sakura.ne.jp/publication/sayabane/SayabaneNS(44).html`}, [`日本甲虫学会HP`])]), _h("div", {}, [_h("a", {"href":`https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202202258926911915&rel=1#%7B%22category%22%3A%220%22%2C%22keyword%22%3A%22%5C%22202250000788509100%5C%22%22%7D`}, [`J-GLOBAL`])])],breakOnMobile:false}))]], [`藤川浩明・森井隆文, 2020. ヤンバルキモンヒメクチキムシ2例目の記録および♂の初記録. 月刊むし, (587): 46-47.`, [new BZ(_h("div", {}, [`ヤンバルキモンヒメクチキムシ`,_h("i", {}, [`Mycetochara `]),`(`,_h("i", {}, [`Ernocharis`]),`)`,_h("i", {}, [` nakanoi`]),` Akita & Masumoto, 2017 の2例目の記録および♂の初記録です。`,`発生時期、生息環境、同属多種との棲み分けについての断片的な知見と推測を述べていますが、調査不足のため確実性に欠けています。あくまで今後の調査を促進する叩き台となるための速報的な報告として受け取って頂きたいです。`])), new CA(new Record({items:[_h("div", {})],breakOnMobile:false}))]], [`藤川浩明・松村雅史, 2019. 沖縄島におけるウケンナミクチキムシの記録. 月刊むし, (583): 60-61.`, [new BZ(_h("div", {}, [`ウケンナミクチキムシ`,_h("i", {}, [`Upinella`]),_h("i", {}, [` ukenensis`]),` (Akita & Masumoto, 2012)`,` の沖縄島における初記録です。`])), new CA(new Record({items:[_h("div", {})],breakOnMobile:false}))]], [`藤川浩明・徳重典英, 2019. 沖縄島におけるクワガタツツキノコムシの記録. 月刊むし, (582): 60.`, [new BZ(_h("div", {}, [`クワガタツツキノコムシ`,_h("i", {}, [`Cis`]),_h("i", {}, [` capricornis`]),` Kawanabe, 1997`,` の沖縄島における初記録です。`])), new CA(new Record({items:[_h("div", {})],breakOnMobile:false}))]], [`中野文尊・藤川浩明・青井光太郎・緒方裕大, 2019. 採集例の極めて少ない琉球列島産メツブテントウ類3種の記録. 月刊むし, (582): 30-33.`, [new BZ(_h("div", {}, [`ナナホシメツブテントウ`,_h("i", {}, [`Nesolotis`]),_h("i", {}, [` amabilis`]),` (H. Kamiya, 1965)、`,`キイロメツブテントウ`,_h("i", {}, [`Nesolotis`]),_h("i", {}, [` azumai`]),` Sasaji, 1967、`,`クロメツブテントウ`,_h("i", {}, [`Nesolotis`]),_h("i", {}, [` impunctata`]),` Miyatake, 1966`,` を追加記録しました。このうちナナホシメツブテントウおよびキイロメツブテントウについては生態面・形態面ともにいくらかの新知見も含む内容となっています。`])), new CA(new Record({items:[_h("div", {}, [_h("a", {"href":`https://cir.nii.ac.jp/crid/1521417753438325120`}, [`CiNii Research`])])],breakOnMobile:false}))]], [`藤川浩明・松村雅史・杉野廣一, 2019. ヘリアカデオキノコムシの沖縄島からの初記録. さやばねニューシリーズ, (34): 56-57.`, [new BZ(_h("div", {}, [`ヘリアカデオキノコムシ`,_h("i", {}, [`Scaphidium`]),_h("i", {}, [` reitteri`]),` Lewis, 1879 の沖縄島における初記録です。`,`本土産との形態的特徴の差異についても触れた上で、保科英人博士の見解に基づき亜種として位置づけるのは適切ではないと結論付けています。`])), new CA(new Record({items:[_h("div", {}, [_h("a", {"href":`http://kochugakkai.sakura.ne.jp/publication/sayabane/SayabaneNS(34).html`}, [`日本甲虫学会HP`])])],breakOnMobile:false}))]], [`藤川浩明, 2019. オキナワキモンヒメクチキムシの追加記録および発生時期について. 月刊むし, (580): 54.`, [new BZ(_h("div", {}, [`これまで原記載以降の正式な記録が無かったオキナワキモンヒメクチキムシ`,_h("i", {}, [`Mycetochara `]),`(`,_h("i", {}, [`Ernocharis`]),`)`,_h("i", {}, [` hiranoi`]),` Akita & Masumoto, 2014 の追加記録です。`,`本種の♂を初めて図示した報告となりますが、写真は白黒で交尾器の図も無いため、♂の形態の資料としては不十分です。`,`発生時期についての考察を含みますが、今思えば十分な調査と適切な考察をしたとは言い難い出来ですので、参考程度に留めて頂きたいです。`])), new CA(new Record({items:[_h("div", {}, [``])],breakOnMobile:false}))]], [`藤川浩明, 2018. 久米島におけるオキナワカタモンヒメクチキムシの記録. 月刊むし, (574): 12.`, [new BZ(_h("div", {}, [`これまで模式産地である沖縄島からのみ記録されていたオキナワカタモンヒメクチキムシ `,_h("i", {}, [`Mycetochara `]),`(`,_h("i", {}, [`Ernocharis`]),`)`,_h("i", {}, [` okinawaensis`]),` Akita & Masumoto, 2014 の久米島初記録です。`])), new CA(new Record({items:[_h("div", {}, [``])],breakOnMobile:false}))]], [`藤川浩明, 2016. ズバケデオネスイを西表島で採集. 月刊むし, (542): 43.`, [new BZ(_h("div", {}, [`ズバケデオネスイ `,_h("i", {}, [`Mimemodes caenifrons`]),` Grouvelle, 1913 `,`の西表島初記録です。`])), new CA(new Record({items:[_h("div", {}, [``])],breakOnMobile:false}))]]],bo:new CB(),bp:[`概要`, `関連リンク`]})))])}};;class BQ extends _C{render(){return _h("div", {}, [_h("h2", {}, [`計算機遊び`]),_h(BX, {bm:`もうひとつの趣味`}, _array(_h("p", {}, [`　昆虫採集に次ぐ第二の趣味として、プログラミングやLinux環境いじりなどのコンピュータ遊びを中学二年生の頃から細々と楽しんでいます。`,_h("br", {}),_h("ul", {}, [_h("li", {}, [`GitHub: `,_h("a", {"href":`https://github.com/fujikawahiroaki`,className:`b`}, [`fujikawahiroaki`])]),_h("li", {}, [`好きな言語: Crystal, Ruby`]),_h("li", {}, [`好きではないがよく使う言語: Python, JavaScript`]),_h("li", {}, [`ある程度使ったことのある言語: C, Common Lisp (SBCL), Emacs Lisp, Mint`]),_h("li", {}, [`好きなエディタ: 数年置きに変わりますが、今はVimが好きです`]),_h("li", {}, [`好きなOS: 数年置きに変わりますが、今はArch Linuxが好きです`])]),_h("p", {}, [`　最近は開発のみならず競技プログラミングも楽しむようになりました。正直なところ私は非常に弱く、平均的なプレイヤーよりかなり成長が遅いのですが、その高いゲーム性に魅せられて毎週のようにコンテストに参加しています。長期のヒューリスティックコンテストが特に好きです。`,_h("br", {}),`　AtCoderのアルゴは茶、ヒューリスティックは水です。IDは`,_h("a", {"href":`https://atcoder.jp/users/fujikawahiroaki`,className:`b`}, [`fujikawahiroaki`])])]))),_h(BX, {bm:`開発したサービス・ソフトウェア`}, _array(_h("p", {}, [_h("strong", {}, [`WebSpecimanager`]),_h("br", {}),_h("a", {"href":`https://www.webspecimanager.net/`,className:`b`}, [`https://www.webspecimanager.net/`]),_h("br", {}),`昆虫標本のデータベース管理を支援するWebサービスです。`,_h("br", {}),`バックエンドはPythonとDjango REST Framework、フロントエンドはJavaScriptとReactで書きました。`]), _h("strong", {}, [`AtCoder Diet`]), _h("br", {}), _h("a", {"href":`https://atcoder-diet.fly.dev/`,className:`b`}, [`https://atcoder-diet.fly.dev/`]), _h("br", {}), `前日に解いたAtCoder問題の点数の合計で翌日の摂取可能カロリーを決定するジョークサイトです。`, _h("br", {}), `CrystalとKemalで書きました。簡素な静的サイトなのでフロントエンドはECRテンプレートエンジンで済ませています。`))])}};;class BJ extends _C{constructor(props){super(props);this._d({bz:["children",[]]})}render(){return _h("div", {}, [_h(CC, {bq:`100vw`,by:_h("div", {className:`d`}, [_h(CD, {br:1320,bw:_h(CE, {bs:new CF(2.2),bt:`/`,bu:_h("div", {}, [$r()]),bv:`かれきむし`}),bx:[new CG(new Record({iconBefore:null,iconAfter:null,label:`ホーム`,target:``,href:`/`})), new CG(new Record({iconBefore:null,label:`沖丸環境調査`,iconAfter:null,target:``,href:`/works`})), new CG(new Record({iconBefore:null,label:`報文・短報`,iconAfter:null,target:``,href:`/papers`})), new CG(new Record({iconBefore:null,label:`所蔵標本`,iconAfter:null,target:``,href:`/specimens`})), new CG(new Record({iconBefore:null,label:`計算機遊び`,iconAfter:null,target:``,href:`/computer`})), new CG(new Record({iconBefore:null,label:`自己紹介`,iconAfter:null,target:``,href:`/about`}))]})]),ca:_h("div", {className:`c`}, [this.bz]),cj:_h("div", {className:`c`}, [_h(CH, {cb:_h("div", {className:`e`}, [_h("p", {}, [`© 2023 藤川浩明`]),_h("p", {}, [`Powered by Mint Programming Language`])]),ci:[[``, [new CG(new Record({iconBefore:CI.cc,iconAfter:null,label:`ホーム`,target:``,href:`/`})), new CG(new Record({iconBefore:CI.cd,iconAfter:null,href:`/works`,label:`沖丸環境調査`,target:``})), new CG(new Record({iconBefore:CI.ce,iconAfter:null,href:`/papers`,label:`報文・短報`,target:``})), new CG(new Record({iconBefore:CI.cf,iconAfter:null,href:`/specimens`,label:`所蔵標本`,target:``})), new CG(new Record({iconBefore:CI.cg,iconAfter:null,href:`/computer`,label:`計算機遊び`,target:``})), new CG(new Record({iconBefore:CI.ch,iconAfter:null,href:`/about`,label:`自己紹介`,target:``}))]]]})])})])}};;class $A extends _C{constructor(props){super(props);this.state = new Record({cq:CK.cr()})}get cq(){return this.state.cq;}render(){return _h("div", {className:`f`}, [(()=>{const _0 = [];const _1 = this.cq;let _i = 0;for(let [cp,ck] of _1){_0.push((()=>{const [cl,cm] = ck;return _h(CJ, {cn:cm,co:cl,"key":cp})})());_i++};return _0})()])}_persist(){A=this}};;let A;class CD extends _C{constructor(props){super(props);this._d({cu:[null,new CF(3.5)],ct:[null,new CB()],dn:[null,CI.ew],bx:[null,[]],eu:[null,new CF(2)],br:[null,1000],bw:[null,null]});this.state = new Record({dd:0,dw:CK.cr(),db:AS.b()})}$g(){const _={[`--a-a`]:CL.cs(this.ct),[`--a-b`]:CL.cs(this.cu)};return _}$h(cv){const _={};(cv ? Object.assign(_, {[`--b-a`]:`var(--primary-color)`}) : Object.assign(_, {[`--b-a`]:`inherit`}));return _}get cy(){return (this._base ? new AW(this._base) : new AV);}get dd(){return this.state.dd;}get dw(){return this.state.dw;}get db(){return this.state.db;}componentWillUnmount(){AX._unsubscribe(this);BG._unsubscribe(this)}componentDidUpdate(){if (true) {
+}))})()}});_program.addRoutes([{handler:((yk)=>{(async()=>{let _ = null;try{await Promise.all([(async()=>{await BI.xc(new BL())})()])}catch(_error){if(!(_error instanceof DoError)){console.warn(`Unhandled error in parallel expression:`);console.warn(_error)}};return _})()}),decoders:[Decoder.string],mapping:['page'],path:`/?page=:page`},{handler:(()=>{(async()=>{let _ = null;try{await Promise.all([(async()=>{await BI.xc(new BL())})()])}catch(_error){if(!(_error instanceof DoError)){console.warn(`Unhandled error in parallel expression:`);console.warn(_error)}};return _})()}),decoders:[],mapping:[],path:`/`},{handler:(()=>{(async()=>{let _ = null;try{await Promise.all([(async()=>{await BI.xc(new BN())})()])}catch(_error){if(!(_error instanceof DoError)){console.warn(`Unhandled error in parallel expression:`);console.warn(_error)}};return _})()}),decoders:[],mapping:[],path:`/about`},{handler:(()=>{(async()=>{let _ = null;try{await Promise.all([(async()=>{await BI.xc(new BP())})()])}catch(_error){if(!(_error instanceof DoError)){console.warn(`Unhandled error in parallel expression:`);console.warn(_error)}};return _})()}),decoders:[],mapping:[],path:`/works`},{handler:(()=>{(async()=>{let _ = null;try{await Promise.all([(async()=>{await BI.xc(new BR())})()])}catch(_error){if(!(_error instanceof DoError)){console.warn(`Unhandled error in parallel expression:`);console.warn(_error)}};return _})()}),decoders:[],mapping:[],path:`/articles`},{handler:(()=>{(async()=>{let _ = null;try{await Promise.all([(async()=>{await BI.xc(new BT())})()])}catch(_error){if(!(_error instanceof DoError)){console.warn(`Unhandled error in parallel expression:`);console.warn(_error)}};return _})()}),decoders:[],mapping:[],path:`/computer`},{handler:(()=>{(async()=>{let _ = null;try{await Promise.all([(async()=>{await FD.wu()})(),(async()=>{await BI.xc(new BV())})()])}catch(_error){if(!(_error instanceof DoError)){console.warn(`Unhandled error in parallel expression:`);console.warn(_error)}};return _})()}),decoders:[],mapping:[],path:`/papers`},{handler:(()=>{(async()=>{let _ = null;try{await Promise.all([(async()=>{await BI.xc(new BX())})()])}catch(_error){if(!(_error instanceof DoError)){console.warn(`Unhandled error in parallel expression:`);console.warn(_error)}};return _})()}),decoders:[],mapping:[],path:`/specimens`},{handler:(()=>{(async()=>{let _ = null;try{await Promise.all([(async()=>{await BI.xc(new BZ())})()])}catch(_error){if(!(_error instanceof DoError)){console.warn(`Unhandled error in parallel expression:`);console.warn(_error)}};return _})()}),decoders:[],mapping:[],path:`/articles/20230808`},{handler:(()=>{BI.xc(new CA())}),decoders:[],mapping:[],path:`*`}]);class BH extends _C{constructor(props){super(props);this._d({bi:["children",[]]})}render(){return (_createPortal(this.bi, document.body))}};;class E extends _C{get bj(){return BI.bl;}componentWillUnmount(){BI._unsubscribe(this)}componentDidMount(){BI._subscribe(this)}render(){return (()=>{let bk = this.bj;if(bk instanceof BL){return $a()} else if(bk instanceof BN){return $c()} else if(bk instanceof BP){return $e()} else if(bk instanceof BR){return $g()} else if(bk instanceof BT){return $i()} else if(bk instanceof BV){return $k()} else if(bk instanceof BX){return $m()} else if(bk instanceof BZ){return $o()} else if(bk instanceof CA){return $q()}})()}};;class BK extends _C{render(){return _h("div", {}, [_h("h2", {}, [`ようこそ`]),$r(),$s()])}};;class BM extends _C{render(){return _h("div", {}, [_h("h2", {}, [`自己紹介`]),_h(CB, {bm:`藤川浩明`}, _array(_h("img", {"src":`/assets/fujikawa_400x400_5f5c6c3f25766e56479c94cad00695c5.jpg`,className:`a`}), _h("p", {}, [`生年: 1994年`]), _h("p", {}, [`出身: 山口県`]), _h("p", {}, [`居住地: 沖縄県本部町`]), _h("p", {}, [`好きな虫: ゴミムシダマシや旧ホソカタムシなどの枯れ木につく甲虫全般、旧タテヅノマルバネクワガタ`])))])}};;class BW extends _C{render(){return _h("div", {}, [_h("h2", {}, [`所蔵標本検索`]),_h("h3", {}, [`現在準備中です`])])}};;class BO extends _C{render(){return _h("div", {}, [_h("h2", {}, [`沖丸環境調査`]),$t(),$u()])}};;class BU extends _C{render(){return _h("div", {}, [_h("h2", {}, [`報文・短報など`]),_h(CB, {bm:``}, _array(_h("p", {}, [`※各報の説明に含まれる学名・和名は出版当時のものです。現在は変更されている可能性があることにご注意ください。`]), _h(CC, {bn:[[`吉武　啓・小松拓実・藤川浩明, 2023. 薩摩黒島で得られたクニヨシシロオビゾウムシの生態的知見. 月刊むし, (626): 51-52.`, [new CD(_h("div", {}, [`クニヨシシロオビゾウムシ`,_h("i", {}, [`Cryptoderma`]),_h("i", {}, [` kuniyoshii`]),` (Morimoto, 1978)`,` がクマタケランの花を摂食している様子の観察記録です。なお記録地の薩摩黒島（鹿児島県三島村）では条例により昆虫の採集が禁止されていますが、本調査では三島村および鹿児島県の許可を頂いて証拠標本を確保しました。`])), new CE(new Record({items:[_h("div", {})],breakOnMobile:false}))]], [`渡部晃平・生川展行・藤川浩明, 2023. 石垣島におけるヤツモンムネビロオオキノコの採集記録. さやばねニューシリーズ, (49): 44.`, [new CD(_h("div", {}, [`ヤツモンムネビロオオキノコ`,_h("i", {}, [`Neosternus`]),_h("i", {}, [` hisamatsui`]),` (Nakane, 1982)`,` の石垣島における記録です。証拠標本を伴う記録としては本報が初と思われます。`])), new CE(new Record({items:[_h("div", {})],breakOnMobile:false}))]], [`田之岡綾花・藤川浩明, 2022. 沖縄県本部町におけるアサギマダラマーキング報告. 琉球の昆虫, (46): 78.`, [new CD(_h("div", {}, [`アサギマダラ`,_h("i", {}, [`Parantica`]),_h("i", {}, [` sita`]),` (Kollar, [1844])`,` の沖縄県本部町における2021年のマーキング調査報告です。`])), new CE(new Record({items:[_h("div", {})],breakOnMobile:false}))]], [`青井光太郎・福田悠人・藤川浩明・伊藤直哉, 2022. 南西諸島におけるハイイロテントウの分布. さやばねニューシリーズ, (45): 37-39.`, [new CD(_h("div", {}, [`ハイイロテントウ`,_h("i", {}, [`Olla`]),_h("i", {}, [` v-nigrum`]),` (Mulsant, 1866)`,` の南西諸島における分布をまとめました。本種の奄美大島、徳之島、沖永良部島、伊平屋島、伊江島、平安座島、津堅島、藪地島、西表島における初記録は本報となります。また本種の分布や生態についての若干の考察も含まれています。`])), new CE(new Record({items:[_h("div", {}, [_h("a", {"href":`http://kochugakkai.sakura.ne.jp/publication/sayabane/SayabaneNS(45).html`}, [`日本甲虫学会HP`])]), _h("div", {}, [_h("a", {"href":`https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202202227782159723&rel=1#%7B%22category%22%3A%220%22%2C%22keyword%22%3A%22%5C%22202250000788509100%5C%22%22%7D`}, [`J-GLOBAL`])])],breakOnMobile:false}))]], [`緒方裕大・藤川浩明, 2022. 西表島および石垣島におけるフチグロチビオオキノコの記録. さやばねニューシリーズ, (45): 34.`, [new CD(_h("div", {}, [`フチグロチビオオキノコ`,_h("i", {}, [`Tritoma `]),`(`,_h("i", {}, [`Tritoma`]),`)`,_h("i", {}, [` andoi`]),` Narukawa, 2003`,` の西表島初記録および石垣島における原記載以来の追加記録です。`])), new CE(new Record({items:[_h("div", {}, [_h("a", {"href":`http://kochugakkai.sakura.ne.jp/publication/sayabane/SayabaneNS(45).html`}, [`日本甲虫学会HP`])]), _h("div", {}, [_h("a", {"href":`https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202202289858901406&rel=1#%7B%22category%22%3A%220%22%2C%22keyword%22%3A%22%5C%22202250000788509100%5C%22%22%7D`}, [`J-GLOBAL`])])],breakOnMobile:false}))]], [`藤川浩明・吉武啓, 2022. 奄美群島におけるアカツヤツツヒラタムシおよび先島諸島におけるクロツヤツツヒラタムシの新産地. さやばねニューシリーズ, (45): 2-3.`, [new CD(_h("div", {}, [`アカツヤツツヒラタムシ`,_h("i", {}, [`Passandra`]),_h("i", {}, [` tenuicornis`]),` (Grouvelle, 1913)`,` の徳之島における初記録、および`,`クロツヤツツヒラタムシ`,_h("i", {}, [`Passandra`]),_h("i", {}, [` okinawana`]),` Aoki, 2008`,` の伊良部島と西表島における初記録です。`,`奄美大島におけるクロツヤツツヒラタムシの記録の問題点についても言及しています。`])), new CE(new Record({items:[_h("div", {}, [_h("a", {"href":`http://kochugakkai.sakura.ne.jp/publication/sayabane/SayabaneNS(45).html`}, [`日本甲虫学会HP`])]), _h("div", {}, [_h("a", {"href":`https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202202248049142810&rel=1#%7B%22category%22%3A%220%22%2C%22keyword%22%3A%22%5C%22202250000788509100%5C%22%22%7D`}, [`J-GLOBAL`])])],breakOnMobile:false}))]], [`藤川浩明, 2022. 沖縄島および渡嘉敷島におけるアシグロアオゴミムシの記録. さやばねニューシリーズ, (45): 1-2.`, [new CD(_h("div", {}, [`アシグロアオゴミムシ`,_h("i", {}, [`Chlaenius`]),_h("i", {}, [` leucops`]),` (Waterhouse, 1823)`,` の沖縄島および渡嘉敷島における初記録です。本種の沖縄諸島における初記録となります。`])), new CE(new Record({items:[_h("div", {}, [_h("a", {"href":`http://kochugakkai.sakura.ne.jp/publication/sayabane/SayabaneNS(45).html`}, [`日本甲虫学会HP`])]), _h("div", {}, [_h("a", {"href":`https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202202224084769737`}, [`J-GLOBAL`])])],breakOnMobile:false}))]], [`小松拓実・藤川浩明, 2021. 沖縄島にてクロツツマグソコガネを採集. さやばねニューシリーズ, (44): 20-21.`, [new CD(_h("div", {}, [`クロツツマグソコガネ`,_h("i", {}, [`Saprosites`]),_h("i", {}, [` japonicus`]),` Waterhouse, 1875`,` の沖縄島における追加記録です。`])), new CE(new Record({items:[_h("div", {}, [_h("a", {"href":`http://kochugakkai.sakura.ne.jp/publication/sayabane/SayabaneNS(44).html`}, [`日本甲虫学会HP`])]), _h("div", {}, [_h("a", {"href":`https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202202258926911915&rel=1#%7B%22category%22%3A%220%22%2C%22keyword%22%3A%22%5C%22202250000788509100%5C%22%22%7D`}, [`J-GLOBAL`])])],breakOnMobile:false}))]], [`藤川浩明・森井隆文, 2020. ヤンバルキモンヒメクチキムシ2例目の記録および♂の初記録. 月刊むし, (587): 46-47.`, [new CD(_h("div", {}, [`ヤンバルキモンヒメクチキムシ`,_h("i", {}, [`Mycetochara `]),`(`,_h("i", {}, [`Ernocharis`]),`)`,_h("i", {}, [` nakanoi`]),` Akita & Masumoto, 2017 の2例目の記録および♂の初記録です。`,`発生時期、生息環境、同属多種との棲み分けについての断片的な知見と推測を述べていますが、調査不足のため確実性に欠けています。あくまで今後の調査を促進する叩き台となるための速報的な報告として受け取って頂きたいです。`])), new CE(new Record({items:[_h("div", {})],breakOnMobile:false}))]], [`藤川浩明・松村雅史, 2019. 沖縄島におけるウケンナミクチキムシの記録. 月刊むし, (583): 60-61.`, [new CD(_h("div", {}, [`ウケンナミクチキムシ`,_h("i", {}, [`Upinella`]),_h("i", {}, [` ukenensis`]),` (Akita & Masumoto, 2012)`,` の沖縄島における初記録です。`])), new CE(new Record({items:[_h("div", {})],breakOnMobile:false}))]], [`藤川浩明・徳重典英, 2019. 沖縄島におけるクワガタツツキノコムシの記録. 月刊むし, (582): 60.`, [new CD(_h("div", {}, [`クワガタツツキノコムシ`,_h("i", {}, [`Cis`]),_h("i", {}, [` capricornis`]),` Kawanabe, 1997`,` の沖縄島における初記録です。`])), new CE(new Record({items:[_h("div", {})],breakOnMobile:false}))]], [`中野文尊・藤川浩明・青井光太郎・緒方裕大, 2019. 採集例の極めて少ない琉球列島産メツブテントウ類3種の記録. 月刊むし, (582): 30-33.`, [new CD(_h("div", {}, [`ナナホシメツブテントウ`,_h("i", {}, [`Nesolotis`]),_h("i", {}, [` amabilis`]),` (H. Kamiya, 1965)、`,`キイロメツブテントウ`,_h("i", {}, [`Nesolotis`]),_h("i", {}, [` azumai`]),` Sasaji, 1967、`,`クロメツブテントウ`,_h("i", {}, [`Nesolotis`]),_h("i", {}, [` impunctata`]),` Miyatake, 1966`,` を追加記録しました。このうちナナホシメツブテントウおよびキイロメツブテントウについては生態面・形態面ともにいくらかの新知見も含む内容となっています。`])), new CE(new Record({items:[_h("div", {}, [_h("a", {"href":`https://cir.nii.ac.jp/crid/1521417753438325120`}, [`CiNii Research`])])],breakOnMobile:false}))]], [`藤川浩明・松村雅史・杉野廣一, 2019. ヘリアカデオキノコムシの沖縄島からの初記録. さやばねニューシリーズ, (34): 56-57.`, [new CD(_h("div", {}, [`ヘリアカデオキノコムシ`,_h("i", {}, [`Scaphidium`]),_h("i", {}, [` reitteri`]),` Lewis, 1879 の沖縄島における初記録です。`,`本土産との形態的特徴の差異についても触れた上で、保科英人博士の見解に基づき亜種として位置づけるのは適切ではないと結論付けています。`])), new CE(new Record({items:[_h("div", {}, [_h("a", {"href":`http://kochugakkai.sakura.ne.jp/publication/sayabane/SayabaneNS(34).html`}, [`日本甲虫学会HP`])])],breakOnMobile:false}))]], [`藤川浩明, 2019. オキナワキモンヒメクチキムシの追加記録および発生時期について. 月刊むし, (580): 54.`, [new CD(_h("div", {}, [`これまで原記載以降の正式な記録が無かったオキナワキモンヒメクチキムシ`,_h("i", {}, [`Mycetochara `]),`(`,_h("i", {}, [`Ernocharis`]),`)`,_h("i", {}, [` hiranoi`]),` Akita & Masumoto, 2014 の追加記録です。`,`本種の♂を初めて図示した報告となりますが、写真は白黒で交尾器の図も無いため、♂の形態の資料としては不十分です。`,`発生時期についての考察を含みますが、今思えば十分な調査と適切な考察をしたとは言い難い出来ですので、参考程度に留めて頂きたいです。`])), new CE(new Record({items:[_h("div", {}, [``])],breakOnMobile:false}))]], [`藤川浩明, 2018. 久米島におけるオキナワカタモンヒメクチキムシの記録. 月刊むし, (574): 12.`, [new CD(_h("div", {}, [`これまで模式産地である沖縄島からのみ記録されていたオキナワカタモンヒメクチキムシ `,_h("i", {}, [`Mycetochara `]),`(`,_h("i", {}, [`Ernocharis`]),`)`,_h("i", {}, [` okinawaensis`]),` Akita & Masumoto, 2014 の久米島初記録です。`])), new CE(new Record({items:[_h("div", {}, [``])],breakOnMobile:false}))]], [`藤川浩明, 2016. ズバケデオネスイを西表島で採集. 月刊むし, (542): 43.`, [new CD(_h("div", {}, [`ズバケデオネスイ `,_h("i", {}, [`Mimemodes caenifrons`]),` Grouvelle, 1913 `,`の西表島初記録です。`])), new CE(new Record({items:[_h("div", {}, [``])],breakOnMobile:false}))]]],bo:new CF(),bp:[`概要`, `関連リンク`]})))])}};;class BY extends _C{render(){return _h("div", {}, [_h("h2", {}, [`よもやま話`]),_h(CB, {bm:`空色のカミキリムシと麻婆豆腐`}, _array(`公開: 2023/08/08`, _h("p", {}, [_h("h4", {}, [`大学中退、そして石垣島へ`]),`　2014年3月、私は途方に暮れていた。故郷の山口から遠く離れた沖縄の大学に前年から通っていたのだが、なんと1年で除籍されてしまったのである。`,_h("br", {}),`　年間最低16単位取得できなければ問答無用で除籍されてしまう大学なのだが、昆虫の宝庫である沖縄島北部の森「やんばる」が身近にある環境で毎日きちんと講義に出るなんて土台無理な相談だ。講義をサボってせっせと虫採りに励んでいた私は、僅か1年でめでたく中退の運びとなったのである。`,_h("br", {}),`　これからどうしたものか...。能天気な私も流石に一晩くらい悩んだが、まだまだ怖いもの知らずな19歳。翌日にはすっかり立ち直り、大学の裏山に登って憎きキャンパスを見下ろしながら「バカヤローーーーーー！」と思いっきり叫んでいた。バカはお前である。`,_h("br", {}),`　下山後はさっそく虫採りの予定を考えていた。そうだ、最後の奨学金を使い果たして石垣島に行っちゃおう！`,_h("br", {}),`　旅費を計算してみたところ、どんなに節制しても帰る頃には一文無しになってしまいそうなことが分かった。まあなんとかなるだろう、たぶん。`,_h("br", {}),`　かくして私は、なけなしの通帳残高を空っぽにして石垣島行き飛行機のチケットを取ったのであった。退学記念石垣島遠征の始まりである。`]), _h("p", {}, [_h("h4", {}, [`キャンプ場のヤマさん`]),`　石垣島に着きレンタルバイク屋で古びたママチャリを借りた私は、これから一週間寝泊まりする伊野田オートキャンプ場に向かった。`,_h("br", {}),`　海のすぐ側にある静かなキャンプ場だった。管理棟には就労案内の張り紙がベタベタと貼り付けられ、防風林沿いの木陰には明らかに旅行者ではない二人のおじいさんが自分の城を構えていた。`,_h("br", {}),`　せっせとテントを組み立てていると、おじいさんの一人が話しかけてきた。大学を中退してしまいヤケクソで虫を採りに来たことを伝えると、たいそう面白がってくれた。`,_h("br", {}),`　おじいさんの名はヤマさん。元々は内地で随分と羽振りの良い仕事に就いていたそうだが、何もかも嫌になって退職し、この島で何年もホームレス暮らしをしているらしい。島の人たちとの関係は良好で、ときどき畑仕事を手伝ってお金をもらっているそうな。`,_h("br", {}),`　「最後は小笠原に住みたいんじゃ」と語る顔はとても楽しげだった。`]), _h("p", {}, [_h("h4", {}, [`雨ニモマケズ`]),`　三日目だか四日目だか忘れてしまったが、この旅の主目的のひとつであるムネモンウスアオカミキリを採りに山へ向かった。その名の通り、薄い青色で控えめな雰囲気の上品なカミキリムシである。`,_h("br", {}),`　朝から雨が降っていたが、元気だけは売るほどあった19歳の私は「雨だからって虫が死ぬわけじゃないしな！」と開き直ってカッパも着ずに自転車を走らせた。`,_h("br", {}),`　ムネモンウスアオカミキリはヤンバルアワブキの木につくという。やや開けた森の中でそれらしき木を見つけた私は、目当ての虫が飛んでくるのを待つことにした。`,_h("br", {}),`　木を見上げながら立ち続けること2時間。ふと雨が止みかけた時に、小さな影がふわっと梢の葉に着地するのが見えた。はやる気持ちを抑えながら慎重に捕虫網を伸ばしてネットイン。竿を縮めて網を覗き込むと、憧れていた空色のカミキリムシがそこに入っていた。`]), _h("p", {}, [_h("h4", {}, [`ヤマさんの麻婆豆腐`]),`　いつも空腹そうな私を見かねたのか、ヤマさんは何度も私にご飯を作ってくれた。朝にはおにぎりを、夜には立派なおかずを用意してくれた。`,_h("br", {}),`　中でも麻婆豆腐は絶品だった。程よい辛さが虫採りで疲れた体に染み渡るようだった。`,_h("br", {}),`　もうひとりのおじいさんもやってきて、三人でちょっとした宴会になったこともあった。同時に泊まっていた大学生らしき虫屋のグループが怪訝そうにこちらを見ていた。ヤマさんは彼らも誘ったが断られてしまった。こんなに美味しい麻婆豆腐が食べられるのに、もったいない奴らだなあと思った。`]), _h("p", {}, [_h("h4", {}, [`その後のキャンプ場`]),`　退学記念旅行から3年後の2017年10月。農業用ハウスの建設作業員をしていた私は、出張で再び石垣島にやってきた。あの頃と違って原付バイクの免許を持っていたので、休日にきれいなスクーターを借りて伊野田オートキャンプ場を久々に訪れた。`,_h("br", {}),`　たった3年で、キャンプ場はずいぶんと寂しくなっていた。ヤマさんたちの城は無くなっていた。就労案内の張り紙も見当たらない。キャンプ場前の海沿いでボーッとしていると、通りすがりのおばさんに話しかけられた。偶然にもおばさんはヤマさんの知り合いだった。`,_h("br", {}),`　しばらく前に体調を崩してしまったヤマさんを見かねたおばさんたちは、嫌がるヤマさんを説得して病院に行かせたらしい。知り合いみんなで支援したものの、ついに亡くなってしまったそうだ。`,_h("br", {}),`　最後は小笠原に住みたいと楽しげに語っていたヤマさんの顔を思い出しながら、すっかり殺風景になってしまった防風林沿いの木陰を眺めていた。`]), _h("p", {}, [_h("h4", {}, [`におい`]),`　あの旅で採れたムネモンウスアオカミキリは、今も標本箱の中で大切に飾られている。標本が採れた日付が記されたラベルには「28 III 2014」と書かれている。`,_h("br", {}),`　この日から9年以上の時が流れ、私の立場は随分と変わった。退学してから4年半ほどコンビニ店員や建設作業員などのバイトで糊口をしのいだ後、環境調査員の仕事にありついて一気に暮らしが豊かになり、2023年8月現在は会社員のひよっこプログラマーとして安定した生活をしている。体重は20kgも増え、雨が少しでも降れば虫採りをやめるような根性無しになってしまった。どうやら暮らしの豊かさと引き換えに元気を失ってしまったらしい。`,_h("br", {}),`　すっかり変わってしまった私だが、標本箱の中の空色のカミキリムシを眺めていると、若く元気でバカだった19歳の春を、麻婆豆腐の匂いと一緒に思い出すことができるのだ。`,_h("br", {})]), _h("p", {}, [_h("img", {"src":`/assets/muneusu_12a406dd5f58a283289edcb1477a93a5.jpg`,className:`b`})]), _h("p", {}, [_h("h4", {}, [`謝辞`]),`　ヤマさん、もうひとりのおじいさん、ヤマさんのその後を教えてくれたおばさん、ありがとうございました。`])))])}};;class BS extends _C{render(){return _h("div", {}, [_h("h2", {}, [`計算機遊び`]),_h(CB, {bm:`もうひとつの趣味`}, _array(_h("p", {}, [`　昆虫採集に次ぐ第二の趣味として、プログラミングやLinux環境いじりなどのコンピュータ遊びを中学二年生の頃から細々と楽しんでいます。`,_h("br", {}),_h("ul", {}, [_h("li", {}, [`GitHub: `,_h("a", {"href":`https://github.com/fujikawahiroaki`,className:`c`}, [`fujikawahiroaki`])]),_h("li", {}, [`好きな言語: Crystal, Ruby`]),_h("li", {}, [`好きではないがよく使う言語: Python, JavaScript`]),_h("li", {}, [`ある程度使ったことのある言語: C, Common Lisp (SBCL), Emacs Lisp, Mint`]),_h("li", {}, [`好きなエディタ: 数年置きに変わりますが、今はVimが好きです`]),_h("li", {}, [`好きなOS: 数年置きに変わりますが、今はArch Linuxが好きです`])]),_h("p", {}, [`　最近は開発のみならず競技プログラミングも楽しむようになりました。正直なところ私は非常に弱く、平均的なプレイヤーよりかなり成長が遅いのですが、その高いゲーム性に魅せられて毎週のようにコンテストに参加しています。長期のヒューリスティックコンテストが特に好きです。`,_h("br", {}),`　AtCoderのアルゴは茶、ヒューリスティックは水です。IDは`,_h("a", {"href":`https://atcoder.jp/users/fujikawahiroaki`,className:`c`}, [`fujikawahiroaki`])])]))),_h(CB, {bm:`開発したサービス・ソフトウェア`}, _array(_h("p", {}, [_h("strong", {}, [`WebSpecimanager`]),_h("br", {}),_h("a", {"href":`https://www.webspecimanager.net/`,className:`c`}, [`https://www.webspecimanager.net/`]),_h("br", {}),`昆虫標本のデータベース管理を支援するWebサービスです。`,_h("br", {}),`バックエンドはPythonとDjango REST Framework、フロントエンドはJavaScriptとReactで書きました。`]), _h("strong", {}, [`AtCoder Diet`]), _h("br", {}), _h("a", {"href":`https://atcoder-diet.fly.dev/`,className:`c`}, [`https://atcoder-diet.fly.dev/`]), _h("br", {}), `前日に解いたAtCoder問題の点数の合計で翌日の摂取可能カロリーを決定するジョークサイトです。`, _h("br", {}), `CrystalとKemalで書きました。簡素な静的サイトなのでフロントエンドはECRテンプレートエンジンで済ませています。`))])}};;class BQ extends _C{render(){return _h("div", {}, [_h("h2", {}, [`よもやま話`]),_h("p", {}, [_h("a", {"href":`/articles/20230808`,className:`d`}, [`空色のカミキリムシと麻婆豆腐 (公開: 2023/08/08)`])])])}};;class BJ extends _C{constructor(props){super(props);this._d({bz:["children",[]]})}render(){return _h("div", {}, [_h(CG, {bq:`100vw`,by:_h("div", {className:`f`}, [_h(CH, {br:1320,bw:_h(CI, {bs:new CJ(2.2),bt:`/`,bu:_h("div", {}, [$v()]),bv:`かれきむし`}),bx:[new CK(new Record({iconBefore:null,iconAfter:null,label:`ホーム`,target:``,href:`/`})), new CK(new Record({iconBefore:null,label:`沖丸環境調査`,iconAfter:null,target:``,href:`/works`})), new CK(new Record({iconBefore:null,label:`報文・短報`,iconAfter:null,target:``,href:`/papers`})), new CK(new Record({iconBefore:null,label:`所蔵標本`,iconAfter:null,target:``,href:`/specimens`})), new CK(new Record({iconBefore:null,label:`よもやま話`,iconAfter:null,target:``,href:`/articles`})), new CK(new Record({iconBefore:null,label:`計算機遊び`,iconAfter:null,target:``,href:`/computer`})), new CK(new Record({iconBefore:null,label:`自己紹介`,iconAfter:null,target:``,href:`/about`}))]})]),ca:_h("div", {className:`e`}, [this.bz]),cj:_h("div", {className:`e`}, [_h(CL, {cb:_h("div", {className:`g`}, [_h("p", {}, [`© 2023 藤川浩明`]),_h("p", {}, [`Powered by Mint Programming Language`])]),ci:[[``, [new CK(new Record({iconBefore:CM.cc,iconAfter:null,label:`ホーム`,target:``,href:`/`})), new CK(new Record({iconBefore:CM.cd,iconAfter:null,href:`/works`,label:`沖丸環境調査`,target:``})), new CK(new Record({iconBefore:CM.ce,iconAfter:null,href:`/papers`,label:`報文・短報`,target:``})), new CK(new Record({iconBefore:CM.cf,iconAfter:null,href:`/specimens`,label:`所蔵標本`,target:``})), new CK(new Record({iconBefore:CM.cf,iconAfter:null,href:`/articles`,label:`よもやま話`,target:``})), new CK(new Record({iconBefore:CM.cg,iconAfter:null,href:`/computer`,label:`計算機遊び`,target:``})), new CK(new Record({iconBefore:CM.ch,iconAfter:null,href:`/about`,label:`自己紹介`,target:``}))]]]})])})])}};;class $A extends _C{constructor(props){super(props);this.state = new Record({cq:CO.cr()})}get cq(){return this.state.cq;}render(){return _h("div", {className:`h`}, [(()=>{const _0 = [];const _1 = this.cq;let _i = 0;for(let [cp,ck] of _1){_0.push((()=>{const [cl,cm] = ck;return _h(CN, {cn:cm,co:cl,"key":cp})})());_i++};return _0})()])}_persist(){A=this}};;let A;class CH extends _C{constructor(props){super(props);this._d({cu:[null,new CJ(3.5)],ct:[null,new CF()],dn:[null,CM.ew],bx:[null,[]],eu:[null,new CJ(2)],br:[null,1000],bw:[null,null]});this.state = new Record({dd:0,dw:CO.cr(),db:AS.b()})}$i(){const _={[`--a-a`]:CP.cs(this.ct),[`--a-b`]:CP.cs(this.cu)};return _}$j(cv){const _={};(cv ? Object.assign(_, {[`--b-a`]:`var(--primary-color)`}) : Object.assign(_, {[`--b-a`]:`inherit`}));return _}get cy(){return (this._base ? new AW(this._base) : new AV);}get dd(){return this.state.dd;}get dw(){return this.state.dw;}get db(){return this.state.db;}componentWillUnmount(){AX._unsubscribe(this);BG._unsubscribe(this)}componentDidUpdate(){if (true) {
   AX._subscribe(this, new L({changes:this.cw}))
 } else {
   AX._unsubscribe(this)
@@ -420,9 +420,9 @@ if (!_2) { continue };_0.push((()=>{BB.af(y);BB.ag(y);return ah.action()})());_i
   BG._unsubscribe(this)
 }}cz(){return B.da(this.bx)}cw(dc){return new Promise(((_resolve)=>{this.setState(_u(this.state, new Record({db:dc})), _resolve)
 }))}cx(de){return new Promise(((_resolve)=>{this.setState(_u(this.state, new Record({dd:de.width})), _resolve)
-}))}df(dh,dk,dj){return _h(React.Fragment, {}, [(CM.dg(dh) ? _h("div", {className:`k`}, [_h(CN, {di:dh})]) : null),_h("span", {className:`i`}, [dj]),(CM.dg(dk) ? _h("div", {className:`k`}, [_h(CN, {di:dk})]) : null)])}render(){return _h("div", {className:`g`,style:_style([this.$g()]),ref:(element) => { this._base = element }}, [this.bw,_h(CO, {ev:this.eu}, _array((this.dd < this.br ? _h("div", {"onClick":(event => (this.cz)(_normalizeEvent(event)))}, [_h(CN, {dl:new CF(2),dm:true,di:this.dn})]) : (()=>{const _0 = [];const _1 = this.bx;let _i = 0;for(let dp of _1){_0.push((()=>{let dq = dp;if(dq instanceof CP){return _h("div", {className:`j`})} else if(dq instanceof CQ){const dr = dq._0;return dr} else if(dq instanceof CW){const ee = dq._0.iconBefore;const ef = dq._0.iconAfter;const dt = dq._0.label;const eh = dq._0.items;return (()=>{let du = CR.ds(dt);let dx = CK.dv(du, false, this.dw);return _h(CS, {dz:(()=>{return new Promise(((_resolve)=>{this.setState(_u(this.state, new Record({dw:CK.dy(du, false, this.dw)})), _resolve)
-}))}),ea:new CT(),eb:true,ec:15,ed:dx,eg:_h("div", {"onClick":(event => ((()=>{return new Promise(((_resolve)=>{this.setState(_u(this.state, new Record({dw:CK.dy(du, true, this.dw)})), _resolve)
-}))}))(_normalizeEvent(event))),"tabIndex":`0`,className:`h`,style:_style([this.$h(false)])}, [this.df(ee, ef, dt)]),ej:_h(CU, {}, _array(_h(CV, {ei:eh})))})})()} else if(dq instanceof CX){const ek = dq._0.iconBefore;const el = dq._0.iconAfter;const em = dq._0.label;const en = dq._0.action;return _h("div", {"onClick":(event => (en)(_normalizeEvent(event))),className:`h`,style:_style([this.$h(false)])}, [this.df(ek, el, em)])} else if(dq instanceof CG){const eo = dq._0.iconBefore;const ep = dq._0.iconAfter;const eq = dq._0.label;const es = dq._0.href;const er = dq._0.target;return _h("a", {"target":er,"href":es,className:`h`,style:_style([this.$h(AS.et(es))])}, [this.df(eo, ep, eq)])}})());_i++};return _0})())))])}};;class CV extends _C{constructor(props){super(props);this._d({ex:[null,new CB()],ei:[null,[]]})}$l(){const _={[`--c-a`]:CL.cs(this.ex)};return _}render(){return _h("div", {className:`l`,style:_style([this.$l()])}, [(()=>{const _0 = [];const _1 = this.ei;let _i = 0;for(let ey of _1){_0.push(_h(CY, {ez:ey}));_i++};return _0})()])}};;class CC extends _C{constructor(props){super(props);this._d({fd:[null,false],fe:[null,null],ff:[null,null],ca:[null,null],cj:[null,null],by:[null,null],fc:[null,true],bq:[null,`100vw`]})}$m(){const _={[`--d-a`]:this.bq,[`--d-b`]:this.fa};(this.fb ? Object.assign(_, {[`--d-c`]:`0.5em 1em 0`}) : (this.fc ? Object.assign(_, {[`--d-d`]:`clamp(20em, 100%, 100em)`,[`--d-e`]:`auto`,[`--d-f`]:`auto`}) : null));return _}$o(){const _={};(this.fd ? Object.assign(_, {[`--e-a`]:`start`}) : null);return _}get fa(){return ((..._) => CR.fg(` `, ..._))(AT.q(((..._) => AT.bg(((fh)=>{return (()=>{const [fi,fj] = fh;return (CM.dg(fi) ? new AW(fj) : new AV())})()}), ..._))([[this.fe, `min-content`], [this.by, `min-content`], [this.ff, `min-content`], [this.ca, `1fr`], [this.cj, `min-content`]])))}get fb(){return CZ.fk;}componentWillUnmount(){CZ._unsubscribe(this)}componentDidMount(){CZ._subscribe(this)}render(){return _h("div", {className:`m`,style:_style([this.$m()])}, [(CM.dg(this.fe) ? _h("div", {}, [this.fe]) : null),(CM.dg(this.by) ? _h("div", {}, [this.by]) : null),(CM.dg(this.ff) ? _h("div", {className:`n`}, [this.ff]) : null),(CM.dg(this.ca) ? _h("div", {className:`o`,style:_style([this.$o()])}, [this.ca]) : null),(CM.dg(this.cj) ? _h("div", {}, [this.cj]) : null)])}};;class DA extends _C{constructor(props){super(props);this._d({gh:[null,new DC()],fp:[null,true],gn:[null,CM.gq()],go:[null,CM.gq()],fy:[null,0],fo:[null,false],fl:[null,0]},{ge:(()=>{return AY.gp(`div`)})});this.state = new Record({fm:0,fn:0})}$p(){const _={[`--f-a`]:this.fl,[`--f-b`]:this.fm + `px`,[`--f-c`]:this.fn + `px`};(this.fo ? Object.assign(_, {[`--f-d`]:`none`}) : null);return _}get gf(){return (this._panel ? new AW(this._panel) : new AV);}get fm(){return this.state.fm;}get fn(){return this.state.fn;}componentWillUnmount(){BE._unsubscribe(this)}componentDidUpdate(){if (this.fp) {
+}))}df(dh,dk,dj){return _h(React.Fragment, {}, [(CQ.dg(dh) ? _h("div", {className:`m`}, [_h(CR, {di:dh})]) : null),_h("span", {className:`k`}, [dj]),(CQ.dg(dk) ? _h("div", {className:`m`}, [_h(CR, {di:dk})]) : null)])}render(){return _h("div", {className:`i`,style:_style([this.$i()]),ref:(element) => { this._base = element }}, [this.bw,_h(CS, {ev:this.eu}, _array((this.dd < this.br ? _h("div", {"onClick":(event => (this.cz)(_normalizeEvent(event)))}, [_h(CR, {dl:new CJ(2),dm:true,di:this.dn})]) : (()=>{const _0 = [];const _1 = this.bx;let _i = 0;for(let dp of _1){_0.push((()=>{let dq = dp;if(dq instanceof CT){return _h("div", {className:`l`})} else if(dq instanceof CU){const dr = dq._0;return dr} else if(dq instanceof DA){const ee = dq._0.iconBefore;const ef = dq._0.iconAfter;const dt = dq._0.label;const eh = dq._0.items;return (()=>{let du = CV.ds(dt);let dx = CO.dv(du, false, this.dw);return _h(CW, {dz:(()=>{return new Promise(((_resolve)=>{this.setState(_u(this.state, new Record({dw:CO.dy(du, false, this.dw)})), _resolve)
+}))}),ea:new CX(),eb:true,ec:15,ed:dx,eg:_h("div", {"onClick":(event => ((()=>{return new Promise(((_resolve)=>{this.setState(_u(this.state, new Record({dw:CO.dy(du, true, this.dw)})), _resolve)
+}))}))(_normalizeEvent(event))),"tabIndex":`0`,className:`j`,style:_style([this.$j(false)])}, [this.df(ee, ef, dt)]),ej:_h(CY, {}, _array(_h(CZ, {ei:eh})))})})()} else if(dq instanceof DB){const ek = dq._0.iconBefore;const el = dq._0.iconAfter;const em = dq._0.label;const en = dq._0.action;return _h("div", {"onClick":(event => (en)(_normalizeEvent(event))),className:`j`,style:_style([this.$j(false)])}, [this.df(ek, el, em)])} else if(dq instanceof CK){const eo = dq._0.iconBefore;const ep = dq._0.iconAfter;const eq = dq._0.label;const es = dq._0.href;const er = dq._0.target;return _h("a", {"target":er,"href":es,className:`j`,style:_style([this.$j(AS.et(es))])}, [this.df(eo, ep, eq)])}})());_i++};return _0})())))])}};;class CZ extends _C{constructor(props){super(props);this._d({ex:[null,new CF()],ei:[null,[]]})}$n(){const _={[`--c-a`]:CP.cs(this.ex)};return _}render(){return _h("div", {className:`n`,style:_style([this.$n()])}, [(()=>{const _0 = [];const _1 = this.ei;let _i = 0;for(let ey of _1){_0.push(_h(DC, {ez:ey}));_i++};return _0})()])}};;class CG extends _C{constructor(props){super(props);this._d({fd:[null,false],fe:[null,null],ff:[null,null],ca:[null,null],cj:[null,null],by:[null,null],fc:[null,true],bq:[null,`100vw`]})}$o(){const _={[`--d-a`]:this.bq,[`--d-b`]:this.fa};(this.fb ? Object.assign(_, {[`--d-c`]:`0.5em 1em 0`}) : (this.fc ? Object.assign(_, {[`--d-d`]:`clamp(20em, 100%, 100em)`,[`--d-e`]:`auto`,[`--d-f`]:`auto`}) : null));return _}$q(){const _={};(this.fd ? Object.assign(_, {[`--e-a`]:`start`}) : null);return _}get fa(){return ((..._) => CV.fg(` `, ..._))(AT.q(((..._) => AT.bg(((fh)=>{return (()=>{const [fi,fj] = fh;return (CQ.dg(fi) ? new AW(fj) : new AV())})()}), ..._))([[this.fe, `min-content`], [this.by, `min-content`], [this.ff, `min-content`], [this.ca, `1fr`], [this.cj, `min-content`]])))}get fb(){return DD.fk;}componentWillUnmount(){DD._unsubscribe(this)}componentDidMount(){DD._subscribe(this)}render(){return _h("div", {className:`o`,style:_style([this.$o()])}, [(CQ.dg(this.fe) ? _h("div", {}, [this.fe]) : null),(CQ.dg(this.by) ? _h("div", {}, [this.by]) : null),(CQ.dg(this.ff) ? _h("div", {className:`p`}, [this.ff]) : null),(CQ.dg(this.ca) ? _h("div", {className:`q`,style:_style([this.$q()])}, [this.ca]) : null),(CQ.dg(this.cj) ? _h("div", {}, [this.cj]) : null)])}};;class DE extends _C{constructor(props){super(props);this._d({gh:[null,new DG()],fp:[null,true],gn:[null,CQ.gq()],go:[null,CQ.gq()],fy:[null,0],fo:[null,false],fl:[null,0]},{ge:(()=>{return AY.gp(`div`)})});this.state = new Record({fm:0,fn:0})}$r(){const _={[`--f-a`]:this.fl,[`--f-b`]:this.fm + `px`,[`--f-c`]:this.fn + `px`};(this.fo ? Object.assign(_, {[`--f-d`]:`none`}) : null);return _}get gf(){return (this._panel ? new AW(this._panel) : new AV);}get fm(){return this.state.fm;}get fn(){return this.state.fn;}componentWillUnmount(){BE._unsubscribe(this)}componentDidUpdate(){if (this.fp) {
   BE._subscribe(this, new U({frames:this.fq}))
 } else {
   BE._unsubscribe(this)
@@ -430,8 +430,8 @@ if (!_2) { continue };_0.push((()=>{BB.af(y);BB.ag(y);return ah.action()})());_i
   BE._subscribe(this, new U({frames:this.fq}))
 } else {
   BE._unsubscribe(this)
-}}fr(fv,fx,fs){let ft = (()=>{let fw = fv;if(fw instanceof DB){return fx.bottom + this.fy} else if(fw instanceof CT){return fx.bottom + this.fy} else if(fw instanceof DC){return fx.bottom + this.fy} else if(fw instanceof DD){return fx.top - fs.height - this.fy} else if(fw instanceof DE){return fx.top - fs.height - this.fy} else if(fw instanceof DF){return fx.top - fs.height - this.fy} else if(fw instanceof DG){return fx.top + (fx.height / 2) - (fs.height / 2)} else if(fw instanceof DH){return fx.bottom - fs.height} else if(fw instanceof DI){return fx.top} else if(fw instanceof DJ){return fx.top + (fx.height / 2) - (fs.height / 2)} else if(fw instanceof DK){return fx.bottom - fs.height} else if(fw instanceof DL){return fx.top}})();let fu = (()=>{let fz = fv;if(fz instanceof DB){return fx.left + (fx.width / 2) - (fs.width / 2)} else if(fz instanceof CT){return fx.right - fs.width} else if(fz instanceof DC){return fx.left} else if(fz instanceof DD){return fx.left + (fx.width / 2) - (fs.width / 2)} else if(fz instanceof DE){return fx.right - fs.width} else if(fz instanceof DF){return fx.left} else if(fz instanceof DG){return fx.right + this.fy} else if(fz instanceof DH){return fx.right + this.fy} else if(fz instanceof DI){return fx.right + this.fy} else if(fz instanceof DJ){return fx.left - fs.width - this.fy} else if(fz instanceof DK){return fx.left - fs.width - this.fy} else if(fz instanceof DL){return fx.left - fs.width - this.fy}})();return _u(fs, {bottom:ft + fs.height,right:fu + fs.width,left:fu,top:ft,x:fu,y:ft})}fq(gm){let gc = AY.gb((this.base));let gg = AY.gb(((..._) => AU.gd(this.ge, ..._))(this.gf));let gi = this.fr(this.gh, gc, gg);let ga = (CZ.gj(gi) ? gi : (()=>{let gl = this.fr(DM.gk(this.gh), gc, gg);return (CZ.gj(gl) ? gl : gi)})());return new Promise(((_resolve)=>{this.setState(_u(this.state, new Record({fm:ga.left,fn:ga.top})), _resolve)
-}))}render(){return [this.gn, _h(BH, {}, _array(_h("div", {className:`p`,style:_style([this.$p()]),ref:(element) => { this._panel = element }}, [this.go])))]}};;class DN extends _C{constructor(props){super(props);this._d({gr:[null,new CB()],gt:[null,false],gu:["children",[]],gs:[null,``]})}$q(){const _={[`--g-a`]:CL.cs(this.gr),[`--g-b`]:this.gs};(this.gt ? Object.assign(_, {[`--g-c`]:`grid`}) : null);return _}get gv(){return CZ.fk;}componentWillUnmount(){CZ._unsubscribe(this)}componentDidMount(){CZ._subscribe(this)}render(){return _h("div", {className:`q`,style:_style([this.$q()])}, [this.gu])}};;class CN extends _C{constructor(props){super(props);this._d({hc:[null,AZ.hd],dl:[null,new CB()],dm:[null,false],gy:[null,false],gw:[null,1],di:[null,null],ha:[null,``]})}$r(){const _={[`--h-a`]:CL.cs(this.dl),[`--i-a`]:this.gw};(this.gx ? Object.assign(_, {[`--j-a`]:`var(--primary-color)`}) : null);(this.gy ? Object.assign(_, {[`--h-b`]:`not-allowed`,[`--h-c`]:`0.5`}) : null);(this.gx ? Object.assign(_, {[`--i-b`]:`auto`,[`--i-c`]:`pointer`}) : Object.assign(_, {[`--i-b`]:`none`,[`--i-c`]:`auto`}));(this.gy ? Object.assign(_, {[`--i-b`]:`none`}) : null);return _}get gx(){return (this.dm || CR.gz(this.ha)) && !this.gy}render(){return (()=>{return (CR.gz(this.ha) ? _h("a", {"href":this.ha,className:`r s`,style:_style([this.$r()])}, [this.di]) : (this.gx ? _h("button", {"onClick":(event => (CZ.hb(this.gy, this.hc))(_normalizeEvent(event))),className:`r t`,style:_style([this.$r()])}, [this.di]) : _h("div", {"onClick":(event => (CZ.hb(this.gy, this.hc))(_normalizeEvent(event))),className:`r`,style:_style([this.$r()])}, [this.di])))})()}};;class CE extends _C{constructor(props){super(props);this._d({bs:[null,new CF(1.25)],bu:[null,null],bv:[null,``],bt:[null,``]})}$u(){const _={[`--k-a`]:CL.cs(this.bs)};return _}render(){return (()=>{let he = _h(React.Fragment, {}, [(CM.dg(this.bu) ? _h(CN, {di:this.bu}) : null),_h("div", {className:`v`}, [this.bv])]);return (CR.hf(this.bt) ? _h("div", {"href":this.bt,className:`u`,style:_style([this.$u()])}, [he]) : _h("a", {"href":this.bt,className:`u w`,style:_style([this.$u()])}, [he]))})()}};;class CY extends _C{constructor(props){super(props);this._d({hg:[null,new CB()],ez:[null,null]})}$x(){const _={[`--l-a`]:CL.cs(this.hg)};return _}$y(hh){const _={};(hh ? Object.assign(_, {[`--o-a`]:`var(--primary-color)`}) : null);return _}$aa(){const _={[`--m-a`]:CL.cs(this.hg)};return _}$ab(){const _={[`--n-a`]:CL.cs(this.hg)};return _}componentWillUnmount(){AX._unsubscribe(this)}componentDidUpdate(){if (true) {
+}}fr(fv,fx,fs){let ft = (()=>{let fw = fv;if(fw instanceof DF){return fx.bottom + this.fy} else if(fw instanceof CX){return fx.bottom + this.fy} else if(fw instanceof DG){return fx.bottom + this.fy} else if(fw instanceof DH){return fx.top - fs.height - this.fy} else if(fw instanceof DI){return fx.top - fs.height - this.fy} else if(fw instanceof DJ){return fx.top - fs.height - this.fy} else if(fw instanceof DK){return fx.top + (fx.height / 2) - (fs.height / 2)} else if(fw instanceof DL){return fx.bottom - fs.height} else if(fw instanceof DM){return fx.top} else if(fw instanceof DN){return fx.top + (fx.height / 2) - (fs.height / 2)} else if(fw instanceof DO){return fx.bottom - fs.height} else if(fw instanceof DP){return fx.top}})();let fu = (()=>{let fz = fv;if(fz instanceof DF){return fx.left + (fx.width / 2) - (fs.width / 2)} else if(fz instanceof CX){return fx.right - fs.width} else if(fz instanceof DG){return fx.left} else if(fz instanceof DH){return fx.left + (fx.width / 2) - (fs.width / 2)} else if(fz instanceof DI){return fx.right - fs.width} else if(fz instanceof DJ){return fx.left} else if(fz instanceof DK){return fx.right + this.fy} else if(fz instanceof DL){return fx.right + this.fy} else if(fz instanceof DM){return fx.right + this.fy} else if(fz instanceof DN){return fx.left - fs.width - this.fy} else if(fz instanceof DO){return fx.left - fs.width - this.fy} else if(fz instanceof DP){return fx.left - fs.width - this.fy}})();return _u(fs, {bottom:ft + fs.height,right:fu + fs.width,left:fu,top:ft,x:fu,y:ft})}fq(gm){let gc = AY.gb((this.base));let gg = AY.gb(((..._) => AU.gd(this.ge, ..._))(this.gf));let gi = this.fr(this.gh, gc, gg);let ga = (DD.gj(gi) ? gi : (()=>{let gl = this.fr(DQ.gk(this.gh), gc, gg);return (DD.gj(gl) ? gl : gi)})());return new Promise(((_resolve)=>{this.setState(_u(this.state, new Record({fm:ga.left,fn:ga.top})), _resolve)
+}))}render(){return [this.gn, _h(BH, {}, _array(_h("div", {className:`r`,style:_style([this.$r()]),ref:(element) => { this._panel = element }}, [this.go])))]}};;class DR extends _C{constructor(props){super(props);this._d({gr:[null,new CF()],gt:[null,false],gu:["children",[]],gs:[null,``]})}$s(){const _={[`--g-a`]:CP.cs(this.gr),[`--g-b`]:this.gs};(this.gt ? Object.assign(_, {[`--g-c`]:`grid`}) : null);return _}get gv(){return DD.fk;}componentWillUnmount(){DD._unsubscribe(this)}componentDidMount(){DD._subscribe(this)}render(){return _h("div", {className:`s`,style:_style([this.$s()])}, [this.gu])}};;class CR extends _C{constructor(props){super(props);this._d({hc:[null,AZ.hd],dl:[null,new CF()],dm:[null,false],gy:[null,false],gw:[null,1],di:[null,null],ha:[null,``]})}$t(){const _={[`--h-a`]:CP.cs(this.dl),[`--i-a`]:this.gw};(this.gx ? Object.assign(_, {[`--j-a`]:`var(--primary-color)`}) : null);(this.gy ? Object.assign(_, {[`--h-b`]:`not-allowed`,[`--h-c`]:`0.5`}) : null);(this.gx ? Object.assign(_, {[`--i-b`]:`auto`,[`--i-c`]:`pointer`}) : Object.assign(_, {[`--i-b`]:`none`,[`--i-c`]:`auto`}));(this.gy ? Object.assign(_, {[`--i-b`]:`none`}) : null);return _}get gx(){return (this.dm || CV.gz(this.ha)) && !this.gy}render(){return (()=>{return (CV.gz(this.ha) ? _h("a", {"href":this.ha,className:`t u`,style:_style([this.$t()])}, [this.di]) : (this.gx ? _h("button", {"onClick":(event => (DD.hb(this.gy, this.hc))(_normalizeEvent(event))),className:`t v`,style:_style([this.$t()])}, [this.di]) : _h("div", {"onClick":(event => (DD.hb(this.gy, this.hc))(_normalizeEvent(event))),className:`t`,style:_style([this.$t()])}, [this.di])))})()}};;class CI extends _C{constructor(props){super(props);this._d({bs:[null,new CJ(1.25)],bu:[null,null],bv:[null,``],bt:[null,``]})}$w(){const _={[`--k-a`]:CP.cs(this.bs)};return _}render(){return (()=>{let he = _h(React.Fragment, {}, [(CQ.dg(this.bu) ? _h(CR, {di:this.bu}) : null),_h("div", {className:`x`}, [this.bv])]);return (CV.hf(this.bt) ? _h("div", {"href":this.bt,className:`w`,style:_style([this.$w()])}, [he]) : _h("a", {"href":this.bt,className:`w y`,style:_style([this.$w()])}, [he]))})()}};;class DC extends _C{constructor(props){super(props);this._d({hg:[null,new CF()],ez:[null,null]})}$z(){const _={[`--l-a`]:CP.cs(this.hg)};return _}$aa(hh){const _={};(hh ? Object.assign(_, {[`--o-a`]:`var(--primary-color)`}) : null);return _}$ac(){const _={[`--m-a`]:CP.cs(this.hg)};return _}$ad(){const _={[`--n-a`]:CP.cs(this.hg)};return _}componentWillUnmount(){AX._unsubscribe(this)}componentDidUpdate(){if (true) {
   AX._subscribe(this, new L({changes:((hi)=>{return new Promise(((_resolve)=>{this.setState(_u(this.state, new Record({})), _resolve)
   }))})}))
 } else {
@@ -441,7 +441,7 @@ if (!_2) { continue };_0.push((()=>{BB.af(y);BB.ag(y);return ah.action()})());_i
   }))})}))
 } else {
   AX._unsubscribe(this)
-}}hj(hk,hm,hl){return _h(React.Fragment, {}, [(CM.dg(hk) ? _h(CN, {di:hk}) : null),hl,(CM.dg(hm) ? _h(CN, {di:hm}) : null)])}render(){return (()=>{let hn = this.ez;if(hn instanceof CW){const ho = hn._0.iconBefore;const hp = hn._0.iconAfter;const hq = hn._0.label;const hr = hn._0.items;return _h("div", {className:`ab`,style:_style([this.$ab()])}, [_h("strong", {className:`z x`,style:_style([this.$x()])}, [this.hj(ho, hp, hq)]),_h(CV, {ei:hr})])} else if(hn instanceof CG){const hs = hn._0.iconBefore;const ht = hn._0.iconAfter;const hu = hn._0.label;const hw = hn._0.href;const hv = hn._0.target;return _h("a", {"target":hv,"href":hw,className:`x y`,style:_style([this.$x(), this.$y(AS.et(hw))])}, [this.hj(hs, ht, hu)])} else if(hn instanceof CX){const hx = hn._0.iconBefore;const hy = hn._0.iconAfter;const hz = hn._0.label;const ia = hn._0.action;return _h("div", {"onClick":(event => (ia)(_normalizeEvent(event))),className:`x y`,style:_style([this.$x(), this.$y(false)])}, [this.hj(hx, hy, hz)])} else if(hn instanceof CP){return _h("div", {className:`aa`,style:_style([this.$aa()])})} else if(hn instanceof CQ){const ib = hn._0;return ib}})()}};;class CU extends _C{constructor(props){super(props);this._d({id:[null,new CB()],ig:["children",[]],ic:[null,`auto`],ie:[null,null]})}$ac(){const _={[`--p-a`]:this.ic,[`--p-b`]:CL.cs(this.id)};return _}get ih(){return (this._base ? new AW(this._base) : new AV);}get ii(){return CZ.fk;}componentWillUnmount(){CZ._unsubscribe(this)}componentDidMount(){CZ._subscribe(this)}render(){return _h("div", {className:`ac`,style:_style([this.$ac()]),ref:(element) => { this._base = element }}, [(CM.dg(this.ie) ? _h("div", {className:`ad`}, [this.ie]) : null),_h("div", {className:`ae`}, [this.ig])])}};;class $B extends _C{constructor(props){super(props);this.state = new Record({it:((lc)=>{return null}),iv:new AV(),ij:new CB(),ix:[],ik:false})}$af(){const _={[`--q-a`]:CL.cs(this.ij)};(this.ik ? Object.assign(_, {[`--q-b`]:`visibility 1ms, opacity 320ms`,[`--q-c`]:`visibilie`,[`--q-d`]:`1`}) : Object.assign(_, {[`--q-b`]:`visibility 320ms 1ms, opacity 320ms`,[`--q-c`]:`hidden`,[`--q-d`]:`0`}));return _}$ag(il){const _={};(il ? Object.assign(_, {[`--r-a`]:`var(--content-faded-color)`,[`--r-b`]:`var(--content-faded-text)`,[`--r-c`]:`bold`}) : Object.assign(_, {[`--r-d`]:`pointer`}));return _}$ah(im){const _={};(!im ? Object.assign(_, {[`--s-a`]:`var(--primary-color)`}) : null);return _}$aj(){const _={};(this.ik ? Object.assign(_, {[`--t-a`]:`translateY(0)`,[`--t-b`]:`1`}) : Object.assign(_, {[`--t-a`]:`translateY(100%)`,[`--t-b`]:`0`}));return _}$ak(){const _={};(this.io ? Object.assign(_, {[`--u-a`]:`block`}) : Object.assign(_, {[`--u-a`]:`inline-block`,[`--u-b`]:`300px`}));return _}get jg(){return (this._container ? new AW(this._container) : new AV);}get jk(){return (this._scrollContainer ? new AW(this._scrollContainer) : new AV);}get lb(){return (this._base ? new AW(this._base) : new AV);}get it(){return this.state.it;}get iv(){return this.state.iv;}get ij(){return this.state.ij;}get ix(){return this.state.ix;}get ik(){return this.state.ik;}get io(){return CZ.fk;}componentWillUnmount(){CZ._unsubscribe(this);AX._unsubscribe(this);BC._unsubscribe(this)}componentDidUpdate(){if (true) {
+}}hj(hk,hm,hl){return _h(React.Fragment, {}, [(CQ.dg(hk) ? _h(CR, {di:hk}) : null),hl,(CQ.dg(hm) ? _h(CR, {di:hm}) : null)])}render(){return (()=>{let hn = this.ez;if(hn instanceof DA){const ho = hn._0.iconBefore;const hp = hn._0.iconAfter;const hq = hn._0.label;const hr = hn._0.items;return _h("div", {className:`ad`,style:_style([this.$ad()])}, [_h("strong", {className:`ab z`,style:_style([this.$z()])}, [this.hj(ho, hp, hq)]),_h(CZ, {ei:hr})])} else if(hn instanceof CK){const hs = hn._0.iconBefore;const ht = hn._0.iconAfter;const hu = hn._0.label;const hw = hn._0.href;const hv = hn._0.target;return _h("a", {"target":hv,"href":hw,className:`z aa`,style:_style([this.$z(), this.$aa(AS.et(hw))])}, [this.hj(hs, ht, hu)])} else if(hn instanceof DB){const hx = hn._0.iconBefore;const hy = hn._0.iconAfter;const hz = hn._0.label;const ia = hn._0.action;return _h("div", {"onClick":(event => (ia)(_normalizeEvent(event))),className:`z aa`,style:_style([this.$z(), this.$aa(false)])}, [this.hj(hx, hy, hz)])} else if(hn instanceof CT){return _h("div", {className:`ac`,style:_style([this.$ac()])})} else if(hn instanceof CU){const ib = hn._0;return ib}})()}};;class CY extends _C{constructor(props){super(props);this._d({id:[null,new CF()],ig:["children",[]],ic:[null,`auto`],ie:[null,null]})}$ae(){const _={[`--p-a`]:this.ic,[`--p-b`]:CP.cs(this.id)};return _}get ih(){return (this._base ? new AW(this._base) : new AV);}get ii(){return DD.fk;}componentWillUnmount(){DD._unsubscribe(this)}componentDidMount(){DD._subscribe(this)}render(){return _h("div", {className:`ae`,style:_style([this.$ae()]),ref:(element) => { this._base = element }}, [(CQ.dg(this.ie) ? _h("div", {className:`af`}, [this.ie]) : null),_h("div", {className:`ag`}, [this.ig])])}};;class $B extends _C{constructor(props){super(props);this.state = new Record({it:((lc)=>{return null}),iv:new AV(),ij:new CF(),ix:[],ik:false})}$ah(){const _={[`--q-a`]:CP.cs(this.ij)};(this.ik ? Object.assign(_, {[`--q-b`]:`visibility 1ms, opacity 320ms`,[`--q-c`]:`visibilie`,[`--q-d`]:`1`}) : Object.assign(_, {[`--q-b`]:`visibility 320ms 1ms, opacity 320ms`,[`--q-c`]:`hidden`,[`--q-d`]:`0`}));return _}$ai(il){const _={};(il ? Object.assign(_, {[`--r-a`]:`var(--content-faded-color)`,[`--r-b`]:`var(--content-faded-text)`,[`--r-c`]:`bold`}) : Object.assign(_, {[`--r-d`]:`pointer`}));return _}$aj(im){const _={};(!im ? Object.assign(_, {[`--s-a`]:`var(--primary-color)`}) : null);return _}$al(){const _={};(this.ik ? Object.assign(_, {[`--t-a`]:`translateY(0)`,[`--t-b`]:`1`}) : Object.assign(_, {[`--t-a`]:`translateY(100%)`,[`--t-b`]:`0`}));return _}$am(){const _={};(this.io ? Object.assign(_, {[`--u-a`]:`block`}) : Object.assign(_, {[`--u-a`]:`inline-block`,[`--u-b`]:`300px`}));return _}get jg(){return (this._container ? new AW(this._container) : new AV);}get jk(){return (this._scrollContainer ? new AW(this._scrollContainer) : new AV);}get lb(){return (this._base ? new AW(this._base) : new AV);}get it(){return this.state.it;}get iv(){return this.state.iv;}get ij(){return this.state.ij;}get ix(){return this.state.ix;}get ik(){return this.state.ik;}get io(){return DD.fk;}componentWillUnmount(){DD._unsubscribe(this);AX._unsubscribe(this);BC._unsubscribe(this)}componentDidUpdate(){if (true) {
   AX._subscribe(this, new L({changes:this.ip}))
 } else {
   AX._unsubscribe(this)
@@ -449,7 +449,7 @@ if (!_2) { continue };_0.push((()=>{BB.af(y);BB.ag(y);return ah.action()})());_i
   BC._subscribe(this, new S({shortcuts:[new R({shortcut:[BB.iq],condition:(()=>{return true}),bypassFocused:true,action:this.ir})]}))
 } else {
   BC._unsubscribe(this)
-}}componentDidMount(){CZ._subscribe(this);if (true) {
+}}componentDidMount(){DD._subscribe(this);if (true) {
   AX._subscribe(this, new L({changes:this.ip}))
 } else {
   AX._unsubscribe(this)
@@ -459,17 +459,17 @@ if (!_2) { continue };_0.push((()=>{BB.af(y);BB.ag(y);return ah.action()})());_i
   BC._unsubscribe(this)
 }}ir(){return (!this.ik ? new Promise(((_resolve)=>{this.setState(_u(this.state, new Record({})), _resolve)
 })) : (async()=>{let _ = null;try{await new Promise(((_resolve)=>{this.setState(_u(this.state, new Record({ik:false})), _resolve)
-}));await DO.is(320, ``);await this.it(null);await AY.iu(this.iv);_ = await new Promise(((_resolve)=>{this.setState(_u(this.state, new Record({it:((iw)=>{return null}),iv:new AV(),ij:new CB(),ix:[]})), _resolve)
+}));await DS.is(320, ``);await this.it(null);await AY.iu(this.iv);_ = await new Promise(((_resolve)=>{this.setState(_u(this.state, new Record({it:((iw)=>{return null}),iv:new AV(),ij:new CF(),ix:[]})), _resolve)
 }))}catch(_error){if(!(_error instanceof DoError)){console.warn(`Unhandled error in sequence expression:`);console.warn(_error)}};return _})())}iy(jf,iz){return (AT.f(iz) ? new Promise(((_resolve)=>{this.setState(_u(this.state, new Record({})), _resolve)
 })) : (()=>{const [jb,jc,jd] = AZ.ja();new Promise(((_resolve)=>{this.setState(_u(this.state, new Record({iv:AY.je(),it:jb,ix:iz,ij:jf})), _resolve)
-}));(async()=>{let _ = null;try{await DO.is(10, ``);await new Promise(((_resolve)=>{this.setState(_u(this.state, new Record({ik:true})), _resolve)
-}));await DO.is(100, ``);await (()=>{let jh = this.jg;if(jh instanceof AW){const jj = jh._0;return AY.ji(jj)} else if(jh instanceof AV){return new Promise(((_resolve)=>{this.setState(_u(this.state, new Record({})), _resolve)
+}));(async()=>{let _ = null;try{await DS.is(10, ``);await new Promise(((_resolve)=>{this.setState(_u(this.state, new Record({ik:true})), _resolve)
+}));await DS.is(100, ``);await (()=>{let jh = this.jg;if(jh instanceof AW){const jj = jh._0;return AY.ji(jj)} else if(jh instanceof AV){return new Promise(((_resolve)=>{this.setState(_u(this.state, new Record({})), _resolve)
 }))}})();_ = await (()=>{let jl = this.jk;if(jl instanceof AW){const jn = jl._0;return AY.jm(jn, 0, 0)} else if(jl instanceof AV){return new Promise(((_resolve)=>{this.setState(_u(this.state, new Record({})), _resolve)
-}))}})()}catch(_error){if(!(_error instanceof DoError)){console.warn(`Unhandled error in sequence expression:`);console.warn(_error)}};return _})();return jd})())}da(jo){return this.iy(new CB(), jo)}ip(jp){return this.ir()}jq(js){return (AY.jr(this.jg, js.target) ? new Promise(((_resolve)=>{this.setState(_u(this.state, new Record({})), _resolve)
-})) : this.ir())}jt(ju,jv){return (async()=>{let _ = null;try{await ju(jv);_ = await this.ir()}catch(_error){if(!(_error instanceof DoError)){console.warn(`Unhandled error in sequence expression:`);console.warn(_error)}};return _})()}jw(jx,jy){return (CR.gz(jx) && !jy.ctrlKey ? (async()=>{let _ = null;try{await DO.is(10, ``);_ = await this.ir()}catch(_error){if(!(_error instanceof DoError)){console.warn(`Unhandled error in sequence expression:`);console.warn(_error)}};return _})() : new Promise(((_resolve)=>{this.setState(_u(this.state, new Record({})), _resolve)
-})))}jz(kc,ka,kb,ke,kg,kh,kf){return (()=>{let kd = _h(React.Fragment, {}, [(CM.dg(ka) ? _h(CN, {di:ka}) : null),kb,(CM.dg(kc) ? _h(CN, {di:kc}) : null)]);return (ke ? _h("div", {"onClick":(event => (kf)(_normalizeEvent(event))),className:`ag ah`,style:_style([this.$ag(ke), this.$ah(ke)])}, [kd]) : (CR.gz(kg) ? _h("a", {"onClick":(event => (kf)(_normalizeEvent(event))),"target":kh,"href":kg,className:`ag ah`,style:_style([this.$ag(ke), this.$ah(ke)])}, [kd]) : _h("button", {"onClick":(event => (kf)(_normalizeEvent(event))),className:`ap ag ah`,style:_style([this.$ag(ke), this.$ah(ke)])}, [_h("div", {className:`ag`,style:_style([this.$ag(ke)])}, [kd])])))})()}ki(kj){return (()=>{let kk = kj;if(kk instanceof CQ){const kl = kk._0;return _h("div", {className:`ao`}, [kl])} else if(kk instanceof CP){return _h("div", {className:`ai`})} else if(kk instanceof CX){const km = kk._0.iconAfter;const kn = kk._0.iconBefore;const ko = kk._0.label;const kp = kk._0.action;return this.jz(km, kn, ko, false, ``, ``, ((..._) => this.jt(kp, ..._)))} else if(kk instanceof CG){const kq = kk._0.iconAfter;const kr = kk._0.iconBefore;const ks = kk._0.label;const kt = kk._0.href;const ku = kk._0.target;return this.jz(kq, kr, ks, false, kt, ku, ((..._) => this.jw(kt, ..._)))} else if(kk instanceof CW){const kv = kk._0.iconAfter;const kw = kk._0.iconBefore;const kx = kk._0.label;const kz = kk._0.items;return _h(React.Fragment, {}, [this.jz(kv, kw, kx, true, ``, ``, AZ.hd),_h("div", {className:`al`}, [_h("div", {className:`am`}),_h("div", {className:`an`}, [(()=>{const _0 = [];const _1 = kz;let _i = 0;for(let ky of _1){_0.push(this.ki(ky));_i++};return _0})()])])])}})()}render(){return _h(DP, {}, _array(_h("div", {"onClick":(event => (this.jq)(_normalizeEvent(event))),className:`af`,style:_style([this.$af()]),ref:(element) => { this._base = element }}, [_h("div", {className:`aj`,style:_style([this.$aj()]),ref:(element) => { this._scrollContainer = element }}, [_h("div", {className:`ak`,style:_style([this.$ak()]),ref:(element) => { this._container = element }}, [(()=>{const _0 = [];const _1 = this.ix;let _i = 0;for(let la of _1){_0.push(this.ki(la));_i++};return _0})()])])])))}_persist(){B=this}};;let B;class DQ extends _C{constructor(props){super(props);this._d({lj:[null,AZ.t],lf:[null,240],lh:[null,true],lk:["children",[]],lg:[null,`0`],ld:[null,900],le:[null,false]})}$aq(){const _={[`--v-a`]:this.ld};(this.le ? Object.assign(_, {[`--v-b`]:`opacity ` + this.lf + `ms 0ms ease,
+}))}})()}catch(_error){if(!(_error instanceof DoError)){console.warn(`Unhandled error in sequence expression:`);console.warn(_error)}};return _})();return jd})())}da(jo){return this.iy(new CF(), jo)}ip(jp){return this.ir()}jq(js){return (AY.jr(this.jg, js.target) ? new Promise(((_resolve)=>{this.setState(_u(this.state, new Record({})), _resolve)
+})) : this.ir())}jt(ju,jv){return (async()=>{let _ = null;try{await ju(jv);_ = await this.ir()}catch(_error){if(!(_error instanceof DoError)){console.warn(`Unhandled error in sequence expression:`);console.warn(_error)}};return _})()}jw(jx,jy){return (CV.gz(jx) && !jy.ctrlKey ? (async()=>{let _ = null;try{await DS.is(10, ``);_ = await this.ir()}catch(_error){if(!(_error instanceof DoError)){console.warn(`Unhandled error in sequence expression:`);console.warn(_error)}};return _})() : new Promise(((_resolve)=>{this.setState(_u(this.state, new Record({})), _resolve)
+})))}jz(kc,ka,kb,ke,kg,kh,kf){return (()=>{let kd = _h(React.Fragment, {}, [(CQ.dg(ka) ? _h(CR, {di:ka}) : null),kb,(CQ.dg(kc) ? _h(CR, {di:kc}) : null)]);return (ke ? _h("div", {"onClick":(event => (kf)(_normalizeEvent(event))),className:`ai aj`,style:_style([this.$ai(ke), this.$aj(ke)])}, [kd]) : (CV.gz(kg) ? _h("a", {"onClick":(event => (kf)(_normalizeEvent(event))),"target":kh,"href":kg,className:`ai aj`,style:_style([this.$ai(ke), this.$aj(ke)])}, [kd]) : _h("button", {"onClick":(event => (kf)(_normalizeEvent(event))),className:`ar ai aj`,style:_style([this.$ai(ke), this.$aj(ke)])}, [_h("div", {className:`ai`,style:_style([this.$ai(ke)])}, [kd])])))})()}ki(kj){return (()=>{let kk = kj;if(kk instanceof CU){const kl = kk._0;return _h("div", {className:`aq`}, [kl])} else if(kk instanceof CT){return _h("div", {className:`ak`})} else if(kk instanceof DB){const km = kk._0.iconAfter;const kn = kk._0.iconBefore;const ko = kk._0.label;const kp = kk._0.action;return this.jz(km, kn, ko, false, ``, ``, ((..._) => this.jt(kp, ..._)))} else if(kk instanceof CK){const kq = kk._0.iconAfter;const kr = kk._0.iconBefore;const ks = kk._0.label;const kt = kk._0.href;const ku = kk._0.target;return this.jz(kq, kr, ks, false, kt, ku, ((..._) => this.jw(kt, ..._)))} else if(kk instanceof DA){const kv = kk._0.iconAfter;const kw = kk._0.iconBefore;const kx = kk._0.label;const kz = kk._0.items;return _h(React.Fragment, {}, [this.jz(kv, kw, kx, true, ``, ``, AZ.hd),_h("div", {className:`an`}, [_h("div", {className:`ao`}),_h("div", {className:`ap`}, [(()=>{const _0 = [];const _1 = kz;let _i = 0;for(let ky of _1){_0.push(this.ki(ky));_i++};return _0})()])])])}})()}render(){return _h(DT, {}, _array(_h("div", {"onClick":(event => (this.jq)(_normalizeEvent(event))),className:`ah`,style:_style([this.$ah()]),ref:(element) => { this._base = element }}, [_h("div", {className:`al`,style:_style([this.$al()]),ref:(element) => { this._scrollContainer = element }}, [_h("div", {className:`am`,style:_style([this.$am()]),ref:(element) => { this._container = element }}, [(()=>{const _0 = [];const _1 = this.ix;let _i = 0;for(let la of _1){_0.push(this.ki(la));_i++};return _0})()])])])))}_persist(){B=this}};;let B;class DU extends _C{constructor(props){super(props);this._d({lj:[null,AZ.t],lf:[null,240],lh:[null,true],lk:["children",[]],lg:[null,`0`],ld:[null,900],le:[null,false]})}$as(){const _={[`--v-a`]:this.ld};(this.le ? Object.assign(_, {[`--v-b`]:`opacity ` + this.lf + `ms 0ms ease,
                   visibility 1ms 0ms ease`,[`--v-c`]:`auto`,[`--v-d`]:`visible`,[`--v-e`]:`1`}) : Object.assign(_, {[`--v-b`]:`visibility 1ms ` + this.lf + `ms ease,
-                  opacity ` + this.lf + `ms 0ms ease`,[`--v-c`]:`none`,[`--v-d`]:`hidden`,[`--v-e`]:`0`}));return _}$ar(){const _={[`--w-a`]:`transform ` + this.lf + `ms ease`,[`--w-b`]:this.lg};(this.le ? Object.assign(_, {[`--w-c`]:`translateX(0)`}) : Object.assign(_, {[`--w-c`]:`translateX(3em)`}));return _}get li(){return (this._drawer ? new AW(this._drawer) : new AV);}componentWillUnmount(){BA._unsubscribe(this)}componentDidUpdate(){if (this.le && this.lh) {
+                  opacity ` + this.lf + `ms 0ms ease`,[`--v-c`]:`none`,[`--v-d`]:`hidden`,[`--v-e`]:`0`}));return _}$at(){const _={[`--w-a`]:`transform ` + this.lf + `ms ease`,[`--w-b`]:this.lg};(this.le ? Object.assign(_, {[`--w-c`]:`translateX(0)`}) : Object.assign(_, {[`--w-c`]:`translateX(3em)`}));return _}get li(){return (this._drawer ? new AW(this._drawer) : new AV);}componentWillUnmount(){BA._unsubscribe(this)}componentDidUpdate(){if (this.le && this.lh) {
   BA._subscribe(this, new M({elements:[this.li],clicks:this.lj}))
 } else {
   BA._unsubscribe(this)
@@ -477,9 +477,9 @@ if (!_2) { continue };_0.push((()=>{BB.af(y);BB.ag(y);return ah.action()})());_i
   BA._subscribe(this, new M({elements:[this.li],clicks:this.lj}))
 } else {
   BA._unsubscribe(this)
-}}render(){return _h(BH, {}, _array(_h(DP, {}, _array(_h("div", {className:`aq`,style:_style([this.$aq()])}, [_h("div", {className:`ar`,style:_style([this.$ar()]),ref:(element) => { this._drawer = element }}, [this.lk])])))))}};;class DR extends _C{constructor(props){super(props);this._d({ll:[null,new CB()],lo:[null,null]})}$as(){const _={[`--x-a`]:CL.cs(this.ll)};return _}$at(ln){const _={};(this.lm || ln ? Object.assign(_, {[`--y-a`]:`break-spaces`}) : null);return _}get lm(){return CZ.fk;}componentWillUnmount(){CZ._unsubscribe(this)}componentDidMount(){CZ._subscribe(this)}render(){return _h("div", {className:`as`,style:_style([this.$as()])}, [(()=>{let lp = this.lo;if(lp instanceof DT){const lr = lp._0;return DS.lq(lr)} else if(lp instanceof DU){const ls = lp._0;return ls} else if(lp instanceof BZ){const lt = lp._0;return lt} else if(lp instanceof DV){const lu = lp._0.code;const lv = lp._0.breakSpaces;return _h("code", {className:`at`,style:_style([this.$at(lv)])}, [lu])} else if(lp instanceof CA){const lx = lp._0.items;const lw = lp._0.breakOnMobile;return (this.lm && lw ? _h(DW, {}, _array(lx)) : _h(DX, {ly:`start`}, _array(lx)))}})()])}};;class DW extends _C{constructor(props){super(props);this._d({mf:[null,new CB()],mh:[null,new CF(0.5)],lz:["children",[]],mb:[null,`stretch`],md:[null,`stretch`]})}render(){return _h(CO, {ma:`vertical`,mc:this.mb,me:this.md,mg:this.mf,ev:this.mh}, _array(this.lz))}};;class CO extends _C{constructor(props){super(props);this._d({ma:[null,`horizontal`],mc:[null,`stretch`],me:[null,`center`],mg:[null,new CB()],ev:[null,new CF(0.5)],mk:["children",[]]})}$au(){const _={[`--z-a`]:CL.cs(this.mg),[`--z-b`]:this.mc,[`--z-c`]:this.me};(_compare(this.ma, `horizontal`) ? Object.assign(_, {[`--z-d`]:`row`}) : Object.assign(_, {[`--z-d`]:`column`}));return _}$av(){const _={[`--aa-a`]:CL.cs(this.ev),[`--aa-b`]:CL.cs(this.ev)};return _}render(){return _h("div", {className:`au`,style:_style([this.$au()])}, [((..._) => AT.mi(_h("div", {className:`av`,style:_style([this.$av()])}), ..._))(CM.mj(this.mk))])}};;class BY extends _C{constructor(props){super(props);this._d({bn:[null,[]],bo:[null,new CB()],bp:[null,[]]});this.state = new Record({mq:DY.ne()})}$aw(){const _={[`--ab-a`]:CL.cs(this.bo)};return _}$ax(ml){const _={};(ml ? Object.assign(_, {[`--ac-a`]:`0.1875em solid var(--content-border)`}) : null);(ml ? Object.assign(_, {[`--ad-a`]:`0.0625em solid var(--content-border)`}) : null);return _}$ay(mm){const _={};(mm ? Object.assign(_, {[`--ae-a`]:`rotate(90deg)`}) : null);return _}get mq(){return this.state.mq;}mn(mp){return (()=>{return (DY.mo(mp, this.mq) ? new Promise(((_resolve)=>{this.setState(_u(this.state, new Record({mq:DY.mr(mp, this.mq)})), _resolve)
-})) : new Promise(((_resolve)=>{this.setState(_u(this.state, new Record({mq:DY.ms(mp, this.mq)})), _resolve)
-})))})}render(){return _h("div", {className:`aw`,style:_style([this.$aw()])}, [AT.mt(((mu, mx)=>{return (()=>{const [mv,mw] = mu;let my = DY.mo(mx, this.mq);return _h(React.Fragment, {}, [_h("div", {className:`ax`,style:_style([this.$ax(my)])}, [_h("div", {"onClick":(event => (this.mn(mx))(_normalizeEvent(event))),className:`ay`,style:_style([this.$ay(my)])}, [_h(CN, {di:CI.mz}),_h("div", {className:`az`}, [mv])]),(my ? _h("div", {}, [(()=>{const _0 = [];const _1 = mw;let _i = 0;for(let nc of _1){_0.push((()=>{let nd = ((..._) => AU.gd(``, ..._))(((..._) => AT.na(AT.nb(nc, mw), ..._))(this.bp));return _h("div", {className:`bb`}, [_h("div", {className:`ba`}, [nd]),_h("div", {}, [_h(DR, {lo:nc})])])})());_i++};return _0})()]) : null)])])})()}), this.bn)])}};;class DX extends _C{constructor(props){super(props);this._d({nh:[null,new CB()],ni:[null,new CF(0.5)],nf:["children",[]],ly:[null,`stretch`],ng:[null,`stretch`]})}render(){return _h(CO, {ma:`horizontal`,mc:this.ly,me:this.ng,mg:this.nh,ev:this.ni}, _array(this.nf))}};;class CH extends _C{constructor(props){super(props);this._d({ci:[null,[]],nl:[null,`initial`],nj:[null,new CB()],cb:[null,null]})}$bc(){const _={[`--af-a`]:CL.cs(this.nj)};(this.nk ? Object.assign(_, {[`--af-b`]:`1fr`,[`--af-c`]:`1em`,[`--af-d`]:`1em 0`,[`--af-e`]:`1em`}) : null);return _}$be(){const _={[`--ag-a`]:this.nl};(this.nk ? Object.assign(_, {[`--ag-b`]:`0`}) : Object.assign(_, {[`--ag-b`]:`1em`}));return _}get nk(){return CZ.fk;}componentWillUnmount(){CZ._unsubscribe(this)}componentDidMount(){CZ._subscribe(this)}render(){return _h("div", {className:`bc`,style:_style([this.$bc()])}, [_h("div", {className:`bd`}, [this.cb]),_h("div", {className:`be`,style:_style([this.$be()])}, [(()=>{const _0 = [];const _1 = this.ci;let _i = 0;for(let nm of _1){_0.push(_h("div", {className:`bf`}, [_h("strong", {}, [nm[0]]),_h(CV, {ei:nm[1]})]));_i++};return _0})()])])}};;class $C extends _C{constructor(props){super(props);this.state = new Record({nr:((oe)=>{return null}),nu:((of)=>{return null}),ns:new AV(),nq:240,nw:null,oa:900,np:false})}get od(){return (this._base ? new AW(this._base) : new AV);}get nr(){return this.state.nr;}get nu(){return this.state.nu;}get ns(){return this.state.ns;}get nq(){return this.state.nq;}get nw(){return this.state.nw;}get oa(){return this.state.oa;}get np(){return this.state.np;}componentWillUnmount(){BC._unsubscribe(this)}componentDidUpdate(){if (true) {
+}}render(){return _h(BH, {}, _array(_h(DT, {}, _array(_h("div", {className:`as`,style:_style([this.$as()])}, [_h("div", {className:`at`,style:_style([this.$at()]),ref:(element) => { this._drawer = element }}, [this.lk])])))))}};;class DV extends _C{constructor(props){super(props);this._d({ll:[null,new CF()],lo:[null,null]})}$au(){const _={[`--x-a`]:CP.cs(this.ll)};return _}$av(ln){const _={};(this.lm || ln ? Object.assign(_, {[`--y-a`]:`break-spaces`}) : null);return _}get lm(){return DD.fk;}componentWillUnmount(){DD._unsubscribe(this)}componentDidMount(){DD._subscribe(this)}render(){return _h("div", {className:`au`,style:_style([this.$au()])}, [(()=>{let lp = this.lo;if(lp instanceof DX){const lr = lp._0;return DW.lq(lr)} else if(lp instanceof DY){const ls = lp._0;return ls} else if(lp instanceof CD){const lt = lp._0;return lt} else if(lp instanceof DZ){const lu = lp._0.code;const lv = lp._0.breakSpaces;return _h("code", {className:`av`,style:_style([this.$av(lv)])}, [lu])} else if(lp instanceof CE){const lx = lp._0.items;const lw = lp._0.breakOnMobile;return (this.lm && lw ? _h(EA, {}, _array(lx)) : _h(EB, {ly:`start`}, _array(lx)))}})()])}};;class EA extends _C{constructor(props){super(props);this._d({mf:[null,new CF()],mh:[null,new CJ(0.5)],lz:["children",[]],mb:[null,`stretch`],md:[null,`stretch`]})}render(){return _h(CS, {ma:`vertical`,mc:this.mb,me:this.md,mg:this.mf,ev:this.mh}, _array(this.lz))}};;class CS extends _C{constructor(props){super(props);this._d({ma:[null,`horizontal`],mc:[null,`stretch`],me:[null,`center`],mg:[null,new CF()],ev:[null,new CJ(0.5)],mk:["children",[]]})}$aw(){const _={[`--z-a`]:CP.cs(this.mg),[`--z-b`]:this.mc,[`--z-c`]:this.me};(_compare(this.ma, `horizontal`) ? Object.assign(_, {[`--z-d`]:`row`}) : Object.assign(_, {[`--z-d`]:`column`}));return _}$ax(){const _={[`--aa-a`]:CP.cs(this.ev),[`--aa-b`]:CP.cs(this.ev)};return _}render(){return _h("div", {className:`aw`,style:_style([this.$aw()])}, [((..._) => AT.mi(_h("div", {className:`ax`,style:_style([this.$ax()])}), ..._))(CQ.mj(this.mk))])}};;class CC extends _C{constructor(props){super(props);this._d({bn:[null,[]],bo:[null,new CF()],bp:[null,[]]});this.state = new Record({mq:EC.ne()})}$ay(){const _={[`--ab-a`]:CP.cs(this.bo)};return _}$az(ml){const _={};(ml ? Object.assign(_, {[`--ac-a`]:`0.1875em solid var(--content-border)`}) : null);(ml ? Object.assign(_, {[`--ad-a`]:`0.0625em solid var(--content-border)`}) : null);return _}$ba(mm){const _={};(mm ? Object.assign(_, {[`--ae-a`]:`rotate(90deg)`}) : null);return _}get mq(){return this.state.mq;}mn(mp){return (()=>{return (EC.mo(mp, this.mq) ? new Promise(((_resolve)=>{this.setState(_u(this.state, new Record({mq:EC.mr(mp, this.mq)})), _resolve)
+})) : new Promise(((_resolve)=>{this.setState(_u(this.state, new Record({mq:EC.ms(mp, this.mq)})), _resolve)
+})))})}render(){return _h("div", {className:`ay`,style:_style([this.$ay()])}, [AT.mt(((mu, mx)=>{return (()=>{const [mv,mw] = mu;let my = EC.mo(mx, this.mq);return _h(React.Fragment, {}, [_h("div", {className:`az`,style:_style([this.$az(my)])}, [_h("div", {"onClick":(event => (this.mn(mx))(_normalizeEvent(event))),className:`ba`,style:_style([this.$ba(my)])}, [_h(CR, {di:CM.mz}),_h("div", {className:`bb`}, [mv])]),(my ? _h("div", {}, [(()=>{const _0 = [];const _1 = mw;let _i = 0;for(let nc of _1){_0.push((()=>{let nd = ((..._) => AU.gd(``, ..._))(((..._) => AT.na(AT.nb(nc, mw), ..._))(this.bp));return _h("div", {className:`bd`}, [_h("div", {className:`bc`}, [nd]),_h("div", {}, [_h(DV, {lo:nc})])])})());_i++};return _0})()]) : null)])])})()}), this.bn)])}};;class EB extends _C{constructor(props){super(props);this._d({nh:[null,new CF()],ni:[null,new CJ(0.5)],nf:["children",[]],ly:[null,`stretch`],ng:[null,`stretch`]})}render(){return _h(CS, {ma:`horizontal`,mc:this.ly,me:this.ng,mg:this.nh,ev:this.ni}, _array(this.nf))}};;class CL extends _C{constructor(props){super(props);this._d({ci:[null,[]],nl:[null,`initial`],nj:[null,new CF()],cb:[null,null]})}$be(){const _={[`--af-a`]:CP.cs(this.nj)};(this.nk ? Object.assign(_, {[`--af-b`]:`1fr`,[`--af-c`]:`1em`,[`--af-d`]:`1em 0`,[`--af-e`]:`1em`}) : null);return _}$bg(){const _={[`--ag-a`]:this.nl};(this.nk ? Object.assign(_, {[`--ag-b`]:`0`}) : Object.assign(_, {[`--ag-b`]:`1em`}));return _}get nk(){return DD.fk;}componentWillUnmount(){DD._unsubscribe(this)}componentDidMount(){DD._subscribe(this)}render(){return _h("div", {className:`be`,style:_style([this.$be()])}, [_h("div", {className:`bf`}, [this.cb]),_h("div", {className:`bg`,style:_style([this.$bg()])}, [(()=>{const _0 = [];const _1 = this.ci;let _i = 0;for(let nm of _1){_0.push(_h("div", {className:`bh`}, [_h("strong", {}, [nm[0]]),_h(CZ, {ei:nm[1]})]));_i++};return _0})()])])}};;class $C extends _C{constructor(props){super(props);this.state = new Record({nr:((oe)=>{return null}),nu:((of)=>{return null}),ns:new AV(),nq:240,nw:null,oa:900,np:false})}get od(){return (this._base ? new AW(this._base) : new AV);}get nr(){return this.state.nr;}get nu(){return this.state.nu;}get ns(){return this.state.ns;}get nq(){return this.state.nq;}get nw(){return this.state.nw;}get oa(){return this.state.oa;}get np(){return this.state.np;}componentWillUnmount(){BC._unsubscribe(this)}componentDidUpdate(){if (true) {
   BC._subscribe(this, new S({shortcuts:[new R({condition:(()=>{return true}),bypassFocused:true,shortcut:[27],action:this.nn})]}))
 } else {
   BC._unsubscribe(this)
@@ -488,12 +488,12 @@ if (!_2) { continue };_0.push((()=>{BB.af(y);BB.ag(y);return ah.action()})());_i
 } else {
   BC._unsubscribe(this)
 }}no(){return (async()=>{let _ = null;try{await new Promise(((_resolve)=>{this.setState(_u(this.state, new Record({np:false})), _resolve)
-}));await DO.is(this.nq, ``);await this.nr((null));await AY.iu(this.ns);_ = await new Promise(((_resolve)=>{this.setState(_u(this.state, new Record({nr:((nt)=>{return null}),nu:((nv)=>{return null}),ns:new AV(),nw:null})), _resolve)
+}));await DS.is(this.nq, ``);await this.nr((null));await AY.iu(this.ns);_ = await new Promise(((_resolve)=>{this.setState(_u(this.state, new Record({nr:((nt)=>{return null}),nu:((nv)=>{return null}),ns:new AV(),nw:null})), _resolve)
 }))}catch(_error){if(!(_error instanceof DoError)){console.warn(`Unhandled error in sequence expression:`);console.warn(_error)}};return _})()}nn(){return (async()=>{let _ = null;try{await new Promise(((_resolve)=>{this.setState(_u(this.state, new Record({np:false})), _resolve)
-}));await DO.is(this.nq, ``);await this.nu(null);await AY.iu(this.ns);_ = await new Promise(((_resolve)=>{this.setState(_u(this.state, new Record({nr:((nx)=>{return null}),nu:((ny)=>{return null}),ns:new AV(),nw:null})), _resolve)
-}))}catch(_error){if(!(_error instanceof DoError)){console.warn(`Unhandled error in sequence expression:`);console.warn(_error)}};return _})()}render(){return _h(DZ, {nz:this.no,ob:this.oa,oc:this.np,ref:(instance) => { this._base = instance }}, _array(this.nw))}_persist(){C=this}};;let C;class DZ extends _C{constructor(props){super(props);this._d({nz:[null,AZ.t],og:[null,240],oh:[null,true],oj:["children",[]],ob:[null,900],oc:[null,false]})}$bg(){const _={[`--ah-a`]:this.ob};(this.oc ? Object.assign(_, {[`--ah-b`]:`opacity ` + this.og + `ms 0ms ease,
+}));await DS.is(this.nq, ``);await this.nu(null);await AY.iu(this.ns);_ = await new Promise(((_resolve)=>{this.setState(_u(this.state, new Record({nr:((nx)=>{return null}),nu:((ny)=>{return null}),ns:new AV(),nw:null})), _resolve)
+}))}catch(_error){if(!(_error instanceof DoError)){console.warn(`Unhandled error in sequence expression:`);console.warn(_error)}};return _})()}render(){return _h(ED, {nz:this.no,ob:this.oa,oc:this.np,ref:(instance) => { this._base = instance }}, _array(this.nw))}_persist(){C=this}};;let C;class ED extends _C{constructor(props){super(props);this._d({nz:[null,AZ.t],og:[null,240],oh:[null,true],oj:["children",[]],ob:[null,900],oc:[null,false]})}$bi(){const _={[`--ah-a`]:this.ob};(this.oc ? Object.assign(_, {[`--ah-b`]:`opacity ` + this.og + `ms 0ms ease,
                   visibility 1ms 0ms ease`,[`--ah-c`]:`auto`,[`--ah-d`]:`visible`,[`--ah-e`]:`1`}) : Object.assign(_, {[`--ah-b`]:`visibility 1ms ` + this.og + `ms ease,
-                  opacity ` + this.og + `ms 0ms ease`,[`--ah-c`]:`none`,[`--ah-d`]:`hidden`,[`--ah-e`]:`0`}));return _}$bh(){const _={[`--ai-a`]:`transform ` + this.og + `ms ease`};(this.oc ? Object.assign(_, {[`--ai-b`]:`translateY(0)`}) : Object.assign(_, {[`--ai-b`]:`translateY(-3em)`}));return _}get oi(){return (this._wrapper ? new AW(this._wrapper) : new AV);}componentWillUnmount(){BA._unsubscribe(this)}componentDidUpdate(){if (this.oc && this.oh) {
+                  opacity ` + this.og + `ms 0ms ease`,[`--ah-c`]:`none`,[`--ah-d`]:`hidden`,[`--ah-e`]:`0`}));return _}$bj(){const _={[`--ai-a`]:`transform ` + this.og + `ms ease`};(this.oc ? Object.assign(_, {[`--ai-b`]:`translateY(0)`}) : Object.assign(_, {[`--ai-b`]:`translateY(-3em)`}));return _}get oi(){return (this._wrapper ? new AW(this._wrapper) : new AV);}componentWillUnmount(){BA._unsubscribe(this)}componentDidUpdate(){if (this.oc && this.oh) {
   BA._subscribe(this, new M({elements:[this.oi],clicks:this.nz}))
 } else {
   BA._unsubscribe(this)
@@ -501,11 +501,11 @@ if (!_2) { continue };_0.push((()=>{BB.af(y);BB.ag(y);return ah.action()})());_i
   BA._subscribe(this, new M({elements:[this.oi],clicks:this.nz}))
 } else {
   BA._unsubscribe(this)
-}}render(){return _h(DP, {}, _array(_h("div", {className:`bg`,style:_style([this.$bg()])}, [_h("div", {className:`bh`,style:_style([this.$bh()]),ref:(element) => { this._wrapper = element }}, [this.oj])])))}};;class CS extends _C{constructor(props){super(props);this._d({ou:[null,AZ.hd],dz:[null,AZ.t],ea:[null,new DC()],eb:[null,false],ok:[null,false],eg:[null,null],ej:[null,null],ec:[null,5],ot:[null,1],ed:[null,false]});this.state = new Record({ol:0})}$bi(){const _={};(this.ok ? Object.assign(_, {[`--aj-a`]:this.ol + `px`}) : null);(this.ed ? Object.assign(_, {[`--aj-b`]:`transform 150ms 0ms ease,
+}}render(){return _h(DT, {}, _array(_h("div", {className:`bi`,style:_style([this.$bi()])}, [_h("div", {className:`bj`,style:_style([this.$bj()]),ref:(element) => { this._wrapper = element }}, [this.oj])])))}};;class CW extends _C{constructor(props){super(props);this._d({ou:[null,AZ.hd],dz:[null,AZ.t],ea:[null,new DG()],eb:[null,false],ok:[null,false],eg:[null,null],ej:[null,null],ec:[null,5],ot:[null,1],ed:[null,false]});this.state = new Record({ol:0})}$bk(){const _={};(this.ok ? Object.assign(_, {[`--aj-a`]:this.ol + `px`}) : null);(this.ed ? Object.assign(_, {[`--aj-b`]:`transform 150ms 0ms ease,
                   visibility 1ms 0ms ease,
                   opacity 150ms 0ms ease`,[`--aj-c`]:`translateY(0)`,[`--aj-d`]:`1`}) : Object.assign(_, {[`--aj-b`]:`visibility 1ms 150ms ease,
                   transform 150ms 0ms ease,
-                  opacity 150ms 0ms ease`,[`--aj-c`]:`translateY(20px)`,[`--aj-e`]:`hidden`,[`--aj-d`]:`0`}));return _}get oo(){return (this._panel ? new AW(this._panel) : new AV);}get op(){return (this._stickyPanel ? new AW(this._stickyPanel) : new AV);}get ol(){return this.state.ol;}get on(){return CZ.fk;}componentWillUnmount(){CZ._unsubscribe(this);BE._unsubscribe(this);BA._unsubscribe(this)}componentDidUpdate(){if (this.ed && this.ok) {
+                  opacity 150ms 0ms ease`,[`--aj-c`]:`translateY(20px)`,[`--aj-e`]:`hidden`,[`--aj-d`]:`0`}));return _}get oo(){return (this._panel ? new AW(this._panel) : new AV);}get op(){return (this._stickyPanel ? new AW(this._stickyPanel) : new AV);}get ol(){return this.state.ol;}get on(){return DD.fk;}componentWillUnmount(){DD._unsubscribe(this);BE._unsubscribe(this);BA._unsubscribe(this)}componentDidUpdate(){if (this.ed && this.ok) {
   BE._subscribe(this, new U({frames:this.om}))
 } else {
   BE._unsubscribe(this)
@@ -513,7 +513,7 @@ if (!_2) { continue };_0.push((()=>{BB.af(y);BB.ag(y);return ah.action()})());_i
   BA._subscribe(this, new M({elements:[this.oo],clicks:this.dz}))
 } else {
   BA._unsubscribe(this)
-}}componentDidMount(){CZ._subscribe(this);if (this.ed && this.ok) {
+}}componentDidMount(){DD._subscribe(this);if (this.ed && this.ok) {
   BE._subscribe(this, new U({frames:this.om}))
 } else {
   BE._unsubscribe(this)
@@ -523,7 +523,7 @@ if (!_2) { continue };_0.push((()=>{BB.af(y);BB.ag(y);return ah.action()})());_i
   BA._unsubscribe(this)
 }}om(os){return (()=>{let oq = this.op;if(oq instanceof AW){const or = oq._0;return new Promise(((_resolve)=>{this.setState(_u(this.state, new Record({ol:AY.gb((or.base)).width})), _resolve)
 }))} else if(oq instanceof AV){return new Promise(((_resolve)=>{this.setState(_u(this.state, new Record({})), _resolve)
-}))}})()}render(){return (this.on ? _h(React.Fragment, {}, [this.eg,_h(DZ, {oh:this.eb,nz:this.dz,oc:this.ed}, _array(this.ej))]) : _h(DA, {fp:this.ed,fo:!this.ed,gh:this.ea,gn:this.eg,fy:this.ec,fl:this.ot,go:_h("div", {"onClick":(event => (this.ou)(_normalizeEvent(event))),className:`bi`,style:_style([this.$bi()]),ref:(element) => { this._panel = element }}, [this.ej]),ref:(instance) => { this._stickyPanel = instance }}))}};;class $D extends _C{constructor(props){super(props);this.state = new Record({oz:((pk)=>{return null}),pc:((pl)=>{return null}),pa:new AV(),oy:240,ph:`0`,pe:null,pi:900,ox:false})}get pj(){return (this._base ? new AW(this._base) : new AV);}get oz(){return this.state.oz;}get pc(){return this.state.pc;}get pa(){return this.state.pa;}get oy(){return this.state.oy;}get ph(){return this.state.ph;}get pe(){return this.state.pe;}get pi(){return this.state.pi;}get ox(){return this.state.ox;}componentWillUnmount(){BC._unsubscribe(this)}componentDidUpdate(){if (true) {
+}))}})()}render(){return (this.on ? _h(React.Fragment, {}, [this.eg,_h(ED, {oh:this.eb,nz:this.dz,oc:this.ed}, _array(this.ej))]) : _h(DE, {fp:this.ed,fo:!this.ed,gh:this.ea,gn:this.eg,fy:this.ec,fl:this.ot,go:_h("div", {"onClick":(event => (this.ou)(_normalizeEvent(event))),className:`bk`,style:_style([this.$bk()]),ref:(element) => { this._panel = element }}, [this.ej]),ref:(instance) => { this._stickyPanel = instance }}))}};;class $D extends _C{constructor(props){super(props);this.state = new Record({oz:((pk)=>{return null}),pc:((pl)=>{return null}),pa:new AV(),oy:240,ph:`0`,pe:null,pi:900,ox:false})}get pj(){return (this._base ? new AW(this._base) : new AV);}get oz(){return this.state.oz;}get pc(){return this.state.pc;}get pa(){return this.state.pa;}get oy(){return this.state.oy;}get ph(){return this.state.ph;}get pe(){return this.state.pe;}get pi(){return this.state.pi;}get ox(){return this.state.ox;}componentWillUnmount(){BC._unsubscribe(this)}componentDidUpdate(){if (true) {
   BC._subscribe(this, new S({shortcuts:[new R({condition:(()=>{return true}),bypassFocused:true,shortcut:[27],action:this.ov})]}))
 } else {
   BC._unsubscribe(this)
@@ -532,18 +532,18 @@ if (!_2) { continue };_0.push((()=>{BB.af(y);BB.ag(y);return ah.action()})());_i
 } else {
   BC._unsubscribe(this)
 }}ow(){return (async()=>{let _ = null;try{await new Promise(((_resolve)=>{this.setState(_u(this.state, new Record({ox:false})), _resolve)
-}));await DO.is(this.oy, ``);await this.oz((null));await AY.iu(this.pa);_ = await new Promise(((_resolve)=>{this.setState(_u(this.state, new Record({oz:((pb)=>{return null}),pc:((pd)=>{return null}),pa:new AV(),pe:null})), _resolve)
+}));await DS.is(this.oy, ``);await this.oz((null));await AY.iu(this.pa);_ = await new Promise(((_resolve)=>{this.setState(_u(this.state, new Record({oz:((pb)=>{return null}),pc:((pd)=>{return null}),pa:new AV(),pe:null})), _resolve)
 }))}catch(_error){if(!(_error instanceof DoError)){console.warn(`Unhandled error in sequence expression:`);console.warn(_error)}};return _})()}ov(){return (async()=>{let _ = null;try{await new Promise(((_resolve)=>{this.setState(_u(this.state, new Record({ox:false})), _resolve)
-}));await DO.is(this.oy, ``);await this.pc(null);await AY.iu(this.pa);_ = await new Promise(((_resolve)=>{this.setState(_u(this.state, new Record({oz:((pf)=>{return null}),pc:((pg)=>{return null}),pa:new AV(),pe:null})), _resolve)
-}))}catch(_error){if(!(_error instanceof DoError)){console.warn(`Unhandled error in sequence expression:`);console.warn(_error)}};return _})()}render(){return _h(DQ, {lf:this.oy,lg:this.ph,lj:this.ow,ld:this.pi,le:this.ox,ref:(instance) => { this._base = instance }}, _array(this.pe))}_persist(){D=this}};;let D;class BX extends _C{constructor(props){super(props);this._d({pn:[null,new CB()],pm:[null,false],pp:["children",[]],bm:[null,null],po:[null,null]})}$bj(){const _={};(this.pm ? Object.assign(_, {[`--al-a`]:`grid`}) : null);return _}$bm(){const _={[`--ak-a`]:CL.cs(this.pn)};(CM.dg(this.po) ? Object.assign(_, {[`--ak-b`]:`auto 1fr`}) : null);return _}render(){return (()=>{return _h("div", {className:`bm`,style:_style([this.$bm()])}, [(CM.dg(this.po) ? _h("div", {className:`bl`}, [this.po]) : null),_h("div", {className:`bj`,style:_style([this.$bj()])}, [(CM.dg(this.bm) ? _h("div", {className:`bk`}, [this.bm]) : null),_h(DN, {gt:this.pm}, _array(this.pp))])])})()}};;class DP extends _C{constructor(props){super(props);this._d({qc:["children",[]]})}get pr(){return (this._base ? new AW(this._base) : new AV);}pq(pt){return (()=>{let ps = this.pr;if(ps instanceof AW){const pw = ps._0;return (_compare(pt.keyCode, 9) ? (()=>{let pu = new AW(pt.target);let px = AY.pv(pw);let pz = AT.py(px);let qb = AT.qa(px);return (pt.shiftKey && _compare(pz, pu) ? (()=>{BB.ag(pt);return AY.iu(qb)})() : (!pt.shiftKey && _compare(qb, pu) ? (()=>{BB.ag(pt);return AY.iu(pz)})() : new Promise(((_resolve)=>{this.setState(_u(this.state, new Record({})), _resolve)
+}));await DS.is(this.oy, ``);await this.pc(null);await AY.iu(this.pa);_ = await new Promise(((_resolve)=>{this.setState(_u(this.state, new Record({oz:((pf)=>{return null}),pc:((pg)=>{return null}),pa:new AV(),pe:null})), _resolve)
+}))}catch(_error){if(!(_error instanceof DoError)){console.warn(`Unhandled error in sequence expression:`);console.warn(_error)}};return _})()}render(){return _h(DU, {lf:this.oy,lg:this.ph,lj:this.ow,ld:this.pi,le:this.ox,ref:(instance) => { this._base = instance }}, _array(this.pe))}_persist(){D=this}};;let D;class CB extends _C{constructor(props){super(props);this._d({pn:[null,new CF()],pm:[null,false],pp:["children",[]],bm:[null,null],po:[null,null]})}$bl(){const _={};(this.pm ? Object.assign(_, {[`--al-a`]:`grid`}) : null);return _}$bo(){const _={[`--ak-a`]:CP.cs(this.pn)};(CQ.dg(this.po) ? Object.assign(_, {[`--ak-b`]:`auto 1fr`}) : null);return _}render(){return (()=>{return _h("div", {className:`bo`,style:_style([this.$bo()])}, [(CQ.dg(this.po) ? _h("div", {className:`bn`}, [this.po]) : null),_h("div", {className:`bl`,style:_style([this.$bl()])}, [(CQ.dg(this.bm) ? _h("div", {className:`bm`}, [this.bm]) : null),_h(DR, {gt:this.pm}, _array(this.pp))])])})()}};;class DT extends _C{constructor(props){super(props);this._d({qc:["children",[]]})}get pr(){return (this._base ? new AW(this._base) : new AV);}pq(pt){return (()=>{let ps = this.pr;if(ps instanceof AW){const pw = ps._0;return (_compare(pt.keyCode, 9) ? (()=>{let pu = new AW(pt.target);let px = AY.pv(pw);let pz = AT.py(px);let qb = AT.qa(px);return (pt.shiftKey && _compare(pz, pu) ? (()=>{BB.ag(pt);return AY.iu(qb)})() : (!pt.shiftKey && _compare(qb, pu) ? (()=>{BB.ag(pt);return AY.iu(pz)})() : new Promise(((_resolve)=>{this.setState(_u(this.state, new Record({})), _resolve)
 }))))})() : new Promise(((_resolve)=>{this.setState(_u(this.state, new Record({})), _resolve)
 })))} else{return new Promise(((_resolve)=>{this.setState(_u(this.state, new Record({})), _resolve)
-}))}})()}render(){return _h("div", {"onKeyDown":(event => (this.pq)(_normalizeEvent(event))),ref:(element) => { this._base = element }}, [this.qc])}};;class CJ extends _C{constructor(props){super(props);this._d({co:[null,null],cn:[null,0]});this.state = new Record({qe:false})}$bn(){const _={[`--am-a`]:this.qd + `px`};(this.qe ? Object.assign(_, {[`--am-b`]:`transform 320ms`,[`--am-c`]:`translateX(0)`,[`--am-d`]:`10px`}) : Object.assign(_, {[`--am-c`]:`translateX(150%)`,[`--am-d`]:`0`,[`--am-b`]:`margin-bottom 320ms 200ms,
+}))}})()}render(){return _h("div", {"onKeyDown":(event => (this.pq)(_normalizeEvent(event))),ref:(element) => { this._base = element }}, [this.qc])}};;class CN extends _C{constructor(props){super(props);this._d({co:[null,null],cn:[null,0]});this.state = new Record({qe:false})}$bp(){const _={[`--am-a`]:this.qd + `px`};(this.qe ? Object.assign(_, {[`--am-b`]:`transform 320ms`,[`--am-c`]:`translateX(0)`,[`--am-d`]:`10px`}) : Object.assign(_, {[`--am-c`]:`translateX(150%)`,[`--am-d`]:`0`,[`--am-b`]:`margin-bottom 320ms 200ms,
                   height 320ms 200ms,
-                  transform 320ms`}));return _}$bo(){const _={[`--an-a`]:`duration-notification linear both ` + this.cn + `ms`};return _}get qd(){return (this.qe ? ((..._) => AU.gd(0, ..._))(((..._) => AU.g(((_) => _.height), ..._))(((..._) => AU.g(AY.gb, ..._))(this.qh))) : 0)}get qh(){return (this._base ? new AW(this._base) : new AV);}get qe(){return this.state.qe;}componentDidMount(){return (async()=>{let _ = null;try{await DO.qg(``);await new Promise(((_resolve)=>{this.setState(_u(this.state, new Record({qe:true})), _resolve)
-}));await DO.is(this.cn, ``);_ = await new Promise(((_resolve)=>{this.setState(_u(this.state, new Record({qe:false})), _resolve)
+                  transform 320ms`}));return _}$bq(){const _={[`--an-a`]:`duration-notification linear both ` + this.cn + `ms`};return _}get qd(){return (this.qe ? ((..._) => AU.gd(0, ..._))(((..._) => AU.g(((_) => _.height), ..._))(((..._) => AU.g(AY.gb, ..._))(this.qh))) : 0)}get qh(){return (this._base ? new AW(this._base) : new AV);}get qe(){return this.state.qe;}componentDidMount(){return (async()=>{let _ = null;try{await DS.qg(``);await new Promise(((_resolve)=>{this.setState(_u(this.state, new Record({qe:true})), _resolve)
+}));await DS.is(this.cn, ``);_ = await new Promise(((_resolve)=>{this.setState(_u(this.state, new Record({qe:false})), _resolve)
 }))}catch(_error){if(!(_error instanceof DoError)){console.warn(`Unhandled error in sequence expression:`);console.warn(_error)}};return _})()}qf(){return new Promise(((_resolve)=>{this.setState(_u(this.state, new Record({qe:false})), _resolve)
-}))}render(){return _h("div", {className:`bn`,style:_style([this.$bn()])}, [_h("div", {"onClick":(event => (this.qf)(_normalizeEvent(event))),className:`bo`,style:_style([this.$bo()]),ref:(element) => { this._base = element }}, [this.co])])}};;const $b=_m(() => _h(BK, {}));const $a=_m(() => _h(BJ, {}, _array($b())));const $d=_m(() => _h(BM, {}));const $c=_m(() => _h(BJ, {}, _array($d())));const $f=_m(() => _h(BO, {}));const $e=_m(() => _h(BJ, {}, _array($f())));const $h=_m(() => _h(BQ, {}));const $g=_m(() => _h(BJ, {}, _array($h())));const $j=_m(() => _h(BS, {}));const $i=_m(() => _h(BJ, {}, _array($j())));const $l=_m(() => _h(BU, {}));const $k=_m(() => _h(BJ, {}, _array($l())));const $m=_m(() => _h(BJ, {}, _array(`ご指定のURLに合致するページはございません。`)));const $n=_m(() => _h(BX, {bm:`本HPについて`}, _array(_h("p", {}, [`沖縄の甲虫愛好家・藤川浩明のホームページです。`,_h("br", {}),`虫や計算機いじりなどの趣味についてのんびりと書いていこうと思います。`]))));const $o=_m(() => _h(BX, {bm:`新着情報`}, _array(_h("p", {}, [_h("ul", {}, [_h("li", {}, [`2023/03/28: 報文・短報一覧を更新しました`]),_h("li", {}, [`2023/02/09: AtCoderのヒューリスティックレーティングが水色になりました`]),_h("li", {}, [`2023/01/24: 報文・短報一覧を更新しました`])])]))));const $p=_m(() => _h(BX, {bm:`事業概要`}, _array(_h("p", {}, [`　沖丸環境調査という屋号で環境調査の仕事をしています。`,_h("br", {}),`　正直なところ業務経験が浅く、環境調査員としてはまだまだ力不足ではございますが、昆虫採集の趣味を通して沖縄の自然環境に関わってきた経験を活かして精一杯頑張りますので、お仕事のご依頼よろしくお願いいたします。`,_h("br", {}),`※2023年4月以降、沖丸環境調査は本業ではなく副業となりましたので、調査に参加できるのは基本的に土日のみとなりました。`]), _h("p", {}, [`屋号: 沖丸環境調査（おきまるかんきょうちょうさ）`]), _h("p", {}, [`事業形態: 個人事業主`]), _h("p", {}, [`設立: 2021年8月26日`]), _h("p", {}, [`代表: 藤川浩明（ふじかわひろあき）`]), _h("p", {}, [`連絡先: fhir0aki3 アットマーク gmail.com`]), _h("p", {}, [`所在地: 沖縄県国頭郡本部町（藤川の住所でもあるため、詳細はHP上では非公表としますが、ご必要でしたらメールにてお問い合わせください）`]))));const $q=_m(() => _h(BX, {bm:`業務内容`}, _array(_h("p", {}, [`　環境アセスメントの現地調査を主な業務としています。現時点で実績のある業務は以下の通りです。`]), _h("ul", {}, [_h("li", {}, [`水質調査`]),_h("li", {}, [`陸域・陸水域における重要動物種調査`]),_h("li", {}, [`対象種を絞った陸水域の動物調査`])]), _h("p", {}, [`　現時点で対象種を絞らない動物相調査の実務経験はまだ無いのですが、お仕事の内容次第では対応できると思います。是非ご相談ください。`]))));const $r=_m(() => _h('svg', { width: '3250.23', height: '3250.23', viewBox: '0 0 3250.23 3250.23', dangerouslySetInnerHTML: { __html: `<defs id="defs756">
+}))}render(){return _h("div", {className:`bp`,style:_style([this.$bp()])}, [_h("div", {"onClick":(event => (this.qf)(_normalizeEvent(event))),className:`bq`,style:_style([this.$bq()]),ref:(element) => { this._base = element }}, [this.co])])}};;const $b=_m(() => _h(BK, {}));const $a=_m(() => _h(BJ, {}, _array($b())));const $d=_m(() => _h(BM, {}));const $c=_m(() => _h(BJ, {}, _array($d())));const $f=_m(() => _h(BO, {}));const $e=_m(() => _h(BJ, {}, _array($f())));const $h=_m(() => _h(BQ, {}));const $g=_m(() => _h(BJ, {}, _array($h())));const $j=_m(() => _h(BS, {}));const $i=_m(() => _h(BJ, {}, _array($j())));const $l=_m(() => _h(BU, {}));const $k=_m(() => _h(BJ, {}, _array($l())));const $n=_m(() => _h(BW, {}));const $m=_m(() => _h(BJ, {}, _array($n())));const $p=_m(() => _h(BY, {}));const $o=_m(() => _h(BJ, {}, _array($p())));const $q=_m(() => _h(BJ, {}, _array(`ご指定のURLに合致するページはございません。`)));const $r=_m(() => _h(CB, {bm:`本HPについて`}, _array(_h("p", {}, [`沖縄の甲虫愛好家・藤川浩明のホームページです。`,_h("br", {}),`虫や計算機いじりなどの趣味についてのんびりと書いていこうと思います。`]))));const $s=_m(() => _h(CB, {bm:`新着情報`}, _array(_h("p", {}, [_h("ul", {}, [_h("li", {}, [`2023/08/08: よもやま話に「空色のカミキリムシと麻婆豆腐」を追加しました。`]),_h("li", {}, [`2023/08/08: 新コーナー「よもやま話」を開設しました。`]),_h("li", {}, [`2023/03/28: 報文・短報一覧を更新しました`]),_h("li", {}, [`2023/02/09: AtCoderのヒューリスティックレーティングが水色になりました`]),_h("li", {}, [`2023/01/24: 報文・短報一覧を更新しました`])])]))));const $t=_m(() => _h(CB, {bm:`事業概要`}, _array(_h("p", {}, [`　沖丸環境調査という屋号で環境調査の仕事をしています。`,_h("br", {}),`　正直なところ業務経験が浅く、環境調査員としてはまだまだ力不足ではございますが、昆虫採集の趣味を通して沖縄の自然環境に関わってきた経験を活かして精一杯頑張りますので、お仕事のご依頼よろしくお願いいたします。`,_h("br", {}),`※2023年4月以降、沖丸環境調査は本業ではなく副業となりましたので、調査に参加できるのは基本的に土日のみとなりました。`]), _h("p", {}, [`屋号: 沖丸環境調査（おきまるかんきょうちょうさ）`]), _h("p", {}, [`事業形態: 個人事業主`]), _h("p", {}, [`設立: 2021年8月26日`]), _h("p", {}, [`代表: 藤川浩明（ふじかわひろあき）`]), _h("p", {}, [`連絡先: fhir0aki3 アットマーク gmail.com`]), _h("p", {}, [`所在地: 沖縄県国頭郡本部町（藤川の住所でもあるため、詳細はHP上では非公表としますが、ご必要でしたらメールにてお問い合わせください）`]))));const $u=_m(() => _h(CB, {bm:`業務内容`}, _array(_h("p", {}, [`　環境アセスメントの現地調査を主な業務としています。現時点で実績のある業務は以下の通りです。`]), _h("ul", {}, [_h("li", {}, [`水質調査`]),_h("li", {}, [`陸域・陸水域における重要動物種調査`]),_h("li", {}, [`対象種を絞った陸水域の動物調査`])]), _h("p", {}, [`　現時点で対象種を絞らない動物相調査の実務経験はまだ無いのですが、お仕事の内容次第では対応できると思います。是非ご相談ください。`]))));const $v=_m(() => _h('svg', { width: '3250.23', height: '3250.23', viewBox: '0 0 3250.23 3250.23', dangerouslySetInnerHTML: { __html: `<defs id="defs756">
   <linearGradient id="linearGradient1671" inkscape:swatch="solid">
     <stop style="stop-color:#000000;stop-opacity:0;" offset="0" id="stop1669"/>
   </linearGradient>
@@ -592,15 +592,15 @@ if (!_2) { continue };_0.push((()=>{BB.af(y);BB.ag(y);return ah.action()})());_i
 <path fill="none" opacity="1" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="5" d="m 1441.6033,2449.5392 c -0.032,15.0518 -7.9785,27.8411 -12.2445,41.6501 -5.187,16.7899 -11.9844,33.0857 -18.1911,49.5553 -1.8377,4.8762 -3.8354,9.7322 -7.7482,13.4464" id="path747" style="stroke-width:60;stroke-dasharray:none"/>
 <path fill="none" opacity="1" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="5" d="m 1969.812,1757.2816 c -3.6759,5.2716 -2.1234,10.695 -0.7741,16.2797 1.6924,7.0039 4.2248,14.1698 3.9929,21.1864 -0.3341,10.1007 7.411,10.8292 13.1384,12.3958 6.5143,1.7818 9.3921,-4.0791 11.2036,-9.5621 1.5439,-4.6727 2.188,-10.098 4.5576,-13.9532 5.9753,-9.7223 14.0798,-17.179 26.5522,-18.724 11.1692,-1.3838 21.8141,-5.025 31.8715,-10.3903 13.0719,-6.9736 26.9907,-9.8089 41.6638,-6.327 3.3174,0.7873 6.5474,1.3723 9.9226,1.3165" id="path749" style="stroke-width:60;stroke-dasharray:none"/>
 <path fill="none" opacity="1" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="5" d="m 1752.7302,1972.9492 c -3.1856,8.1848 5.6868,10.6886 8.3869,15.9511 3.5909,6.999 10.7086,12.6436 17.7761,17.2829" id="path751" style="stroke-width:60;stroke-dasharray:none"/>
-<circle style="opacity:1;mix-blend-mode:normal;fill:url(#linearGradient1673);fill-opacity:1;fill-rule:nonzero;stroke:url(#linearGradient1661);stroke-width:60;stroke-dasharray:none;paint-order:markers fill stroke" id="path926" cx="1623.7734" cy="1627.6438" r="1599.5652"/>` }}));const $s=_m(() => _h('svg', { width: '12', height: '16', viewBox: '0 0 12 16', dangerouslySetInnerHTML: { __html: `<path fill-rule="evenodd" d="M11.41 9H.59C0 9 0 8.59 0 8c0-.59 0-1 .59-1H11.4c.59 0 .59.41.59 1 0 .59 0 1-.59 1h.01zm0-4H.59C0 5 0 4.59 0 4c0-.59 0-1 .59-1H11.4c.59 0 .59.41.59 1 0 .59 0 1-.59 1h.01zM.59 11H11.4c.59 0 .59.41.59 1 0 .59 0 1-.59 1H.59C0 13 0 12.59 0 12c0-.59 0-1 .59-1z"/>` }}));const $t=_m(() => _h('svg', { width: '16', height: '16', viewBox: '0 0 16 16', dangerouslySetInnerHTML: { __html: `<path fill-rule="evenodd" d="M16 9l-3-3V2h-2v2L8 1 0 9h2l1 5c0 .55.45 1 1 1h8c.55 0 1-.45 1-1l1-5h2zm-4 5H9v-4H7v4H4L2.81 7.69 8 2.5l5.19 5.19L12 14z"/>` }}));const $u=_m(() => _h('svg', { width: '14', height: '16', viewBox: '0 0 14 16', dangerouslySetInnerHTML: { __html: `<path fill-rule="evenodd" d="M9 4V3c0-.55-.45-1-1-1H6c-.55 0-1 .45-1 1v1H1c-.55 0-1 .45-1 1v8c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1H9zM6 3h2v1H6V3zm7 6H8v1H6V9H1V5h1v3h10V5h1v4z"/>` }}));const $v=_m(() => _h('svg', { width: '16', height: '16', viewBox: '0 0 16 16', dangerouslySetInnerHTML: { __html: `<path fill-rule="evenodd" d="M3 5h4v1H3V5zm0 3h4V7H3v1zm0 2h4V9H3v1zm11-5h-4v1h4V5zm0 2h-4v1h4V7zm0 2h-4v1h4V9zm2-6v9c0 .55-.45 1-1 1H9.5l-1 1-1-1H2c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1h5.5l1 1 1-1H15c.55 0 1 .45 1 1zm-8 .5L7.5 3H2v9h6V3.5zm7-.5H9.5l-.5.5V12h6V3z"/>` }}));const $w=_m(() => _h('svg', { width: '16', height: '16', viewBox: '0 0 16 16', dangerouslySetInnerHTML: { __html: `<path fill-rule="evenodd" d="M11 10h3V9h-3V8l3.17-1.03-.34-.94L11 7V6c0-.55-.45-1-1-1V4c0-.48-.36-.88-.83-.97L10.2 2H12V1H9.8l-2 2h-.59L5.2 1H3v1h1.8l1.03 1.03C5.36 3.12 5 3.51 5 4v1c-.55 0-1 .45-1 1v1l-2.83-.97-.34.94L4 8v1H1v1h3v1L.83 12.03l.34.94L4 12v1c0 .55.45 1 1 1h1l1-1V6h1v7l1 1h1c.55 0 1-.45 1-1v-1l2.83.97.34-.94L11 11v-1zM9 5H6V4h3v1z"/>` }}));const $x=_m(() => _h('svg', { width: '16', height: '16', viewBox: '0 0 16 16', dangerouslySetInnerHTML: { __html: `<path fill-rule="evenodd" d="M15 2H1c-.55 0-1 .45-1 1v9c0 .55.45 1 1 1h5.34c-.25.61-.86 1.39-2.34 2h8c-1.48-.61-2.09-1.39-2.34-2H15c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm0 9H1V3h14v8z"/>` }}));const $y=_m(() => _h('svg', { width: '12', height: '16', viewBox: '0 0 12 16', dangerouslySetInnerHTML: { __html: `<path fill-rule="evenodd" d="M12 14.002a.998.998 0 01-.998.998H1.001A1 1 0 010 13.999V13c0-2.633 4-4 4-4s.229-.409 0-1c-.841-.62-.944-1.59-1-4 .173-2.413 1.867-3 3-3s2.827.586 3 3c-.056 2.41-.159 3.38-1 4-.229.59 0 1 0 1s4 1.367 4 4v1.002z"/>` }}));const $z=_m(() => _h('svg', { width: '8', height: '16', viewBox: '0 0 8 16', dangerouslySetInnerHTML: { __html: `<path fill-rule="evenodd" d="M7.5 8l-5 5L1 11.5 4.75 8 1 4.5 2.5 3l5 5z"/>` }}));const EZ=new(class extends _S{constructor(){super();this.state={wv:new EY()}}get wv(){return this.state.wv;}wu(){return (async()=>{let _ = null;try{await new Promise(((_resolve)=>{this.setState(_u(this.state, new Record({wv:new EV()})), _resolve)
-}));let wx = await (async()=>{try{return await ED.sb(ED.rt(`http://localhost:3001/api/` + `papers/list`))}catch(_error){let ww = _error;_=new Promise(((_resolve)=>{this.setState(_u(this.state, new Record({wv:new EW(`Something went wrong with the request.`)})), _resolve)
-}));throw new DoError()}})();let _2 = ((..._) => AU.rk(``, ..._))(EP.us(wx.body));if(_2 instanceof Err){let _error = _2._0;let wy = _error;_=new Promise(((_resolve)=>{this.setState(_u(this.state, new Record({wv:new EW(`Invalid JSON data.`)})), _resolve)
-}));throw new DoError()};let wz = _2._0;await ER.vi(wz);let _4 = ((_)=>AJ.decode(_))(wz);if(_4 instanceof Err){let _error = _4._0;let xa = _error;_=new Promise(((_resolve)=>{this.setState(_u(this.state, new Record({wv:new EW(`The papers data is not what is expected.`)})), _resolve)
-}));throw new DoError()};let xb = _4._0;await ER.vi(xb);_ = await new Promise(((_resolve)=>{this.setState(_u(this.state, new Record({wv:new EX(xb)})), _resolve)
+<circle style="opacity:1;mix-blend-mode:normal;fill:url(#linearGradient1673);fill-opacity:1;fill-rule:nonzero;stroke:url(#linearGradient1661);stroke-width:60;stroke-dasharray:none;paint-order:markers fill stroke" id="path926" cx="1623.7734" cy="1627.6438" r="1599.5652"/>` }}));const $w=_m(() => _h('svg', { width: '12', height: '16', viewBox: '0 0 12 16', dangerouslySetInnerHTML: { __html: `<path fill-rule="evenodd" d="M11.41 9H.59C0 9 0 8.59 0 8c0-.59 0-1 .59-1H11.4c.59 0 .59.41.59 1 0 .59 0 1-.59 1h.01zm0-4H.59C0 5 0 4.59 0 4c0-.59 0-1 .59-1H11.4c.59 0 .59.41.59 1 0 .59 0 1-.59 1h.01zM.59 11H11.4c.59 0 .59.41.59 1 0 .59 0 1-.59 1H.59C0 13 0 12.59 0 12c0-.59 0-1 .59-1z"/>` }}));const $x=_m(() => _h('svg', { width: '16', height: '16', viewBox: '0 0 16 16', dangerouslySetInnerHTML: { __html: `<path fill-rule="evenodd" d="M16 9l-3-3V2h-2v2L8 1 0 9h2l1 5c0 .55.45 1 1 1h8c.55 0 1-.45 1-1l1-5h2zm-4 5H9v-4H7v4H4L2.81 7.69 8 2.5l5.19 5.19L12 14z"/>` }}));const $y=_m(() => _h('svg', { width: '14', height: '16', viewBox: '0 0 14 16', dangerouslySetInnerHTML: { __html: `<path fill-rule="evenodd" d="M9 4V3c0-.55-.45-1-1-1H6c-.55 0-1 .45-1 1v1H1c-.55 0-1 .45-1 1v8c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1H9zM6 3h2v1H6V3zm7 6H8v1H6V9H1V5h1v3h10V5h1v4z"/>` }}));const $z=_m(() => _h('svg', { width: '16', height: '16', viewBox: '0 0 16 16', dangerouslySetInnerHTML: { __html: `<path fill-rule="evenodd" d="M3 5h4v1H3V5zm0 3h4V7H3v1zm0 2h4V9H3v1zm11-5h-4v1h4V5zm0 2h-4v1h4V7zm0 2h-4v1h4V9zm2-6v9c0 .55-.45 1-1 1H9.5l-1 1-1-1H2c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1h5.5l1 1 1-1H15c.55 0 1 .45 1 1zm-8 .5L7.5 3H2v9h6V3.5zm7-.5H9.5l-.5.5V12h6V3z"/>` }}));const $aa=_m(() => _h('svg', { width: '16', height: '16', viewBox: '0 0 16 16', dangerouslySetInnerHTML: { __html: `<path fill-rule="evenodd" d="M11 10h3V9h-3V8l3.17-1.03-.34-.94L11 7V6c0-.55-.45-1-1-1V4c0-.48-.36-.88-.83-.97L10.2 2H12V1H9.8l-2 2h-.59L5.2 1H3v1h1.8l1.03 1.03C5.36 3.12 5 3.51 5 4v1c-.55 0-1 .45-1 1v1l-2.83-.97-.34.94L4 8v1H1v1h3v1L.83 12.03l.34.94L4 12v1c0 .55.45 1 1 1h1l1-1V6h1v7l1 1h1c.55 0 1-.45 1-1v-1l2.83.97.34-.94L11 11v-1zM9 5H6V4h3v1z"/>` }}));const $ab=_m(() => _h('svg', { width: '16', height: '16', viewBox: '0 0 16 16', dangerouslySetInnerHTML: { __html: `<path fill-rule="evenodd" d="M15 2H1c-.55 0-1 .45-1 1v9c0 .55.45 1 1 1h5.34c-.25.61-.86 1.39-2.34 2h8c-1.48-.61-2.09-1.39-2.34-2H15c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm0 9H1V3h14v8z"/>` }}));const $ac=_m(() => _h('svg', { width: '12', height: '16', viewBox: '0 0 12 16', dangerouslySetInnerHTML: { __html: `<path fill-rule="evenodd" d="M12 14.002a.998.998 0 01-.998.998H1.001A1 1 0 010 13.999V13c0-2.633 4-4 4-4s.229-.409 0-1c-.841-.62-.944-1.59-1-4 .173-2.413 1.867-3 3-3s2.827.586 3 3c-.056 2.41-.159 3.38-1 4-.229.59 0 1 0 1s4 1.367 4 4v1.002z"/>` }}));const $ad=_m(() => _h('svg', { width: '8', height: '16', viewBox: '0 0 8 16', dangerouslySetInnerHTML: { __html: `<path fill-rule="evenodd" d="M7.5 8l-5 5L1 11.5 4.75 8 1 4.5 2.5 3l5 5z"/>` }}));const FD=new(class extends _S{constructor(){super();this.state={wv:new FC()}}get wv(){return this.state.wv;}wu(){return (async()=>{let _ = null;try{await new Promise(((_resolve)=>{this.setState(_u(this.state, new Record({wv:new EZ()})), _resolve)
+}));let wx = await (async()=>{try{return await EH.sb(EH.rt(`http://localhost:3001/api/` + `papers/list`))}catch(_error){let ww = _error;_=new Promise(((_resolve)=>{this.setState(_u(this.state, new Record({wv:new FA(`Something went wrong with the request.`)})), _resolve)
+}));throw new DoError()}})();let _2 = ((..._) => AU.rk(``, ..._))(ET.us(wx.body));if(_2 instanceof Err){let _error = _2._0;let wy = _error;_=new Promise(((_resolve)=>{this.setState(_u(this.state, new Record({wv:new FA(`Invalid JSON data.`)})), _resolve)
+}));throw new DoError()};let wz = _2._0;await EV.vi(wz);let _4 = ((_)=>AJ.decode(_))(wz);if(_4 instanceof Err){let _error = _4._0;let xa = _error;_=new Promise(((_resolve)=>{this.setState(_u(this.state, new Record({wv:new FA(`The papers data is not what is expected.`)})), _resolve)
+}));throw new DoError()};let xb = _4._0;await EV.vi(xb);_ = await new Promise(((_resolve)=>{this.setState(_u(this.state, new Record({wv:new FB(xb)})), _resolve)
 }))}catch(_error){if(!(_error instanceof DoError)){console.warn(`Unhandled error in sequence expression:`);console.warn(_error)}};return _})()}});const BI=new(class extends _S{constructor(){super();this.state={bl:new BL()}}get bl(){return this.state.bl;}xc(xe){return (async()=>{let _ = null;try{_ = await BI.xd(xe)}catch(_error){if(!(_error instanceof DoError)){console.warn(`Unhandled error in sequence expression:`);console.warn(_error)}};return _})()}xd(xf){return new Promise(((_resolve)=>{this.setState(_u(this.state, new Record({bl:xf})), _resolve)
-}))}});const CZ=new(class extends _S{constructor(){super();this.state={xh:DY.ne(),fk:AS.sq(`(max-width: 1000px)`),xl:(()=>{let yf = EO.tl(`ui.dark-mode`);if(yf instanceof EC){return AS.sq(`(prefers-color-scheme: dark)`)} else if(yf instanceof EB){const yg = yf._0;return _compare(yg, `true`)}})(),ye:AS.sn(`(max-width: 1000px)`, ((yh)=>{return new Promise(((_resolve)=>{this.setState(_u(this.state, new Record({fk:yh})), _resolve)
-}))}))};this._d({yi:(()=>{return new AN({titleWoff2:`/assets/nunito-v16-latin-ext_latin-700_7ba344b9011888663eea78e71fc1af79.woff2`,titleWoff:`/assets/nunito-v16-latin-ext_latin-700_6e483e301899a8ab59b328ae7f155c29.woff`,titleName:`Nunito`,regularWoff2:`/assets/open-sans-v18-latin-ext_latin-regular_be21e759f9abd15b8cef68d92cedc081.woff2`,regularWoff:`/assets/open-sans-v18-latin-ext_latin-regular_b7b7c77b83e9d67f6756aa2716f35eba.woff`,boldWoff2:`/assets/open-sans-v18-latin-ext_latin-700_5717b08cf679657595d0383d291a04c3.woff2`,boldWoff:`/assets/open-sans-v18-latin-ext_latin-700_5717b08cf679657595d0383d291a04c3.woff2`,name:`Open Sans`})}),yj:(()=>{return [new FA(new Record({name:`background-border`,light:`#D0D0D0`,dark:`#1A1A1A`})), new FA(new Record({name:`background-color`,light:`#F0F0F0`,dark:`#222222`})), new FA(new Record({name:`background-text`,light:`#444444`,dark:`#EEEEEE`})), new FA(new Record({name:`content-faded-border`,light:`#DDD`,dark:`#242424`})), new FA(new Record({name:`content-faded-color`,light:`#EEE`,dark:`#2C2C2C`})), new FA(new Record({name:`content-faded-text`,light:`#555`,dark:`#CCC`})), new FA(new Record({name:`content-border`,light:`#DDD`,dark:`#292929`})), new FA(new Record({name:`content-color`,light:`#FFF`,dark:`#333`})), new FA(new Record({name:`content-text`,light:`#555`,dark:`#CCC`})), new FA(new Record({name:`shadow-color`,light:`#00000010`,dark:`#00000025`})), new FA(new Record({name:`scrollbar-track`,light:`#FFF`,dark:`#393939`})), new FA(new Record({name:`scrollbar-thumb`,light:`#DDD`,dark:`#555`})), new FB(new Record({name:`selection-color`,value:`var(--primary-color)`})), new FB(new Record({name:`selection-text`,value:`var(--primary-text)`})), new FB(new Record({name:`scroll-shadow-from`,value:`#00000000`})), new FB(new Record({name:`scroll-shadow-to`,value:`#00000030`})), new FA(new Record({name:`navitem-border`,light:`#EDEDED`,dark:`#2A2A2A`})), new FA(new Record({name:`checker-color-1`,light:`#F0F0F0`,dark:`#303030`})), new FA(new Record({name:`checker-color-2`,light:`#F6F6F6`,dark:`#2A2A2A`})), new FA(new Record({name:`input-border`,light:`#DDD`,dark:`#232323`})), new FA(new Record({name:`input-color`,light:`#F3F3F3`,dark:`#2D2D2D`})), new FA(new Record({name:`input-text`,light:`#555`,dark:`#CCC`})), new FA(new Record({name:`input-focus-border`,light:`#c2e3fd`,dark:`#1f313c`})), new FA(new Record({name:`input-focus-color`,light:`#D8EEFF`,dark:`#354c5e`})), new FA(new Record({name:`input-focus-text`,light:`#306F9F`,dark:`#A5CDEC`})), new FA(new Record({name:`input-invalid-border`,light:`#F4B0AB`,dark:`#481B17`})), new FA(new Record({name:`input-invalid-color`,light:`#FDD3D0`,dark:`#7D3E39`})), new FA(new Record({name:`input-invalid-text`,light:`#6A332F`,dark:`#E8D1CF`})), new FA(new Record({name:`title-border`,light:`#EEE`,dark:`#2A2A2A`})), new FA(new Record({name:`title-color`,light:`#333`,dark:`#F6F6F6`})), new FA(new Record({name:`primary-light-color`,light:`#E9F5FF`,dark:`#354553`})), new FA(new Record({name:`primary-light-text`,light:`#284459`,dark:`#c5e2f9`})), new FB(new Record({name:`primary-focus-ring`,value:`#FFFFFF95`})), new FB(new Record({name:`primary-hover`,value:`#1D7AC1`})), new FB(new Record({name:`primary-color`,value:`#0591FC`})), new FB(new Record({name:`primary-text`,value:`#FFF`})), new FA(new Record({name:`warning-light-color`,light:`#FFEDCE`,dark:`#6A5021`})), new FA(new Record({name:`warning-light-text`,light:`#4a4740`,dark:`#eee4cf`})), new FB(new Record({name:`warning-focus-ring`,value:`#FFFFFF95`})), new FB(new Record({name:`warning-hover`,value:`#DB8E0A`})), new FB(new Record({name:`warning-color`,value:`#F59E0B`})), new FB(new Record({name:`warning-text`,value:`#FFF`})), new FA(new Record({name:`secondary-focus-ring`,light:`#FFFFFF95`,dark:`#00000095`})), new FA(new Record({name:`secondary-light-color`,light:`#DDD`,dark:`#444`})), new FA(new Record({name:`secondary-light-text`,light:`#444`,dark:`#EEE`})), new FA(new Record({name:`secondary-hover`,light:`#545454`,dark:`#C6C6C6`})), new FA(new Record({name:`secondary-color`,light:`#444`,dark:`#E6E6E6`})), new FA(new Record({name:`secondary-text`,light:`#FFF`,dark:`#333`})), new FA(new Record({name:`success-light-color`,light:`#C5FFEC`,dark:`#204F3F`})), new FA(new Record({name:`success-light-text`,light:`#37574d`,dark:`#c6f4e6`})), new FB(new Record({name:`success-focus-ring`,value:`#FFFFFF95`})), new FB(new Record({name:`success-hover`,value:`#0C885F`})), new FB(new Record({name:`success-color`,value:`#10B981`})), new FB(new Record({name:`success-text`,value:`#FFF`})), new FA(new Record({name:`danger-light-color`,light:`#FBE5E5`,dark:`#752D2D`})), new FA(new Record({name:`danger-light-text`,light:`#463636`,dark:`#e1b5b5`})), new FB(new Record({name:`danger-focus-ring`,value:`#FFFFFF95`})), new FB(new Record({name:`danger-hover`,value:`#BD2525`})), new FB(new Record({name:`danger-color`,value:`#EF4444`})), new FB(new Record({name:`danger-text`,value:`#FFF`})), new FA(new Record({name:`faded-light-color`,light:`#00000015`,dark:`#FFFFFF15`})), new FA(new Record({name:`faded-light-text`,light:`#555`,dark:`#CCC`})), new FA(new Record({name:`faded-focus-ring`,light:`#00000095`,dark:`#FFFFFF95`})), new FA(new Record({name:`faded-hover`,light:`#00000025`,dark:`#FFFFFF25`})), new FA(new Record({name:`faded-color`,light:`#00000015`,dark:`#FFFFFF15`})), new FA(new Record({name:`faded-text`,light:`#555`,dark:`#CCC`}))]})})}get xh(){return this.state.xh;}get fk(){return this.state.fk;}get xl(){return this.state.xl;}get ye(){return this.state.ye;}xg(xi){return new Promise(((_resolve)=>{this.setState(_u(this.state, new Record({xh:DY.ms(xi, this.xh)})), _resolve)
-}))}xj(){return CZ.xk(!this.xl)}xk(xm){return (()=>{(()=>{let xn = EO.ti(`ui.dark-mode`, ES.vk(xm));if(xn instanceof EC){return ER.vi(`Could not save dark mode setting to LocalStorage!`)} else if(xn instanceof EB){return ``}})();return new Promise(((_resolve)=>{this.setState(_u(this.state, new Record({xl:xm})), _resolve)
+}))}});const DD=new(class extends _S{constructor(){super();this.state={xh:EC.ne(),fk:AS.sq(`(max-width: 1000px)`),xl:(()=>{let yf = ES.tl(`ui.dark-mode`);if(yf instanceof EG){return AS.sq(`(prefers-color-scheme: dark)`)} else if(yf instanceof EF){const yg = yf._0;return _compare(yg, `true`)}})(),ye:AS.sn(`(max-width: 1000px)`, ((yh)=>{return new Promise(((_resolve)=>{this.setState(_u(this.state, new Record({fk:yh})), _resolve)
+}))}))};this._d({yi:(()=>{return new AN({titleWoff2:`/assets/nunito-v16-latin-ext_latin-700_7ba344b9011888663eea78e71fc1af79.woff2`,titleWoff:`/assets/nunito-v16-latin-ext_latin-700_6e483e301899a8ab59b328ae7f155c29.woff`,titleName:`Nunito`,regularWoff2:`/assets/open-sans-v18-latin-ext_latin-regular_be21e759f9abd15b8cef68d92cedc081.woff2`,regularWoff:`/assets/open-sans-v18-latin-ext_latin-regular_b7b7c77b83e9d67f6756aa2716f35eba.woff`,boldWoff2:`/assets/open-sans-v18-latin-ext_latin-700_5717b08cf679657595d0383d291a04c3.woff2`,boldWoff:`/assets/open-sans-v18-latin-ext_latin-700_5717b08cf679657595d0383d291a04c3.woff2`,name:`Open Sans`})}),yj:(()=>{return [new FE(new Record({name:`background-border`,light:`#D0D0D0`,dark:`#1A1A1A`})), new FE(new Record({name:`background-color`,light:`#F0F0F0`,dark:`#222222`})), new FE(new Record({name:`background-text`,light:`#444444`,dark:`#EEEEEE`})), new FE(new Record({name:`content-faded-border`,light:`#DDD`,dark:`#242424`})), new FE(new Record({name:`content-faded-color`,light:`#EEE`,dark:`#2C2C2C`})), new FE(new Record({name:`content-faded-text`,light:`#555`,dark:`#CCC`})), new FE(new Record({name:`content-border`,light:`#DDD`,dark:`#292929`})), new FE(new Record({name:`content-color`,light:`#FFF`,dark:`#333`})), new FE(new Record({name:`content-text`,light:`#555`,dark:`#CCC`})), new FE(new Record({name:`shadow-color`,light:`#00000010`,dark:`#00000025`})), new FE(new Record({name:`scrollbar-track`,light:`#FFF`,dark:`#393939`})), new FE(new Record({name:`scrollbar-thumb`,light:`#DDD`,dark:`#555`})), new FF(new Record({name:`selection-color`,value:`var(--primary-color)`})), new FF(new Record({name:`selection-text`,value:`var(--primary-text)`})), new FF(new Record({name:`scroll-shadow-from`,value:`#00000000`})), new FF(new Record({name:`scroll-shadow-to`,value:`#00000030`})), new FE(new Record({name:`navitem-border`,light:`#EDEDED`,dark:`#2A2A2A`})), new FE(new Record({name:`checker-color-1`,light:`#F0F0F0`,dark:`#303030`})), new FE(new Record({name:`checker-color-2`,light:`#F6F6F6`,dark:`#2A2A2A`})), new FE(new Record({name:`input-border`,light:`#DDD`,dark:`#232323`})), new FE(new Record({name:`input-color`,light:`#F3F3F3`,dark:`#2D2D2D`})), new FE(new Record({name:`input-text`,light:`#555`,dark:`#CCC`})), new FE(new Record({name:`input-focus-border`,light:`#c2e3fd`,dark:`#1f313c`})), new FE(new Record({name:`input-focus-color`,light:`#D8EEFF`,dark:`#354c5e`})), new FE(new Record({name:`input-focus-text`,light:`#306F9F`,dark:`#A5CDEC`})), new FE(new Record({name:`input-invalid-border`,light:`#F4B0AB`,dark:`#481B17`})), new FE(new Record({name:`input-invalid-color`,light:`#FDD3D0`,dark:`#7D3E39`})), new FE(new Record({name:`input-invalid-text`,light:`#6A332F`,dark:`#E8D1CF`})), new FE(new Record({name:`title-border`,light:`#EEE`,dark:`#2A2A2A`})), new FE(new Record({name:`title-color`,light:`#333`,dark:`#F6F6F6`})), new FE(new Record({name:`primary-light-color`,light:`#E9F5FF`,dark:`#354553`})), new FE(new Record({name:`primary-light-text`,light:`#284459`,dark:`#c5e2f9`})), new FF(new Record({name:`primary-focus-ring`,value:`#FFFFFF95`})), new FF(new Record({name:`primary-hover`,value:`#1D7AC1`})), new FF(new Record({name:`primary-color`,value:`#0591FC`})), new FF(new Record({name:`primary-text`,value:`#FFF`})), new FE(new Record({name:`warning-light-color`,light:`#FFEDCE`,dark:`#6A5021`})), new FE(new Record({name:`warning-light-text`,light:`#4a4740`,dark:`#eee4cf`})), new FF(new Record({name:`warning-focus-ring`,value:`#FFFFFF95`})), new FF(new Record({name:`warning-hover`,value:`#DB8E0A`})), new FF(new Record({name:`warning-color`,value:`#F59E0B`})), new FF(new Record({name:`warning-text`,value:`#FFF`})), new FE(new Record({name:`secondary-focus-ring`,light:`#FFFFFF95`,dark:`#00000095`})), new FE(new Record({name:`secondary-light-color`,light:`#DDD`,dark:`#444`})), new FE(new Record({name:`secondary-light-text`,light:`#444`,dark:`#EEE`})), new FE(new Record({name:`secondary-hover`,light:`#545454`,dark:`#C6C6C6`})), new FE(new Record({name:`secondary-color`,light:`#444`,dark:`#E6E6E6`})), new FE(new Record({name:`secondary-text`,light:`#FFF`,dark:`#333`})), new FE(new Record({name:`success-light-color`,light:`#C5FFEC`,dark:`#204F3F`})), new FE(new Record({name:`success-light-text`,light:`#37574d`,dark:`#c6f4e6`})), new FF(new Record({name:`success-focus-ring`,value:`#FFFFFF95`})), new FF(new Record({name:`success-hover`,value:`#0C885F`})), new FF(new Record({name:`success-color`,value:`#10B981`})), new FF(new Record({name:`success-text`,value:`#FFF`})), new FE(new Record({name:`danger-light-color`,light:`#FBE5E5`,dark:`#752D2D`})), new FE(new Record({name:`danger-light-text`,light:`#463636`,dark:`#e1b5b5`})), new FF(new Record({name:`danger-focus-ring`,value:`#FFFFFF95`})), new FF(new Record({name:`danger-hover`,value:`#BD2525`})), new FF(new Record({name:`danger-color`,value:`#EF4444`})), new FF(new Record({name:`danger-text`,value:`#FFF`})), new FE(new Record({name:`faded-light-color`,light:`#00000015`,dark:`#FFFFFF15`})), new FE(new Record({name:`faded-light-text`,light:`#555`,dark:`#CCC`})), new FE(new Record({name:`faded-focus-ring`,light:`#00000095`,dark:`#FFFFFF95`})), new FE(new Record({name:`faded-hover`,light:`#00000025`,dark:`#FFFFFF25`})), new FE(new Record({name:`faded-color`,light:`#00000015`,dark:`#FFFFFF15`})), new FE(new Record({name:`faded-text`,light:`#555`,dark:`#CCC`}))]})})}get xh(){return this.state.xh;}get fk(){return this.state.fk;}get xl(){return this.state.xl;}get ye(){return this.state.ye;}xg(xi){return new Promise(((_resolve)=>{this.setState(_u(this.state, new Record({xh:EC.ms(xi, this.xh)})), _resolve)
+}))}xj(){return DD.xk(!this.xl)}xk(xm){return (()=>{(()=>{let xn = ES.ti(`ui.dark-mode`, EW.vk(xm));if(xn instanceof EG){return EV.vi(`Could not save dark mode setting to LocalStorage!`)} else if(xn instanceof EF){return ``}})();return new Promise(((_resolve)=>{this.setState(_u(this.state, new Record({xl:xm})), _resolve)
 }))})()}hb(xo,xp){return (xo ? AZ.hd : xp)}xq(xw,xx,xu){return (()=>{const [xr,xs,xt] = AZ.ja();let xv = AY.qk(xu.target);(clearTimeout(xw));let xy = (setTimeout(xr, xx));return [xy, xv, xt]})()}gj(xz){return xz.top >= 0 && xz.left >= 0 && xz.right <= AS.si() && xz.bottom <= AS.sj()}ya(yb){return ((() => {
       let rect = yb.getBoundingClientRect();
       let node = yb.parentNode;
@@ -634,7 +634,7 @@ if (!_2) { continue };_0.push((()=>{BB.af(y);BB.ag(y);return ah.action()})());_i
       } while (node != document.body)
 
       return true;
-    })())}yc(yd){return (CZ.ya(yd) ? new Promise(((_resolve)=>{this.setState(_u(this.state, new Record({})), _resolve)
+    })())}yc(yd){return (DD.ya(yd) ? new Promise(((_resolve)=>{this.setState(_u(this.state, new Record({})), _resolve)
 })) : (yd.scrollIntoView({
         behavior: "smooth",
         inline: "center",
@@ -646,10 +646,18 @@ if (!_2) { continue };_0.push((()=>{BB.af(y);BB.ag(y);return ah.action()})());_i
 }
 
 .b {
-  color: #404040;
+  width: 300px;
 }
 
 .c {
+  color: #404040;
+}
+
+.d {
+  color: #404040;
+}
+
+.e {
   flex-direction: column;
   display: flex;
   border-radius: 10px;
@@ -657,17 +665,17 @@ if (!_2) { continue };_0.push((()=>{BB.af(y);BB.ag(y);return ah.action()})());_i
   padding: 10px;
 }
 
-.d {
+.f {
   padding-bottom: 20px;
   border-bottom: solid 1px black;
   font-family: "Shippori Mincho B1";
 }
 
-.e {
+.g {
   color: #455765;
 }
 
-.f {
+.h {
   position: fixed;
   z-index: 1100;
   right: 1em;
@@ -677,7 +685,7 @@ if (!_2) { continue };_0.push((()=>{BB.af(y);BB.ag(y);return ah.action()})());_i
   display: flex;
 }
 
-.g {
+.i {
   font-size: var(--a-a);
   font-family: var(--font-family);
   height: var(--a-b);
@@ -688,7 +696,7 @@ if (!_2) { continue };_0.push((()=>{BB.af(y);BB.ag(y);return ah.action()})());_i
   display: grid;
 }
 
-.h {
+.j {
   text-decoration: none;
   font-weight: bold;
   grid-auto-flow: column;
@@ -700,38 +708,38 @@ if (!_2) { continue };_0.push((()=>{BB.af(y);BB.ag(y);return ah.action()})());_i
   color: var(--b-a);
 }
 
-.h:hover {
+.j:hover {
   color: var(--primary-color);
 }
 
-.h:focus {
+.j:focus {
   color: var(--primary-color);
 }
 
-.i {
+.k {
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
 }
 
-.j {
+.l {
   border-left: 0.2em solid var(--background-border);
   height: 2.4em;
 }
 
-.k {
+.m {
   position: relative;
   top: 0.0625em;
 }
 
-.l {
+.n {
   font-size: var(--c-a);
   align-content: start;
   grid-gap: 0.25em;
   display: grid;
 }
 
-.m {
+.o {
   max-width: var(--d-a);
   min-height: 100vh;
   min-width: 320px;
@@ -744,29 +752,29 @@ if (!_2) { continue };_0.push((()=>{BB.af(y);BB.ag(y);return ah.action()})());_i
   margin-left: var(--d-f);
 }
 
-.m > * {
+.o > * {
   min-width: 0;
 }
 
-.m > *:not(:last-child) {
+.o > *:not(:last-child) {
   border-bottom: 1px solid var(--border);
 }
 
-.m > *:empty {
+.o > *:empty {
   display: none;
 }
 
-.n {
+.p {
   padding-bottom: 0.5em;
 }
 
-.o {
+.q {
   padding: 1em 0;
   display: grid;
   align-content: var(--e-a);
 }
 
-.p {
+.r {
   z-index: var(--f-a);
   position: fixed;
   left: var(--f-b);
@@ -774,7 +782,7 @@ if (!_2) { continue };_0.push((()=>{BB.af(y);BB.ag(y);return ah.action()})());_i
   pointer-events: var(--f-d);
 }
 
-.q {
+.s {
   font-size: var(--g-a);
   font-family: var(--font-family);
   text-align: var(--g-b);
@@ -783,103 +791,103 @@ if (!_2) { continue };_0.push((()=>{BB.af(y);BB.ag(y);return ah.action()})());_i
   display: var(--g-c);
 }
 
-.q > *:first-child {
+.s > *:first-child {
   margin-top: 0;
 }
 
-.q > *:last-child {
+.s > *:last-child {
   margin-bottom: 0;
 }
 
-.q h1 {
+.s h1 {
   margin-bottom: 0.35em;
   margin-top: 2em;
   line-height: 1.2em;
 }
 
-.q h2 {
+.s h2 {
   margin-bottom: 0.35em;
   margin-top: 2em;
   line-height: 1.2em;
 }
 
-.q h3 {
+.s h3 {
   margin-bottom: 0.35em;
   margin-top: 2em;
   line-height: 1.2em;
 }
 
-.q h4 {
+.s h4 {
   margin-bottom: 0.35em;
   margin-top: 2em;
   line-height: 1.2em;
 }
 
-.q h5 {
+.s h5 {
   margin-bottom: 0.35em;
   margin-top: 2em;
   line-height: 1.2em;
 }
 
-.q h1 + * {
+.s h1 + * {
   margin-top: 0;
 }
 
-.q h2 + * {
+.s h2 + * {
   margin-top: 0;
 }
 
-.q h3 + * {
+.s h3 + * {
   margin-top: 0;
 }
 
-.q h4 + * {
+.s h4 + * {
   margin-top: 0;
 }
 
-.q h5 + * {
+.s h5 + * {
   margin-top: 0;
 }
 
-.q ul {
+.s ul {
   padding-left: 1.5em;
 }
 
-.q ol {
+.s ol {
   padding-left: 1.5em;
 }
 
-.q li + li {
+.s li + li {
   margin-top: 0.5em;
 }
 
-.q a:not([name]):not([class]) {
+.s a:not([name]):not([class]) {
   color: var(--primary-color);
   text-decoration: none;
 }
 
-.q a:not([name]):not([class]) code:not([class]) {
+.s a:not([name]):not([class]) code:not([class]) {
   color: inherit;
 }
 
-.q a:not([name]):not([class]) kbd:not([class]) {
+.s a:not([name]):not([class]) kbd:not([class]) {
   color: inherit;
 }
 
-.q a:not([name]):not([class]):focus {
+.s a:not([name]):not([class]):focus {
   outline: 0.125em dotted var(--primary-color);
   text-decoration: underline;
   outline-offset: 0.125em;
 }
 
-.q a:not([name]):not([class])[target="_blank"]:after {
+.s a:not([name]):not([class])[target="_blank"]:after {
   transform: scaleX(-1);
   display: inline-block;
   margin-left: 0.1em;
   content: " ⎋";
 }
 
-.q code:not([class]) {
+.s code:not([class]) {
   border: 0.0625em solid var(--input-border);
   background: var(--input-color);
   color: var(--input-text);
@@ -888,7 +896,7 @@ if (!_2) { continue };_0.push((()=>{BB.af(y);BB.ag(y);return ah.action()})());_i
   font-size: 0.875em;
 }
 
-.q kbd:not([class]) {
+.s kbd:not([class]) {
   border: 0.0625em solid var(--input-border);
   background: var(--input-color);
   color: var(--input-text);
@@ -897,26 +905,26 @@ if (!_2) { continue };_0.push((()=>{BB.af(y);BB.ag(y);return ah.action()})());_i
   font-size: 0.875em;
 }
 
-.q kbd:not([class]) {
+.s kbd:not([class]) {
   border-bottom: 0.1875em solid var(--input-border);
 }
 
-.q pre:not([class]) code:not([class]) {
+.s pre:not([class]) code:not([class]) {
   padding: 0.5em 0.75em;
   display: block;
 }
 
-.q video:not([class]) {
+.s video:not([class]) {
   border-radius: 0.25em;
   width: 100%;
 }
 
-.q img:not([class]) {
+.s img:not([class]) {
   border-radius: 0.25em;
   width: 100%;
 }
 
-.r {
+.t {
   font-size: var(--h-a);
   justify-content: center;
   display: inline-flex;
@@ -925,15 +933,15 @@ if (!_2) { continue };_0.push((()=>{BB.af(y);BB.ag(y);return ah.action()})());_i
   opacity: var(--h-c);
 }
 
-.r:focus {
+.t:focus {
   color: var(--j-a);
 }
 
-.r:hover {
+.t:hover {
   color: var(--j-a);
 }
 
-.r svg {
+.t svg {
   opacity: var(--i-a);
   fill: currentColor;
   height: 1em;
@@ -942,11 +950,11 @@ if (!_2) { continue };_0.push((()=>{BB.af(y);BB.ag(y);return ah.action()})());_i
   cursor: var(--i-c);
 }
 
-.s {
+.u {
   color: inherit;
 }
 
-.t {
+.v {
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   -webkit-touch-callout: none;
   -webkit-appearance: none;
@@ -959,7 +967,7 @@ if (!_2) { continue };_0.push((()=>{BB.af(y);BB.ag(y);return ah.action()})());_i
   margin: 0;
 }
 
-.u {
+.w {
   grid-auto-flow: column;
   place-content: center;
   display: inline-grid;
@@ -971,19 +979,19 @@ if (!_2) { continue };_0.push((()=>{BB.af(y);BB.ag(y);return ah.action()})());_i
   outline: none;
 }
 
-.v {
+.x {
   font-weight: bold;
 }
 
-.w:focus {
+.y:focus {
   color: var(--primary-color);
 }
 
-.w:hover {
+.y:hover {
   color: var(--primary-color);
 }
 
-.x {
+.z {
   font-size: var(--l-a);
   line-height: 1.7;
   grid-auto-flow: column;
@@ -993,54 +1001,54 @@ if (!_2) { continue };_0.push((()=>{BB.af(y);BB.ag(y);return ah.action()})());_i
   display: grid;
 }
 
-.y {
+.aa {
   text-decoration: none;
   cursor: pointer;
   color: var(--o-a, inherit);
   outline: none;
 }
 
-.y:hover {
+.aa:hover {
   color: var(--primary-color);
 }
 
-.y:focus {
+.aa:focus {
   color: var(--primary-color);
 }
 
-.z {
+.ab {
   margin-bottom: 0.3125em;
 }
 
-.z:not(:first-child) {
+.ab:not(:first-child) {
   margin-top: 1.25em;
 }
 
-.aa {
+.ac {
   border-top: 0.125em solid var(--navitem-border);
   font-size: var(--m-a);
   margin: 0.25em 0;
 }
 
-.ab {
+.ad {
   font-size: var(--n-a);
   margin-bottom: 0.5em;
 }
 
-.ab > div {
+.ad > div {
   padding-left: 0.75em;
   border-left: 1px solid var(--navitem-border);
 }
 
-.ab strong {
+.ad strong {
   margin-bottom: 0.5em;
 }
 
-.ab:not(:first-child) {
+.ad:not(:first-child) {
   margin-top: 0.5em;
 }
 
-.ac {
+.ae {
   box-shadow: 0 0.125em 0.625em -0.125em var(--shadow-color);
   border: 0.0625em solid var(--content-border);
   border-radius: 0.5em;
@@ -1051,7 +1059,7 @@ if (!_2) { continue };_0.push((()=>{BB.af(y);BB.ag(y);return ah.action()})());_i
   font-family: var(--font-family);
 }
 
-.ad {
+.af {
   border-bottom: 0.0714em solid var(--input-border);
   border-radius: 0.5em 0.5em 0 0;
   padding: 0.5714em 0.85714em;
@@ -1061,11 +1069,11 @@ if (!_2) { continue };_0.push((()=>{BB.af(y);BB.ag(y);return ah.action()})());_i
   font-weight: bold;
 }
 
-.ae {
+.ag {
   padding: 0.75em;
 }
 
-.af {
+.ah {
   background: rgba(0, 0, 0, 0.8);
   position: fixed;
   z-index: 1000;
@@ -1082,7 +1090,7 @@ if (!_2) { continue };_0.push((()=>{BB.af(y);BB.ag(y);return ah.action()})());_i
   opacity: var(--q-d);
 }
 
-.ag {
+.ai {
   box-sizing: border-box;
   padding: 0 1em;
   height: 3em;
@@ -1104,21 +1112,21 @@ if (!_2) { continue };_0.push((()=>{BB.af(y);BB.ag(y);return ah.action()})());_i
   cursor: var(--r-d);
 }
 
-.ah:hover {
+.aj:hover {
   color: var(--s-a);
 }
 
-.ah:focus {
+.aj:focus {
   color: var(--s-a);
 }
 
-.ai {
+.ak {
   background: var(--content-border);
   height: 0.125em;
   border: 0;
 }
 
-.aj {
+.al {
   transition: transform 320ms, opacity 320ms;
   overscroll-behavior: contain;
   scrollbar-width: thin;
@@ -1129,7 +1137,7 @@ if (!_2) { continue };_0.push((()=>{BB.af(y);BB.ag(y);return ah.action()})());_i
   opacity: var(--t-b);
 }
 
-.ak {
+.am {
   border-radius: 0.5em;
   overflow: hidden;
   margin: 1em;
@@ -1141,33 +1149,33 @@ if (!_2) { continue };_0.push((()=>{BB.af(y);BB.ag(y);return ah.action()})());_i
   min-width: var(--u-b);
 }
 
-.ak > * {
+.am > * {
   border: 0;
 }
 
-.ak > * + * {
+.am > * + * {
   border-top: 0.0625em solid var(--content-faded-border);
 }
 
-.al {
+.an {
   grid-template-columns: 0.4375em 1fr;
   display: grid;
 }
 
-.am {
+.ao {
   border-right: 0.0625em solid var(--content-faded-border);
   background: var(--content-faded-color);
 }
 
-.an > * + * {
+.ap > * + * {
   border-top: 0.0625em solid var(--content-faded-border);
 }
 
-.ao {
+.aq {
   padding: 0.5em 1em;
 }
 
-.ap {
+.ar {
   font-size: inherit;
   color: inherit;
   appearance: none;
@@ -1179,7 +1187,7 @@ if (!_2) { continue };_0.push((()=>{BB.af(y);BB.ag(y);return ah.action()})());_i
   margin: 0;
 }
 
-.aq {
+.as {
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   -webkit-touch-callout: none;
   background: rgba(0, 0, 0, 0.8);
@@ -1196,7 +1204,7 @@ if (!_2) { continue };_0.push((()=>{BB.af(y);BB.ag(y);return ah.action()})());_i
   opacity: var(--v-e);
 }
 
-.ar {
+.at {
   transition: var(--w-a);
   border-right: 0.0625em solid var(--content-border);
   background: var(--content-color);
@@ -1210,11 +1218,11 @@ if (!_2) { continue };_0.push((()=>{BB.af(y);BB.ag(y);return ah.action()})());_i
   transform: var(--w-c);
 }
 
-.as {
+.au {
   font-size: var(--x-a);
 }
 
-.at {
+.av {
   border: 0.0625em solid var(--input-border);
   background: var(--input-color);
   color: var(--input-text);
@@ -1226,7 +1234,7 @@ if (!_2) { continue };_0.push((()=>{BB.af(y);BB.ag(y);return ah.action()})());_i
   word-break: normal;
 }
 
-.au {
+.aw {
   font-size: var(--z-a);
   justify-content: var(--z-b);
   align-items: var(--z-c);
@@ -1234,13 +1242,13 @@ if (!_2) { continue };_0.push((()=>{BB.af(y);BB.ag(y);return ah.action()})());_i
   flex-direction: var(--z-d);
 }
 
-.av {
+.ax {
   height: var(--aa-a);
   width: var(--aa-b);
   flex: 0 0 auto;
 }
 
-.aw {
+.ay {
   border: 0.0625em solid var(--content-border);
   border-bottom: 0;
   background: var(--content-color);
@@ -1250,15 +1258,15 @@ if (!_2) { continue };_0.push((()=>{BB.af(y);BB.ag(y);return ah.action()})());_i
   line-height: 170%;
 }
 
-.ax:not(:last-of-type) {
+.az:not(:last-of-type) {
   border-bottom: var(--ac-a);
 }
 
-.ax:last-of-type {
+.az:last-of-type {
   border-bottom: var(--ad-a);
 }
 
-.ay {
+.ba {
   border-bottom: 0.0714em solid var(--content-border);
   box-sizing: border-box;
   padding: 0.857em;
@@ -1272,42 +1280,42 @@ if (!_2) { continue };_0.push((()=>{BB.af(y);BB.ag(y);return ah.action()})());_i
   outline: none;
 }
 
-.ay:focus {
+.ba:focus {
   background: var(--primary-light-color);
   color: var(--primary-light-text);
 }
 
-.ay:hover {
+.ba:hover {
   background: var(--primary-light-color);
   color: var(--primary-light-text);
 }
 
-.ay svg {
+.ba svg {
   transform: var(--ae-a);
 }
 
-.az {
+.bb {
   line-height: 1;
 }
 
-.ba {
+.bc {
   line-height: 1.25em;
   font-weight: bold;
   font-size: 0.75em;
   opacity: 0.5;
 }
 
-.bb {
+.bd {
   grid-gap: 0.25em;
   padding: 0.75em;
   display: grid;
 }
 
-.bb + * {
+.bd + * {
   border-top: 0.0625em solid var(--content-border);
 }
 
-.bc {
+.be {
   border-top: 0.1825em solid var(--content-border);
   grid-template-columns: var(--af-b, 1fr auto);
   grid-gap: var(--af-e, 5em);
@@ -1318,11 +1326,11 @@ if (!_2) { continue };_0.push((()=>{BB.af(y);BB.ag(y);return ah.action()})());_i
   padding: var(--af-d, 3em 0);
 }
 
-.bd {
+.bf {
   align-self: center;
 }
 
-.be {
+.bg {
   white-space: var(--ag-a);
   margin: -1em -2.5em;
   flex-wrap: wrap;
@@ -1330,7 +1338,7 @@ if (!_2) { continue };_0.push((()=>{BB.af(y);BB.ag(y);return ah.action()})());_i
   padding-right: var(--ag-b);
 }
 
-.bf {
+.bh {
   align-content: start;
   grid-gap: 1em;
   display: grid;
@@ -1338,7 +1346,7 @@ if (!_2) { continue };_0.push((()=>{BB.af(y);BB.ag(y);return ah.action()})());_i
   flex: 1;
 }
 
-.bg {
+.bi {
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   -webkit-touch-callout: none;
   background: rgba(0, 0, 0, 0.8);
@@ -1358,14 +1366,14 @@ if (!_2) { continue };_0.push((()=>{BB.af(y);BB.ag(y);return ah.action()})());_i
   opacity: var(--ah-e);
 }
 
-.bh {
+.bj {
   transition: var(--ai-a);
   padding: 1em;
   margin: auto;
   transform: var(--ai-b);
 }
 
-.bi {
+.bk {
   width: var(--aj-a);
   transition: var(--aj-b);
   transform: var(--aj-c);
@@ -1373,7 +1381,7 @@ if (!_2) { continue };_0.push((()=>{BB.af(y);BB.ag(y);return ah.action()})());_i
   visibility: var(--aj-e);
 }
 
-.bj {
+.bl {
   box-shadow: 0 0 0.625em var(--shadow-color);
   background: var(--content-color);
   color: var(--content-text);
@@ -1382,7 +1390,7 @@ if (!_2) { continue };_0.push((()=>{BB.af(y);BB.ag(y);return ah.action()})());_i
   display: var(--al-a);
 }
 
-.bk {
+.bm {
   border-bottom: 0.0625em solid var(--title-border);
   padding-bottom: 0.5em;
   margin-bottom: 1em;
@@ -1392,21 +1400,21 @@ if (!_2) { continue };_0.push((()=>{BB.af(y);BB.ag(y);return ah.action()})());_i
   font-size: 1.25em;
 }
 
-.bl {
+.bn {
   padding-left: 0.75em;
   font-size: 0.875em;
   font-weight: bold;
   opacity: 0.85;
 }
 
-.bm {
+.bo {
   font-size: var(--ak-a);
   grid-gap: 0.5em;
   display: grid;
   grid-template-rows: var(--ak-b);
 }
 
-.bn {
+.bp {
   height: var(--am-a);
   overflow: visible;
   transition: var(--am-b);
@@ -1414,7 +1422,7 @@ if (!_2) { continue };_0.push((()=>{BB.af(y);BB.ag(y);return ah.action()})());_i
   margin-bottom: var(--am-d);
 }
 
-.bo {
+.bq {
   box-shadow: 0 0 1em rgba(0, 0, 0, 0.2);
   background: rgba(25, 25, 25, 0.985);
   padding: 0.75em 1.5em 0.85em;
@@ -1428,7 +1436,7 @@ if (!_2) { continue };_0.push((()=>{BB.af(y);BB.ag(y);return ah.action()})());_i
   color: white;
 }
 
-.bo::before {
+.bq::before {
   animation: var(--an-a);
   background: var(--primary-color);
   content: "";
@@ -1440,12 +1448,12 @@ if (!_2) { continue };_0.push((()=>{BB.af(y);BB.ag(y);return ah.action()})());_i
 }
 
 @media (max-width: 900px) {
-  .f {
+  .h {
     width: cacl(100vw - 1em);
     left: 1em;
   }
 
-  .bo {
+  .bq {
     font-size: 0.875em;
   }
 }
@@ -1463,13 +1471,13 @@ if (!_2) { continue };_0.push((()=>{BB.af(y);BB.ag(y);return ah.action()})());_i
 
   const Nothing = AV
   const Just = AW
-  const Err = EC
-  const Ok = EB
+  const Err = EG
+  const Ok = EF
 
   _enums.nothing = AV
   _enums.just = AW
-  _enums.err = EC
-  _enums.ok = EB
+  _enums.err = EG
+  _enums.ok = EF
 
   
   

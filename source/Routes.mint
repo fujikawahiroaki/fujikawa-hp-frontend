@@ -23,6 +23,12 @@ routes {
     }
   }
 
+  /articles {
+    parallel {
+      Application.initializeWithPage(Page::Articles)
+    }
+  }
+
   /computer {
     parallel {
       Application.initializeWithPage(Page::Computer)
@@ -39,6 +45,12 @@ routes {
   /specimens {
     parallel {
       Application.initializeWithPage(Page::Specimens)
+    }
+  }
+
+  /articles/20230808 {
+    parallel {
+      Application.initializeWithPage(Page::Article20230808)
     }
   }
 
