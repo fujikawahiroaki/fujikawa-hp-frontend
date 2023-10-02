@@ -9,6 +9,27 @@ component Pages.Papers {
         <Ui.DefinitionList
           rows=[
             {
+              "吉武　啓・刀禰浩一・青柳　克・玉城康高・大城哲哉・藤川浩明・松村雅史, 2023. 沖縄島における外来種ビヤサアカアシカタゾウムシの分布拡大. 月刊むし, (632): 2-13.", [
+                Ui.Cell::Html(
+                  <div>
+                    "フィリピン原産の外来種ビヤサアカアシカタゾウムシ"
+                    <i>"Metapocyrtus"</i>
+                    " ("
+                    <i>"Trachycyrtus"</i>
+                    ")"
+                    <i>" adspersus"</i>
+                    " (Waterhouse, 1843)"
+                    " の沖縄島における分布拡大を調査しました。本種の幼虫・蛹期についての初記録や成虫期の食餌植物の記録も含まれています。"
+                  </div>),
+                Ui.Cell::HtmlItems(
+                  items =
+                    [
+                      <div/>
+                    ],
+                  breakOnMobile = false)
+              ]
+            },
+            {
               "吉武　啓・小松拓実・藤川浩明, 2023. 薩摩黒島で得られたクニヨシシロオビゾウムシの生態的知見. 月刊むし, (626): 51-52.", [
                 Ui.Cell::Html(
                   <div>
