@@ -22,16 +22,16 @@ component Pages.Computer {
             </li>
 
             <li>"好きな言語: Crystal, Ruby"</li>
-            <li>"好きではないがよく使う言語: Python, JavaScript"</li>
+            <li>"好きではないがよく使う言語: Python, JavaScript, TypeScript"</li>
             <li>"ある程度使ったことのある言語: C, Common Lisp (SBCL), Emacs Lisp, Mint"</li>
             <li>"好きなエディタ: 数年置きに変わりますが、今はVimが好きです"</li>
             <li>"好きなOS: 数年置きに変わりますが、今はArch Linuxが好きです"</li>
           </ul>
 
           <p>
-            "　最近は開発のみならず競技プログラミングも楽しむようになりました。正直なところ私は非常に弱く、平均的なプレイヤーよりかなり成長が遅いのですが、その高いゲーム性に魅せられて毎週のようにコンテストに参加しています。長期のヒューリスティックコンテストが特に好きです。"
+            "　最近は開発のみならず競技プログラミングも楽しむようになりました。正直なところ私は平均的なプレイヤーよりかなり成長が遅いのですが、その高いゲーム性に魅せられて毎週のようにコンテストに参加しています。長期のヒューリスティックコンテストが特に好きです。"
             <br/>
-            "　AtCoderのアルゴは緑、ヒューリスティックは水です。IDは"
+            "　AtCoderの色のMAXは、アルゴ緑・ヒューリスティック水です。IDは"
 
             <a::a href="https://atcoder.jp/users/fujikawahiroaki">
               "fujikawahiroaki"
@@ -55,17 +55,19 @@ component Pages.Computer {
           "バックエンドはPythonとDjango REST Framework、フロントエンドはJavaScriptとReactで書きました。"
         </p>
 
-        <strong>"AtCoder Diet"</strong>
-        <br/>
+        <p>
+          <strong>"AtCoder Diet"</strong>
+          <br/>
 
-        <a::a href="https://atcoder-diet.fly.dev/">
-          "https://atcoder-diet.fly.dev/"
-        </a>
+          <a::a href="https://atcoder-diet.fly.dev/">
+            "https://atcoder-diet.fly.dev/"
+          </a>
 
-        <br/>
-        "前日に解いたAtCoder問題の点数の合計で翌日の摂取可能カロリーを決定するジョークサイトです。"
-        <br/>
-        "CrystalとKemalで書きました。簡素な静的サイトなのでフロントエンドはECRテンプレートエンジンで済ませています。"
+          <br/>
+          "前日に解いたAtCoder問題の点数の合計で翌日の摂取可能カロリーを決定するジョークサイトです。"
+          <br/>
+          "CrystalとKemalで書きました。簡素な静的サイトなのでフロントエンドはECRテンプレートエンジンで済ませています。"
+        </p>
       </Ui.Box>
     </div>
   }

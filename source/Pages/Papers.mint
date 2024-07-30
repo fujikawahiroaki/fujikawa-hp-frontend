@@ -9,6 +9,27 @@ component Pages.Papers {
         <Ui.DefinitionList
           rows=[
             {
+              "吉武　啓・藤川浩明, 2024. 沖縄諸島瀬底島で採集されたヨナグニアカアシカタゾウムシ. 月刊むし, (642): 48.", [
+                Ui.Cell::Html(
+                  <div>
+                    "ヨナグニアカアシカタゾウムシ"
+                    <i>"Metapocyrtus"</i>
+                    " ("
+                    <i>"Trachycyrtus"</i>
+                    ")"
+                    <i>" yonagunianus"</i>
+                    " Chûjô, 1971"
+                    " の沖縄諸島瀬底島における初記録です。"
+                  </div>),
+                Ui.Cell::HtmlItems(
+                  items =
+                    [
+                      <div/>
+                    ],
+                  breakOnMobile = false)
+              ]
+            },
+            {
               "吉武　啓・刀禰浩一・青柳　克・玉城康高・大城哲哉・藤川浩明・松村雅史, 2023. 沖縄島における外来種ビヤサアカアシカタゾウムシの分布拡大. 月刊むし, (632): 2-13.", [
                 Ui.Cell::Html(
                   <div>
