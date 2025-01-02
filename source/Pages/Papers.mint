@@ -9,6 +9,38 @@ component Pages.Papers {
         <Ui.DefinitionList
           rows=[
             {
+              "奄美群島枝手久島・加計呂麻島・与路島におけるアカボシルリゴキブリ Eucorydia tokaraensis Yanagisawa, Sakamaki & Shimano, 2020の初記録. Nature of Kagoshima, (51): 199-201", [
+                Ui.Cell::Html(
+                  <div>"内容はタイトルの通りです。オープンアクセスです。"</div>),
+                Ui.Cell::HtmlItems(
+                  items =
+                    [
+                      <div>
+                        <a
+                          href="https://journal.kagoshima-nature.org/051-042/"
+                          target="_blank">
+
+                          "Nature of Kagoshima"
+
+                        </a>
+                      </div>
+                    ],
+                  breakOnMobile = false)
+              ]
+            },
+            {
+              "小松拓実・藤川浩明, 2024. 沖縄諸島水納島におけるコガネムシ上科10種の記録. さやばねニューシリーズ, (54): 53-55.", [
+                Ui.Cell::Html(
+                  <div>"内容はタイトルの通りです。"</div>),
+                Ui.Cell::HtmlItems(
+                  items =
+                    [
+                      <div/>
+                    ],
+                  breakOnMobile = false)
+              ]
+            },
+            {
               "吉武　啓・藤川浩明, 2024. 沖縄諸島瀬底島で採集されたヨナグニアカアシカタゾウムシ. 月刊むし, (642): 48.", [
                 Ui.Cell::Html(
                   <div>
@@ -118,13 +150,21 @@ component Pages.Papers {
                   items =
                     [
                       <div>
-                        <a href="http://kochugakkai.sakura.ne.jp/publication/sayabane/SayabaneNS(45).html">
+                        <a
+                          href="http://kochugakkai.sakura.ne.jp/publication/sayabane/SayabaneNS(45).html"
+                          target="_blank">
+
                           "日本甲虫学会HP"
+
                         </a>
                       </div>,
                       <div>
-                        <a href="https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202202227782159723&rel=1#%7B%22category%22%3A%220%22%2C%22keyword%22%3A%22%5C%22202250000788509100%5C%22%22%7D">
+                        <a
+                          href="https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202202227782159723&rel=1#%7B%22category%22%3A%220%22%2C%22keyword%22%3A%22%5C%22202250000788509100%5C%22%22%7D"
+                          target="_blank">
+
                           "J-GLOBAL"
+
                         </a>
                       </div>
                     ],
@@ -148,13 +188,21 @@ component Pages.Papers {
                   items =
                     [
                       <div>
-                        <a href="http://kochugakkai.sakura.ne.jp/publication/sayabane/SayabaneNS(45).html">
+                        <a
+                          href="http://kochugakkai.sakura.ne.jp/publication/sayabane/SayabaneNS(45).html"
+                          target="_blank">
+
                           "日本甲虫学会HP"
+
                         </a>
                       </div>,
                       <div>
-                        <a href="https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202202289858901406&rel=1#%7B%22category%22%3A%220%22%2C%22keyword%22%3A%22%5C%22202250000788509100%5C%22%22%7D">
+                        <a
+                          href="https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202202289858901406&rel=1#%7B%22category%22%3A%220%22%2C%22keyword%22%3A%22%5C%22202250000788509100%5C%22%22%7D"
+                          target="_blank">
+
                           "J-GLOBAL"
+
                         </a>
                       </div>
                     ],
@@ -181,13 +229,21 @@ component Pages.Papers {
                   items =
                     [
                       <div>
-                        <a href="http://kochugakkai.sakura.ne.jp/publication/sayabane/SayabaneNS(45).html">
+                        <a
+                          href="http://kochugakkai.sakura.ne.jp/publication/sayabane/SayabaneNS(45).html"
+                          target="_blank">
+
                           "日本甲虫学会HP"
+
                         </a>
                       </div>,
                       <div>
-                        <a href="https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202202248049142810&rel=1#%7B%22category%22%3A%220%22%2C%22keyword%22%3A%22%5C%22202250000788509100%5C%22%22%7D">
+                        <a
+                          href="https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202202248049142810&rel=1#%7B%22category%22%3A%220%22%2C%22keyword%22%3A%22%5C%22202250000788509100%5C%22%22%7D"
+                          target="_blank">
+
                           "J-GLOBAL"
+
                         </a>
                       </div>
                     ],
@@ -208,13 +264,21 @@ component Pages.Papers {
                   items =
                     [
                       <div>
-                        <a href="http://kochugakkai.sakura.ne.jp/publication/sayabane/SayabaneNS(45).html">
+                        <a
+                          href="http://kochugakkai.sakura.ne.jp/publication/sayabane/SayabaneNS(45).html"
+                          target="_blank">
+
                           "日本甲虫学会HP"
+
                         </a>
                       </div>,
                       <div>
-                        <a href="https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202202224084769737">
+                        <a
+                          href="https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202202224084769737"
+                          target="_blank">
+
                           "J-GLOBAL"
+
                         </a>
                       </div>
                     ],
@@ -235,13 +299,21 @@ component Pages.Papers {
                   items =
                     [
                       <div>
-                        <a href="http://kochugakkai.sakura.ne.jp/publication/sayabane/SayabaneNS(44).html">
+                        <a
+                          href="http://kochugakkai.sakura.ne.jp/publication/sayabane/SayabaneNS(44).html"
+                          target="_blank">
+
                           "日本甲虫学会HP"
+
                         </a>
                       </div>,
                       <div>
-                        <a href="https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202202258926911915&rel=1#%7B%22category%22%3A%220%22%2C%22keyword%22%3A%22%5C%22202250000788509100%5C%22%22%7D">
+                        <a
+                          href="https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202202258926911915&rel=1#%7B%22category%22%3A%220%22%2C%22keyword%22%3A%22%5C%22202250000788509100%5C%22%22%7D"
+                          target="_blank">
+
                           "J-GLOBAL"
+
                         </a>
                       </div>
                     ],
@@ -327,8 +399,12 @@ component Pages.Papers {
                   items =
                     [
                       <div>
-                        <a href="https://cir.nii.ac.jp/crid/1521417753438325120">
+                        <a
+                          href="https://cir.nii.ac.jp/crid/1521417753438325120"
+                          target="_blank">
+
                           "CiNii Research"
+
                         </a>
                       </div>
                     ],
@@ -349,8 +425,12 @@ component Pages.Papers {
                   items =
                     [
                       <div>
-                        <a href="http://kochugakkai.sakura.ne.jp/publication/sayabane/SayabaneNS(34).html">
+                        <a
+                          href="http://kochugakkai.sakura.ne.jp/publication/sayabane/SayabaneNS(34).html"
+                          target="_blank">
+
                           "日本甲虫学会HP"
+
                         </a>
                       </div>
                     ],
