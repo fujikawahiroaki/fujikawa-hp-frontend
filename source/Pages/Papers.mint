@@ -9,7 +9,7 @@ component Pages.Papers {
         <Ui.DefinitionList
           rows=[
             {
-              "奄美群島枝手久島・加計呂麻島・与路島におけるアカボシルリゴキブリ Eucorydia tokaraensis Yanagisawa, Sakamaki & Shimano, 2020の初記録. Nature of Kagoshima, (51): 199-201", [
+              "柳澤静磨・小松拓実・藤川浩明・波多野幸希・大北祥太朗・池田　大, 2024. 奄美群島枝手久島・加計呂麻島・与路島におけるアカボシルリゴキブリ Eucorydia tokaraensis Yanagisawa, Sakamaki & Shimano, 2020の初記録. Nature of Kagoshima, (51): 199-201", [
                 Ui.Cell::Html(
                   <div>"内容はタイトルの通りです。オープンアクセスです。"</div>),
                 Ui.Cell::HtmlItems(
