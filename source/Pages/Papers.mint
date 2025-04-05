@@ -9,7 +9,76 @@ component Pages.Papers {
         <Ui.DefinitionList
           rows=[
             {
-              "柳澤静磨・小松拓実・藤川浩明・波多野幸希・大北祥太朗・池田　大, 2024. 奄美群島枝手久島・加計呂麻島・与路島におけるアカボシルリゴキブリ Eucorydia tokaraensis Yanagisawa, Sakamaki & Shimano, 2020の初記録. Nature of Kagoshima, (51): 199-201", [
+              "小松拓実・藤川浩明, 2025. 鹿児島県三島村（大隅諸島竹島，硫黄島および黒島）におけるコガネムシ上科の分布記録. 鹿児島県立博物館研究報告, (44): 31-42.", [
+                Ui.Cell::Html(
+                  <div>"鹿児島県三島村の竹島、硫黄島、黒島から27種のコガネムシ上科を記録しました。3種の三島村初記録種、10種の各島初記録種（竹島4種、硫黄島3種、黒島3種）を含みます。"</div>),
+                Ui.Cell::HtmlItems(
+                  items = [],
+                  breakOnMobile = false)
+              ]
+            },
+            {
+              "藤川浩明・小松拓実, 2025. トカラ列島中之島におけるアシグロアオゴミムシの記録. さやばねニューシリーズ, (57): 48-49.", [
+                Ui.Cell::Html(
+                  <div>"内容はタイトルの通りです。"</div>),
+                Ui.Cell::HtmlItems(
+                  items =
+                    [
+                      <div>
+                        <a
+                          href="https://coleoptera.sakura.ne.jp/publication/sayabane/SayabaneNS(57).html"
+                          target="_blank">
+
+                          "日本甲虫学会HP"
+
+                        </a>
+                      </div>
+                    ],
+                  breakOnMobile = false)
+              ]
+            },
+            {
+              "藤川浩明, 2025. 伊平屋島におけるオキナワキモンヒメクチキムシの記録. さやばねニューシリーズ, (57): 30.", [
+                Ui.Cell::Html(
+                  <div>"内容はタイトルの通りです。"</div>),
+                Ui.Cell::HtmlItems(
+                  items =
+                    [
+                      <div>
+                        <a
+                          href="https://coleoptera.sakura.ne.jp/publication/sayabane/SayabaneNS(57).html"
+                          target="_blank">
+
+                          "日本甲虫学会HP"
+
+                        </a>
+                      </div>
+                    ],
+                  breakOnMobile = false)
+              ]
+            },
+            {
+              "柳澤静磨・波多野幸希・小松拓実・藤川浩明・青井光太郎, 2025. 奄美群島枝手久島から得られたゴキブリ類の記録. Nature of Kagoshima, (51): 211-214.", [
+                Ui.Cell::Html(
+                  <div>"奄美群島枝手久島から7種のゴキブリ（スズキゴキブリ、アマミモリゴキブリ、ヒメチャバネゴキブリ、ヒメマルゴキブリ、リュウキュウクチキゴキブリ、サツマゴキブリ、マダラゴキブリ）を記録しました。オープンアクセスです。"</div>),
+                Ui.Cell::HtmlItems(
+                  items =
+                    [
+                      <div>
+                        <a
+                          href="https://journal.kagoshima-nature.org/051-045/"
+                          target="_blank">
+
+                          "Nature of Kagoshima"
+
+                        </a>
+                      </div>
+                    ],
+                  breakOnMobile = false)
+              ]
+            },
+            {
+              "柳澤静磨・小松拓実・藤川浩明・波多野幸希・大北祥太朗・池田　大, 2024. 奄美群島枝手久島・加計呂麻島・与路島におけるアカボシルリゴキブリ Eucorydia tokaraensis Yanagisawa, Sakamaki & Shimano, 2020の初記録. Nature of Kagoshima, (51): 199-201.", [
                 Ui.Cell::Html(
                   <div>"内容はタイトルの通りです。オープンアクセスです。"</div>),
                 Ui.Cell::HtmlItems(
