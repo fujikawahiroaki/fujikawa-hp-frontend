@@ -944,7 +944,7 @@ var Mint = (function (exports) {
 	return exports;
 
 })({});
-const CACHE = '2d650ea36f4d5db8a4e3b3b06cdf5b35b65787f1b0ec6a9e8639fcb55334903d'
+const CACHE = '2431c38de74500b4e63645fb03fa2dbe495c40cca3903cf2bc49befb4e7de39d'
 const PRECACHE_URLS = [
   '/assets/fujikawa_400x400_5f5c6c3f25766e56479c94cad00695c5.jpg',
   '/assets/muneusu_12a406dd5f58a283289edcb1477a93a5.jpg',
