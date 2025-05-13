@@ -13,7 +13,18 @@ component Pages.Papers {
                 Ui.Cell::Html(
                   <div>"鹿児島県三島村の竹島、硫黄島、黒島から27種のコガネムシ上科を記録しました。3種の三島村初記録種、10種の各島初記録種（竹島4種、硫黄島3種、黒島3種）を含みます。"</div>),
                 Ui.Cell::HtmlItems(
-                  items = [],
+                  items =
+                    [
+                      <div>
+                        <a
+                          href="https://www.pref.kagoshima.jp/bc05/hakubutsukan/shien/documents/98095_20250414094550-1.pdf"
+                          target="_blank">
+
+                          "鹿児島県立博物館研究報告(PDF)"
+
+                        </a>
+                      </div>
+                    ],
                   breakOnMobile = false)
               ]
             },
